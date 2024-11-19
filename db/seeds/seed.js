@@ -1,11 +1,10 @@
 const { MongoClient } = require("mongodb");
-const { getAllPlants } = require("./utlis/api");
+const plantsToEnterToDb = require("../../test-data-structure/plants.json");
 
 // Connection URL
 const uri = "mongodb://localhost:27017";
 
 // Test Data
-const seedData = getAllPlants();
 
 const client = new MongoClient(uri);
 
@@ -25,7 +24,7 @@ client
       .catch(() => {
         console.log("No existing collection found. Proceeding to seed data.");
       })
-      .then(() => collection.insertMany(seedData))
+      .then(() => collection.insertMany(plantsToEnterToDb))
       .then(() => {
         console.log("Database seeded successfully!");
       });
