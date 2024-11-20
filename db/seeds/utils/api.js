@@ -1,10 +1,14 @@
 const axios = require("axios");
+const fs = require("fs/promises");
 
 const api = axios.create({
   baseURL: "https://perenual.com/api",
 });
 
-const getAllPlants = () => {
+const getAllPlants = (writeOrAppend) => {
+  if (writeOrAppend !== "append" && writeOrAppend !== "write") {
+    throw new Error("Please use append or write in the getAllPlants function");
+  }
   // return api
   //   .get(`/species-list`, {
   //     params: {
@@ -16,13 +20,14 @@ const getAllPlants = () => {
   //     return data.map((plant) => plant.id);
   //   })
   //   .then((plantIds) => {
-    const plantIds = [1, 2]
-    const mappedPlants = plantIds.map((plant_id) => {
+  const plantIds = [1, 2, 737, 92, 65, 29, 55, 18, 56, 10];
+  const mappedPlants = plantIds.map((plant_id) => {
     return api
       .get(`/species/details/${plant_id}`, {
         params: {
           // key: "sk-hy196735e4da80ca17633", //main key
-          key: "sk-89b8673ca3abd7c037695", //alt key
+          // key: "sk-89b8673ca3abd7c037695", //alt key
+          key: "sk-K5a1673cd533db6bb7691", //key number 3
         },
       })
       .then(({ data }) => {
@@ -33,9 +38,15 @@ const getAllPlants = () => {
           scientific_name: plant.scientific_name,
           other_name: plant.other_name,
           cycle: plant.cycle,
-          watering_frequency_in_days: typeof plant.watering_general_benchmark.value === "string" ? plant.watering_general_benchmark.value.split("-")[0] : null,
+          watering_frequency_in_days:
+            typeof plant.watering_general_benchmark.value === "string"
+              ? plant.watering_general_benchmark.value.split("-")[0]
+              : null,
           sunlight: plant.sunlight,
-          default_image: plant.default_image.small_url,
+          default_image:
+            plant.default_image === null
+              ? "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              : plant.default_image.small_url,
           extra_info: {
             family: plant.family,
             type: plant.type,
@@ -59,16 +70,21 @@ const getAllPlants = () => {
       });
   });
   return Promise.all(mappedPlants)
-    .then((data) => {
-      console.log(data, "<< mapped plants")
-      return data;
+    .then((plants) => {
+      const plantsToJSON = JSON.stringify(plants);
+
+      writeOrAppend === "append"
+        ? fs.appendFile("test-data-structure/plants.json", plantsToJSON)
+        : fs.writeFile("test-data-structure/plants.json", plantsToJSON);
+    })
+    .then(() => {
+      console.log("File written or appended");
     })
     .catch((error) => {
       throw error;
     });
-}
+};
 //);
 //}
 
-module.exports = { getAllPlants }
-
+module.exports = { getAllPlants };
