@@ -1,0 +1,36 @@
+{
+  "GET /api/plants": {
+    "description": "serves an array of all plants",
+    "queries": [],
+    "exampleResponse": {
+      "plant_id": 543,
+      "common_name": "maidenhair fern",
+      "scientific_name": ["Adiantum capillus-veneris"],
+      "other_name": [
+        "Southern Maidenhair",
+        "Venus' Hair Fern",
+        "Venus' Hair Fern"
+      ],
+      "cycle": "Perennial",
+      "watering_frequency_in_days": "2",
+      "sunlight": ["part shade", "part sun/part shade"],
+      "default_image": "https://perenual.com/storage/species_image/543_adiantum_capillus-veneris/small/49636882698_cb4fa4c685_b.jpg",
+      "extra_info": {
+        "family": "Pteridaceae",
+        "type": "Fern",
+        "max_height": 1.5,
+        "pruning_month": ["March", "April", "March", "April", "May"],
+        "maintenance": "Low",
+        "soil": ["Clay", " Sand"],
+        "growth_rate": null,
+        "invasive": false,
+        "indoor": false,
+        "care_level": "Medium",
+        "medicinal": true,
+        "poisonous_to_humans": 0,
+        "poisonous_to_pets": 0,
+        "description": "The maidenhair fern (Adiantum capillus-veneris) is a beautiful and unique species of fern with feathery, wispy fronds that give an air of delicacy and grace to any space. Its elegant fronds are complemented by lovely fan-like foliage made up of numerous small leaflets, giving it an exquisite lacy appearance that adds beauty to any garden. Its hardy nature also makes it a great choice for those looking for something that can tolerate a variety of temperatures, thriving in colder climates despite its tropical look. It's an amazing plant species that's sure to be a stunning addition to any outdoor area."
+      }
+    }
+  }
+}

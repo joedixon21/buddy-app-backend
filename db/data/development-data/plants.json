@@ -1,0 +1,3865 @@
+[
+    {
+        "plant_id": 935,
+        "common_name": "arisaema",
+        "scientific_name": [
+            "Arisaema thunbergii"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/935_arisaema_thunbergii/small/Urashimasou.jpg",
+        "extra_info": {
+            "family": "Araceae",
+            "type": "Herb",
+            "max_height": 2,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 1,
+            "description": "Arisaema thunbergii is an amazing plant species that adds unique beauty and interest to any garden. It produces a distinctive three-lobed foliage that stands anywhere from one to three feet tall, depending on its age. In the spring, an old-fashioned-looking spadix emerges that becomes the twisted center piece of the plant. In the summer, delicate purple-green flowers offer a pleasing contrast against the lush green foliage. With its interesting form and array of colors, Arisaema thunbergii is a wonderfully exotic addition to a garden that is sure to turn heads."
+        }
+    },
+    {
+        "plant_id": 830,
+        "common_name": "Japanese anemone",
+        "scientific_name": [
+            "Anemone 'Red Riding Hood'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/830_anemone_red_riding_hood/small/Anemone_hupehensis_27Splendens27_J1.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 1.5,
+            "pruning_month": [
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Japanese anemone (Anemone 'Red Riding Hood') is a captivating flower sure to add drama and beauty to any garden. Its luminous red petals create an eye-catching contrast to its bright green foliage. This plant brings strong sprays of fragrant blooms each early Fall, captivating viewers with the velvety petals radiating out from its center. It is quite hardy and performs wonderfully in shade and partial shade, making it perfect for narrow or dark spaces that need a pop of color. Its luxurious blooms will bring joy to your garden year after year."
+        }
+    },
+    {
+        "plant_id": 499,
+        "common_name": "yarrow",
+        "scientific_name": [
+            "Achillea 'Terracotta'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/499_achillea_terracotta/small/51814554903_89600efb50_b.jpg",
+        "extra_info": {
+            "family": "Asteraceae",
+            "type": "Herb",
+            "max_height": 3,
+            "pruning_month": [
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Achillea 'Terracotta' - more commonly known as yarrow - is an amazing plant species for any home gardener. Its beautiful terracotta-coloured blooms add an eye-catching splash of colour in any garden, while its natural air freshening properties help naturally deter pests. Plus, its easy to maintain - once established, it's drought-tolerant and loves the sun! Its blooming season is usually mid to late spring, and its pollinator-friendly flowers will attract and sustain wildlife in the garden. A classic, low maintenance plant choice for any garden, Achillea 'Terracotta' is a great addition to any outdoor space."
+        }
+    },
+    {
+        "plant_id": 697,
+        "common_name": "garlic chives",
+        "scientific_name": [
+            "Allium tuberosum"
+        ],
+        "other_name": [
+            "Chinese chives"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/697_allium_tuberosum/small/51949630538_39d542591d_b.jpg",
+        "extra_info": {
+            "family": "Amaryllidaceae",
+            "type": "Bulb",
+            "max_height": 1.5,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "March",
+                "April",
+                "May",
+                "May",
+                "May"
+            ],
+            "maintenance": "Moderate",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "High",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Garlic chives (Allium tuberosum) are an edible, low-maintenance herb loved for their mild garlic flavor and attractive, bright-green, feathery foliage. While relatively small in size, these undeniably amazing plants offer an abundance of flavor, as well as plenty of visual interest in the garden. They are easy to grow and can be planted indoors or outdoors, making them a great option for naturalizing and planting in borders or flower beds. They are vigorous with a high resistance to pests and diseases, and require very little maintenance. Their tasty, garlicky leaves can be used in salads, soups and sauces, adding a unique flavor to many dishes. With so many benefits, it's no surprise that garlic chives are an increasingly popular herb!"
+        }
+    },
+    {
+        "plant_id": 322,
+        "common_name": "Slender Silhouette Sweet Gum",
+        "scientific_name": [
+            "Liquidambar styraciflua 'Slender Silhouette'"
+        ],
+        "other_name": [
+            "American Sweet Gum"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/322_liquidambar_styraciflua_slender_silhouette/small/Liquidambar_styraciflua_Slender_Silhouette_2zz.jpg",
+        "extra_info": {
+            "family": "Altingiaceae",
+            "type": "tree",
+            "max_height": 70,
+            "pruning_month": [
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Acidic"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Slender Silhouette Sweet Gum is an amazing plant species that offers a unique look to any landscape. It has a slim, upright form with an elegant silhouette and minimal pruning is needed which makes it both low maintenance and fuss-free. This tree has stunning maroon-red foliage that turns to a magnificent yellow in the autumn and it's sweet-scented gumballs add an extra hint of colour and beauty. The Slender Silhouette Sweet Gum is perfect for lining pathways, providing shade to homes and gardens, and offering exceptional ornamental value."
+        }
+    },
+    {
+        "plant_id": 215,
+        "common_name": "White Redbud",
+        "scientific_name": [
+            "Cercis canadensis 'Alba'"
+        ],
+        "other_name": [
+            "Redbud",
+            "Judas Tree",
+            "Love Tree",
+            "Eastern Redbud",
+            "Judas Tree"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/215_cercis_canadensis_alba/small/photo-67301.jpg",
+        "extra_info": {
+            "family": "Fabaceae",
+            "type": "tree",
+            "max_height": 30,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "White Redbud (Cercis canadensis 'Alba') is truly amazing because it is a unique cultivar of the traditional redbud tree. It has showy white flowers that appear before its foliage in late spring and attract hummingbirds and bees. In addition, its smooth bark and heart-shaped leaves add a delicate look to any landscape. It is also an extremely adaptable species, thriving in a wide range of climates and soils. It is an excellent choice for street and garden plantings, as it is easy to maintain and needs minimal pruning. White Redbud is the perfect addition to any outdoor space, thanks to its breath-taking beauty and hardiness."
+        }
+    },
+    {
+        "plant_id": 274,
+        "common_name": "Common Persimmon",
+        "scientific_name": [
+            "Diospyros virginiana"
+        ],
+        "other_name": [
+            "American Persimmon",
+            "Eastern Persimmon"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/274_diospyros_virginiana/small/49014714943_39e9d002d6_b.jpg",
+        "extra_info": {
+            "family": "Ebenaceae",
+            "type": "tree",
+            "max_height": 40,
+            "pruning_month": [
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Common Persimmon (Diospyros virginiana) is an amazing species of deciduous tree. It has a lot to offer with its outstanding fall foliage, producing beautiful white blooms and clusters of orange fruit. The fruits are edible and can be eaten raw or cooked in a variety of delicious dishes. It's also a great choice for gardeners, providing an interesting and unique look to gardens with its bright green leaves, shiny bark, and small, deep burgundy-black fruits. Common Persimmon is a great and easy to take care of tree that can bring visual interest and delicious fruits to a landscape."
+        }
+    },
+    {
+        "plant_id": 308,
+        "common_name": "Blue Chip Juniper (tree form)",
+        "scientific_name": [
+            "Juniperus horizontalis 'Blue Chip (tree form)'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/308_juniperus_horizontalis_blue_chip_tree_form/small/Dwarf_juniper_tree_in_Yenicekale_01.jpg",
+        "extra_info": {
+            "family": "Cupressaceae",
+            "type": "tree",
+            "max_height": 4,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Sandy Loamy Clay Rocky"
+            ],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Blue Chip Juniper (tree form) is an incredible specimen of nature with an eye-catching appearance. With its bright blue-green foliage and tightly curving, horizontal branches, this gorgeous tree can provide beautiful ground cover for gardens and landscapes. It is highly durable and can tolerate a variety of soil and climate conditions, from dry rocky areas to wet clay soils. The slow, spreading growth of this juniper makes it possible for it to form a dense, sculptural hedge over time. For an added dash of extra color, the 'Blue Chip' specimen may produce pale purple or bluish-purple fruits in the fall. It is an ideal specimen for small to medium-sized yards and will instantly add beauty and grace to any outdoor space."
+        }
+    },
+    {
+        "plant_id": 391,
+        "common_name": "Arbequina European Olive",
+        "scientific_name": [
+            "Olea europaea 'Arbequina'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/391_olea_europaea_arbequina/small/Oliva_arbequina.jpg",
+        "extra_info": {
+            "family": "Oleaceae",
+            "type": "tree",
+            "max_height": 20,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Arbequina European Olive is a truly amazing plant. This small, evergreen tree produces very large, delicious olives. It is extremely hardy and can withstand temperatures as low as 5°F, making it well suited for a variety of climates. It is also very disease and pest tolerant, able to produce healthy fruit with little maintenance. The Arbequina produces a large harvest of high quality olives that are used for culinary purposes due to their rich and buttery flavor. The leaves of the Arbequina also have healing properties, making it a beneficial and versatile addition to any garden."
+        }
+    },
+    {
+        "plant_id": 58,
+        "common_name": "Shirazz Japanese Maple",
+        "scientific_name": [
+            "Acer palmatum 'Gwen's Rose Delight'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "2",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 15,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "May",
+                "May"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Shirazz Japanese Maple (Acer palmatum 'Gwen's Rose Delight') is an amazing tree with beautiful foliage. The spring leaves come out a unique unique mix of purplish-red shades. It then transitions to a lush green in the summer, turning again to scarlet red and vibrant oranges in the fall. This Japanese Maple grows perfectly in the filtered shade of tall evergreens and makes an impressive statement in a landscape. It is easy to care for and its small size makes it easy to incorporate into any garden."
+        }
+    },
+    {
+        "plant_id": 597,
+        "common_name": "giant hyssop",
+        "scientific_name": [
+            "Agastache rugosa 'Honey Bee Blue'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/597_agastache_rugosa_honey_bee_blue/small/51318682563_98b71628e7_b.jpg",
+        "extra_info": {
+            "family": "Lamiaceae",
+            "type": "Herb",
+            "max_height": 3,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "August",
+                "February",
+                "March",
+                "April",
+                "August",
+                "August"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Giant hyssop (Agastache rugosa 'Honey Bee Blue') is an amazingly beautiful specimen with its brightly colored blue blooms. This plant is a great choice for sunny landscapes, as it prefers 8 hours of direct sunlight a day. It will bloom from midsummer through early fall, delighting you with its sweet honey-scented flowers. Not only is it a pollinator magnet, but its attractive foliage is deer resistant and attractive when planted in masses. Its blooms are attractive to a wide range of pollinators, making it a great addition to any garden. Its long-lasting blooms and pleasing smell make it an excellent and satisfying addition for any landscape."
+        }
+    },
+    {
+        "plant_id": 443,
+        "common_name": "pineapple guava",
+        "scientific_name": [
+            "Acca sellowiana"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/443_acca_sellowiana/small/50121311041_b7735952c6_b.jpg",
+        "extra_info": {
+            "family": "Myrtaceae",
+            "type": "Broadleaf evergreen",
+            "max_height": 15,
+            "pruning_month": [
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Pineapple guava (Acca sellowiana) is an amazing plant species. It is grown in a variety of climates, making it a versatile plant to have in any garden. The leaves are medium green with silver highlights, creating a stunning variegated effect. During the summer, white flowers blossom and produce incredibly fragrant fruit that has a unique combination of pineapple and guava flavors. This is an easy-to-grow, low-maintenance bush that will tolerate light frost, making it an ideal species for novice gardeners. Best of all, it is drought tolerant, attracts birds and its beautiful fruit can be enjoyed fresh from the tree."
+        }
+    },
+    {
+        "plant_id": 135,
+        "common_name": "Twombly's Red Sentinel Japanese Maple",
+        "scientific_name": [
+            "Acer palmatum 'Twombly's Red Sentinel'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/135_acer_palmatum_twomblys_red_sentinel/small/33757558900_958207d989_b.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 10,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Twombly's Red Sentinel Japanese Maple is a magnificent and truly unique species of Japanese Maple. Its deep red foliage gives it an eye-catching and beautiful appearance that adds color to any garden. Its upright and upright-rounded structure also make it an excellent focal point in a variety of settings, from woodland gardens to suburban backyards. Its new growth is intensely colored and its broad form is unmatched by any other maple on the market. Extremely cold hardy and drought tolerant, Twombly's Red Sentinel is the perfect addition to any outdoor space."
+        }
+    },
+    {
+        "plant_id": 588,
+        "common_name": "giant hyssop",
+        "scientific_name": [
+            "Agastache 'Firebird'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/588_agastache_firebird/small/Agastache_aurantiaca_281049894473329.jpg",
+        "extra_info": {
+            "family": "Lamiaceae",
+            "type": "Herb",
+            "max_height": 3,
+            "pruning_month": [
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Giant Hyssop (Agastache 'Firebird') is an amazing flowering plant that features giant flower spikes in vibrant colors such as red and orange. Its impressive size and glorious color make the Giant Hyssop an eye-catching addition to any garden. Not only is it beautiful, it also boasts a unique sweet and spicy fragrant aroma. Its star-shaped flowers attract a variety of pollinators such as butterflies and hummingbirds, adding motion and activity to the garden. The stems remain upright even after the blooms fade, adding texture and interest to perennial beds and garden borders. Hardy and tolerant of both heat and drought, Giant Hyssop is a must-have for any garden."
+        }
+    },
+    {
+        "plant_id": 708,
+        "common_name": "alder",
+        "scientific_name": [
+            "Alnus mayrii"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/708_alnus_mayrii/small/alnus_glutinosa_alder_common_alder_black_alder_tree_flora_branch_plant-710760.jpg",
+        "extra_info": {
+            "family": "Betulaceae",
+            "type": "Tree",
+            "max_height": 50,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "August"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Alder (Alnus mayrii) is an amazing species of tree which is native to the United States. Alder is a common shade tree in many areas. The leaves are a deep green and the branches are densely arranged. Alder grows very quickly and can reach heights of up to 50 feet. This tree is an especially useful species as it has a deep root system, making it more resistant to erosion, flooding, and drought. Additionally, alder provides an excellent habitat for wildlife. Its nuts are favored by squirrels and birds, which helps to further spread its lovely foliage. Alder is a beautiful species of tree and its amazing qualities make it a great addition to any landscape."
+        }
+    },
+    {
+        "plant_id": 470,
+        "common_name": "shantung maple",
+        "scientific_name": [
+            "Acer truncatum"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/470_acer_truncatum/small/40480028000_557e582fb3_b.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "Tree",
+            "max_height": 25,
+            "pruning_month": [
+                "December",
+                "January",
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The shantung maple, or Acer truncatum, is a fast-growing tree native to parts of China and Korea. Its brilliantly bright red-orange foliage makes it stand out, especially in autumn when its leaves turn vibrant shades of red and orange. It is a highly adaptable tree that can tolerate heat, severe cold, and drought. It can even handle moderate amounts of salt and air pollution. With its dense, upright growth and small size, it is an excellent choice as a shade tree or for a privacy screen. The shantung maple is a low maintenance tree that is sure to make a stunning addition to any garden."
+        }
+    },
+    {
+        "plant_id": 703,
+        "common_name": "grey alder",
+        "scientific_name": [
+            "Alnus incana"
+        ],
+        "other_name": [
+            "Tag Alder",
+            "Grey Alder",
+            "Hoary Alder",
+            "Mountain Alder",
+            "White Alder",
+            "Grey Alder",
+            "Hoary Alder",
+            "Mountain Alder",
+            "White Alder"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Sun",
+            " Partial Shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/703_alnus_incana/small/52399973491_ccfed31074_b.jpg",
+        "extra_info": {
+            "family": "Betulaceae",
+            "type": "Tree",
+            "max_height": 60,
+            "pruning_month": [
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Sandy Loamy Clay Humus"
+            ],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Low",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Grey Alder (Alnus incana) is an amazing species of plant due to its hardy nature. It is native to much of Europe, Asia and North America, and can tolerate a variety of soil and climate conditions. Grey Alder is often planted as an ornamental tree due to its distinctive grey-green foliage and spreading habit. It is also a valuable wildlife species, providing food and shelter to a variety of birds and animals. Grey Alder is also often chosen for improving soil fertility and helping to protect watersheds from pollutants. This resilient species is great for urban and rural landscaping and is definitely worth consideration!"
+        }
+    },
+    {
+        "plant_id": 688,
+        "common_name": "German garlic",
+        "scientific_name": [
+            "Allium senescens"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/688_allium_senescens/small/49188833203_d33c16cbe0_b.jpg",
+        "extra_info": {
+            "family": "Amaryllidaceae",
+            "type": "Bulb",
+            "max_height": 2,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "German garlic (Allium senescens) is an amazing plant species with many benefits. It is a perennial bulb belonging to the onion family and has edible bulbs and hollow leaves with a garlic-like odor. This hardy plant is extremely easy to grow, with a long harvesting period for its bulbs. The flavor of its bulbs is milder than most other garlic varieties. Its Vitamin C and antiviral compounds make it a great choice for health conscious households. It's also perfect for landscaping, as its round bulbs and flat leaves make it an ornamental feature in a garden. German garlic is truly one of the most amazing plant species out there."
+        }
+    },
+    {
+        "plant_id": 489,
+        "common_name": "yarrow",
+        "scientific_name": [
+            "Achillea millefolium 'Saucy Seduction'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/489_achillea_millefolium_saucy_seduction/small/5147860510_c54d44e5f5_b.jpg",
+        "extra_info": {
+            "family": "Asteraceae",
+            "type": "Herb",
+            "max_height": 3,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September"
+            ],
+            "maintenance": "Moderate",
+            "soil": [
+                "Sandy Loamy Clay"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Yarrow (Achillea millefolium 'Saucy Seduction') is a perennial flower that is perfect for cutting gardens and patios. Its delicate, fragrant blooms come in a mix of deep magenta, pink and purple and attract butterflies and hummingbirds. This hardy plant is also an excellent choice for dry gardens as it has good drought tolerance. Its well-branched, upright habit makes it ideal for groundcover, rock gardens, cottage-style gardens, and may even be used as a border. It is deer resistant and easy to maintain—just prune lightly after blooming. Yarrow's unique beauty, easy care, and versatility make it an amazing addition to any garden!"
+        }
+    },
+    {
+        "plant_id": 502,
+        "common_name": "hot water plant",
+        "scientific_name": [
+            "Achimenes (group)"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "part shade"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": "Gesneriaceae",
+            "type": "Herbs",
+            "max_height": 2,
+            "pruning_month": [
+                "May",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Hot Water Plant is an awesome choice of species for any avid gardener. It is a perennial plant, with unique and exotic blooms in a variety of shapes and colors, that can be grown indoors or outdoors. These plants are incredibly adaptive, thriving in all sorts of climates, from warm rainforest environments to cool temperate locations. In order to grow them, simply fill any container with water, place the root-ball into it, and enjoy the beautiful flowers that emerge for months. Hot Water Plants are also great for propagating and are incredibly low-maintenance, surviving both drought and short-term flooding easily. A truly amazing species that anyone can grow."
+        }
+    },
+    {
+        "plant_id": 834,
+        "common_name": "dill",
+        "scientific_name": [
+            "Anethum graveolens"
+        ],
+        "other_name": [],
+        "cycle": "Annual",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/834_anethum_graveolens/small/52142605681_267b587549_b.jpg",
+        "extra_info": {
+            "family": "Apiaceae",
+            "type": "Herb",
+            "max_height": 5,
+            "pruning_month": [
+                "December",
+                "January",
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Dill (Anethum graveolens) is an amazing herb. Its fern-like leaves are pleasant to look at and its flavour adds a delicious hint of aniseed to dishes. It is incredibly versatile and can be used in any savoury recipe, like soups, stews, salad dressings and sauces. The smell of dill is also amazing, due to its fragrant compounds, making it an ideal herb for aromatherapy. Furthermore, dill has many health benefits, as it is high in vitamin A, C, and K, minerals, and fiber. Dill has revealed to be an effective remedy against inflammations and cancer cells growth, making it an essential ingredient to have in the kitchen or garden."
+        }
+    },
+    {
+        "plant_id": 890,
+        "common_name": "columbine",
+        "scientific_name": [
+            "Aquilegia 'Remembrance'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/890_aquilegia_remembrance/small/fl8181093783-image-ktwp62lj.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 2,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "May"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Columbine (Aquilegia 'Remembrance') is an amazing plant species due to its multiple show-stopping features. This plant is a vigorous grower and will produce a profusion of bright blue and white bell-shaped flowers in late spring and early summer. The flowering stalks and buds are attractive too! It is a great choice for any garden style as they are a low-maintenance perennial that tolerate severe pruning and require only minimal watering. Columbine is also known to attract hummingbirds and butterflies, making it a wonderful plant to have in the garden. It is deer resistant, so it won't suffer from those pesky deer munching away at the foliage. So why not purchase a Columbine (Aquilegia 'Remembrance') today and watch your garden transform and come alive with beautiful color and wildlife!"
+        }
+    },
+    {
+        "plant_id": 493,
+        "common_name": "yarrow",
+        "scientific_name": [
+            "Achillea 'Schwellenburg'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/493_achillea_schwellenburg/small/Yarrow_P7010492.jpg",
+        "extra_info": {
+            "family": "Asteraceae",
+            "type": "Herb",
+            "max_height": 1.5,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Achillea 'Schwellenburg' is a truly amazing plant species. It features silvery grey-green foliage and incredible large, flat clusters of sweet-scented flowers. These colourful blooms appear from June to September and attract huge amounts of bees and butterflies. This plant is not only aesthetically pleasing, it is also highly tolerant of drought conditions and can be grown in almost any type of fertile, well-drained soil. It is a great addition to any garden, providing a low maintenance, hardy perennial for your garden borders or wildflower meadows. It's a great pick for any gardener, and will bring bright, cheery blooms to your space year after year."
+        }
+    },
+    {
+        "plant_id": 381,
+        "common_name": "Sentinel Flowering Crab",
+        "scientific_name": [
+            "Malus 'Sentinel'"
+        ],
+        "other_name": [
+            "Roseybloom",
+            "Crabapple"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/381_malus_sentinel/small/49409253573_b0a8bd2496_b.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 20,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Sentinel Flowering Crab is a stunning ornamental tree sure to enhance any landscape. Its springtime show of blooms is truly breathtaking, boasting bright pinkish-white, 2-3 inch diameter flowers to greet the warmer seasons. The Sentinel’s maroon colored bark and dark green foliage provide a beautiful contrast throughout the rest of the year. Adaptable and easy to care for, this heat and drought tolerant beauty is low maintenance and requires minimal pruning.It's also resistant to pests and diseases, perfect for gardens and cityscapes. Add it to your landscape and enjoy watching this conversation piece bloom for years to come."
+        }
+    },
+    {
+        "plant_id": 322,
+        "common_name": "Slender Silhouette Sweet Gum",
+        "scientific_name": [
+            "Liquidambar styraciflua 'Slender Silhouette'"
+        ],
+        "other_name": [
+            "American Sweet Gum"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/322_liquidambar_styraciflua_slender_silhouette/small/Liquidambar_styraciflua_Slender_Silhouette_2zz.jpg",
+        "extra_info": {
+            "family": "Altingiaceae",
+            "type": "tree",
+            "max_height": 70,
+            "pruning_month": [
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Acidic"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Slender Silhouette Sweet Gum is an amazing plant species that offers a unique look to any landscape. It has a slim, upright form with an elegant silhouette and minimal pruning is needed which makes it both low maintenance and fuss-free. This tree has stunning maroon-red foliage that turns to a magnificent yellow in the autumn and it's sweet-scented gumballs add an extra hint of colour and beauty. The Slender Silhouette Sweet Gum is perfect for lining pathways, providing shade to homes and gardens, and offering exceptional ornamental value."
+        }
+    },
+    {
+        "plant_id": 101,
+        "common_name": "Purple Ghost Japanese Maple*",
+        "scientific_name": [
+            "Acer palmatum 'Purple Ghost'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/101_acer_palmatum_purple_ghost/small/6886992806_f55f1a8613_b.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 20,
+            "pruning_month": [
+                "March",
+                "April"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Purple Ghost Japanese Maple (Acer palmatum 'Purple Ghost') is an amazing plant species with its deep purple foliage, contrasting with its bright, white veins. It is a remarkable addition to any garden and it certainly deserves a place in your outdoor space. Its dramatic foliage turns brilliant yellow in the fall, adding excitement and beauty to the garden. Aside from its good looks, it is a hardy and low-maintenance species, so no need to worry about it taking up too much time. Compact and slow-growing, this plant is the perfect way to bring life, color, and personality to your garden."
+        }
+    },
+    {
+        "plant_id": 173,
+        "common_name": "Ombrella™ Mimosa",
+        "scientific_name": [
+            "Albizia julibrissin 'Boubri'"
+        ],
+        "other_name": [
+            "Silktree"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/173_albizia_julibrissin_boubri/small/Albizia_julibrissin_boubri.jpg",
+        "extra_info": {
+            "family": "Fabaceae",
+            "type": "tree",
+            "max_height": 35,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "High",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Ombrella™ Mimosa is the perfect tree for any garden. It's beautiful, easy to care for and drought tolerant. With its eye-catching cascading foliage, it provides a dramatic night-time show when lit up, creating a dreamy romantic evening. Furthermore, the butterfly-shaped pink flowers give it a unique look, making it a desirable ornamental for a garden. During bloom, it provides food and shelter for hummingbirds, bees and other native wildlife. The moisture-retention feature of the leaves that fold at night makes it an effective water-saving tree. Honestly, Ombrella™ Mimosa is too good to be real!"
+        }
+    },
+    {
+        "plant_id": 325,
+        "common_name": "Arnold Tuliptree",
+        "scientific_name": [
+            "Liriodendron tulipifera 'Arnold'"
+        ],
+        "other_name": [
+            "Tulip Magnolia",
+            "Yellow Poplar",
+            "Whitewood"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/325_liriodendron_tulipifera_arnold/small/37501584912_34ff5d863e_b.jpg",
+        "extra_info": {
+            "family": "Magnoliaceae",
+            "type": "tree",
+            "max_height": 90,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "February",
+                "March"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Loamy Humus"
+            ],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Arnold Tuliptree (Liriodendron tulipifera 'Arnold') is an exceptional plant species with a striking presence. This tree is loved for its lush, vivid green leaves that form a conical shape and for its fragrant, yellow and orange-tinged flowers that look like tulips. It's considered one of the most magnificent deciduous trees available with its quick growth rate and impressive height, sometimes maturing to be over 100 feet tall. This tree is also known for its common use as the state tree of Tennessee, as well as its ability to tolerate difficult soil conditions. An Arnold Tuliptree is an amazing choice for any yard, garden, or landscape."
+        }
+    },
+    {
+        "plant_id": 637,
+        "common_name": "bugleweed",
+        "scientific_name": [
+            "Ajuga reptans 'Binblasca' BLACK SCALLOP"
+        ],
+        "other_name": [
+            "carpet bugleweed",
+            "Bugleweed"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "part sun/part shade",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/637_ajuga_reptans_binblasca_black_scallop/small/52105985298_bef92726b8_b.jpg",
+        "extra_info": {
+            "family": "Lamiaceae",
+            "type": "Herb",
+            "max_height": 0.75,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Rocky ",
+                " gravelly ",
+                " dry"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugleweed (Ajuga reptans \"Black Scallop\") is an amazing ground cover plant that blooms beautiful purple blossoms in early summer. It is easy to grow, drought tolerant and its semi-evergreen foliage looks spectacular year round. The foliage has an eye-catching scalloped edge which is appreciated in any garden. Its dense habit allows it to be used as an edging plant, but it can also be used as a container or rock garden option. Its blooms attract pollinators such as hummingbirds and butterflies while its strong, pleasant aroma adds interest. It is a versatile plant that can be used in different settings and will show its beauty all season long."
+        }
+    },
+    {
+        "plant_id": 646,
+        "common_name": "bugleweed",
+        "scientific_name": [
+            "Ajuga reptans 'Toffee Chip'"
+        ],
+        "other_name": [
+            "carpet bugleweed",
+            "Bugleweed"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": "Lamiaceae",
+            "type": "Shrub",
+            "max_height": 0.75,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "August"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Rocky ",
+                " gravelly ",
+                " dry"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugleweed (Ajuga reptans 'Toffee Chip') is an amazing plant for a variety of reasons. Its stunning foliage displays multi-colored shades of bronze, silver, and burgundy that are sure to be a show-stopper in any garden setting. Not only is it attractive, it is also fast growing, drought tolerant, and deer resistant. This low maintenance beauty is perfect for ground cover and even works in combination with other plants to provide a unique look that is sure to turn heads. Furthermore, its use in erosion control provides an extra layer of tranquility in gardens. Bugleweed’s awesome features ensure that it is the perfect addition to any landscape design."
+        }
+    },
+    {
+        "plant_id": 637,
+        "common_name": "bugleweed",
+        "scientific_name": [
+            "Ajuga reptans 'Binblasca' BLACK SCALLOP"
+        ],
+        "other_name": [
+            "carpet bugleweed",
+            "Bugleweed"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "part sun/part shade",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/637_ajuga_reptans_binblasca_black_scallop/small/52105985298_bef92726b8_b.jpg",
+        "extra_info": {
+            "family": "Lamiaceae",
+            "type": "Herb",
+            "max_height": 0.75,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Rocky ",
+                " gravelly ",
+                " dry"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugleweed (Ajuga reptans \"Black Scallop\") is an amazing ground cover plant that blooms beautiful purple blossoms in early summer. It is easy to grow, drought tolerant and its semi-evergreen foliage looks spectacular year round. The foliage has an eye-catching scalloped edge which is appreciated in any garden. Its dense habit allows it to be used as an edging plant, but it can also be used as a container or rock garden option. Its blooms attract pollinators such as hummingbirds and butterflies while its strong, pleasant aroma adds interest. It is a versatile plant that can be used in different settings and will show its beauty all season long."
+        }
+    },
+    {
+        "plant_id": 3,
+        "common_name": "White Fir",
+        "scientific_name": [
+            "Abies concolor"
+        ],
+        "other_name": [
+            "Silver Fir",
+            "Concolor Fir",
+            "Colorado Fir"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/3_abies_concolor/small/52292935430_f4f3b22614_b.jpg",
+        "extra_info": {
+            "family": "Pinaceae",
+            "type": "tree",
+            "max_height": 45,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [
+                "Acidic",
+                " Rocky ",
+                " gravelly ",
+                " dry",
+                " Well-drained"
+            ],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "White Fir (Abies concolor) is an amazing evergreen tree species found in the western United States. It has a distinct white bark that fades to a yellowish hue on the lower branches and a graceful, conical shape. The beautiful Blue-green needles of White Fir are soft and tufted at the end and release a pleasant Christmas-like aroma when crushed. This sturdy species can grow up to 300 feet tall and over 140 years old, making it one of the longest living species in the world. It is highly adaptable, drought-tolerant, and very low maintenance with minimal pruning requirements. White Fir is an excellent choice for privacy screens, windbreaks, and living Christmas trees."
+        }
+    },
+    {
+        "plant_id": 530,
+        "common_name": "bugbane",
+        "scientific_name": [
+            "Actaea simplex (Atropurpurea Group) 'Black Negligee'"
+        ],
+        "other_name": [
+            "cimicifuga"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "deep shade",
+            "filtered shade",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/530_actaea_simplex_atropurpurea_group_black_negligee/small/6195900163_28e83a7771_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Shrub",
+            "max_height": 6,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugbane is an amazing plant species for two main reasons. Firstly, its unique look, with a clump of dark, bold foliage highlighted with feathery white flower clusters in late summer, makes it a stunning feature in the garden. Secondly, its resilience–resistant to drought and common garden pests, it's also tolerant of partial shade and sandy, clay or loam soil. With beautiful colors, graceful foliage and a low maintenance approach, bugbane is a great addition to any garden or landscape."
+        }
+    },
+    {
+        "plant_id": 999,
+        "common_name": "giant cane bamboo",
+        "scientific_name": [
+            "Arundinaria gigantea"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/999_arundinaria_gigantea/small/24505585774_54c8864f95_b.jpg",
+        "extra_info": {
+            "family": "Poaceae",
+            "type": "Ornamental grass",
+            "max_height": 12,
+            "pruning_month": [
+                "March",
+                "April",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "High",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Giant Cane Bamboo (Arundinaria gigantea) is an amazing species of grass that is reaching heights of over 30 feet! Its amazing because it is hardy and grows very rapidly and is both drought and frost tolerant. It has a beautiful, exotic aesthetic that adds character to any garden and its thick, woody stems lend a subtle privacy fence when planted in large clumps. It is also a great choice for container gardening and grows happily in a range of soils and light levels. There are few plants as varied and resilient as Giant Cane Bamboo, and it is perfect for just about any garden."
+        }
+    },
+    {
+        "plant_id": 501,
+        "common_name": "yarrow",
+        "scientific_name": [
+            "Achillea 'Walther Funcke'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/501_achillea_walther_funcke/small/51275813282_e37d015ac5_b.jpg",
+        "extra_info": {
+            "family": "Asteraceae",
+            "type": "Herb",
+            "max_height": 2,
+            "pruning_month": [
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Achillea 'Walther Funcke' yarrow is an amazing plant species due to its long flowering season, drought tolerance, and excellent disease resistance. Its vibrant yellow blooms bring an added burst of beauty to any garden. This hardy perennial forms a neat, compact ball of bright cheery blossoms that dance above the lush fern-like foliage. The flowers will re-bloom if sheared back, extending the bloom period and bringing a constant stream of color, particularly in dry or full sun areas. Yarrow's uniform shape and texture make it a low-maintenance, time-saving perennial in the garden."
+        }
+    },
+    {
+        "plant_id": 503,
+        "common_name": "golden spaniard",
+        "scientific_name": [
+            "Aciphylla aurea"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/503_aciphylla_aurea/small/2560px-Aciphylla_aurea_kz13.jpg",
+        "extra_info": {
+            "family": "Apiaceae",
+            "type": "Broadleaf evergreen",
+            "max_height": 3,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "September",
+                "October",
+                "November",
+                "March",
+                "April",
+                "May",
+                "September",
+                "October",
+                "November"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "High",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Golden Spaniard is an amazing plant species known for its gorgeous golden-yellow foliage. As an incredibly hardy and versatile plant, the Golden Spaniard is an ideal choice for a wide variety of landscaping applications. It grows in a neat and tidy mound, making it an excellent option for edgers, raised beds, or rock gardens. Best of all, its foliage transforms throughout the season to take on a stunning golden hue, creating impressive visual impact in any space. With exceptional cold-hardiness and the ability to thrive in full-sun conditions, the Golden Spaniard is a truly remarkable plant."
+        }
+    },
+    {
+        "plant_id": 210,
+        "common_name": "Katsura Tree",
+        "scientific_name": [
+            "Cercidiphyllum japonicum"
+        ],
+        "other_name": [
+            "Japanese katsura tree"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/210_cercidiphyllum_japonicum/small/50082930431_17615cde29_b.jpg",
+        "extra_info": {
+            "family": "Cercidiphyllaceae",
+            "type": "tree",
+            "max_height": 50,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Acidic",
+                " Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Katsura Tree is an amazing species of tree that grows in both Japan and China. Its large leafy canopy makes it a desirable choice for gardeners, while its leaves turn beautiful shades of yellow, orange, and red in the fall. Its bark has a distinct cinnamon scent when burnt, and its winter form has an interesting, irregular shape. It's also revered for its unique heart-shaped leaves and pink, fragrant flowers. Plus, Katsura Trees are highly tolerant of air pollution and look great year-round. If that wasn't enough, it's even drought-tolerant and disease-resistant. A Katsura Tree is an ideal addition to any garden!"
+        }
+    },
+    {
+        "plant_id": 198,
+        "common_name": "Japanese Hornbeam",
+        "scientific_name": [
+            "Carpinus japonica"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "part shade",
+            "full shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/198_carpinus_japonica/small/21398773531_f81737abbd_b.jpg",
+        "extra_info": {
+            "family": "Betulaceae",
+            "type": "tree",
+            "max_height": 25,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "December",
+                "January",
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Japanese Hornbeam (Carpinus japonica) is truly a magnificent and unique tree species! Native to Japan, this evergreen tree has a distinctive, multi-faceted trunk leading to a wonderfully bushy, dense canopy. Its simple, glossy green leaves will turn a beautiful golden-yellow in autumn and winter. The Japanese Hornbeam can live for more than 200 years, making it an incredibly rugged and reliable species. It is also relatively drought-tolerant and can thrive in both shade and full sun. It's perfect for urban settings, as it is highly resistant to air pollution and requires little maintenance. The Japanese Hornbeam is truly an amazing tree species!"
+        }
+    },
+    {
+        "plant_id": 153,
+        "common_name": "Red Maple",
+        "scientific_name": [
+            "Acer rubrum"
+        ],
+        "other_name": [
+            "Swamp Maple",
+            "Scarlet Maple"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "2",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/153_acer_rubrum/small/10482675495_e8b601445f_b.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "tree",
+            "max_height": 50,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Sandy Loamy Clay"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Red Maple (Acer rubrum) is an amazing tree that is native to North America. It has bright, red flowers in the spring as well as stunning foliage colors in autumn, producing wonderful colors of orange, yellow, and red. It is known to be very tough, tolerating a wide range of temperatures, freezing cold, and extreme wind. It is also very fast growing, up to two feet per year under good conditions. Red Maple is a great choice for landscaping, being well adapted to many soils, easy to care for, and it is a very valuable source of food and shelter for wildlife."
+        }
+    },
+    {
+        "plant_id": 376,
+        "common_name": "Pink Lady Apple",
+        "scientific_name": [
+            "Malus 'Pink Lady'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/376_malus_pink_lady/small/25239912735_4801f32049_b.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 20,
+            "pruning_month": [
+                "December",
+                "January",
+                "February",
+                "December",
+                "February"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Pink Lady Apple is an amazing tree whose fruits cannot be matched. Its distinctive pinkish-blush skin houses a crisp, sweet-tart, juicy flavor. Its unique flavor is sourced from the balance between soluble sugars and acids, accented by its brightly colored skin. Pink Lady Apples sports a long storage life and can be enjoyed for up to 3 months after harvest. Its distinct color stands out for a variety of uses, from fresh snacking to adding interest to salads. The attractive look of this apple makes it a great choice for decorative uses such as centerpieces, wreaths and garlands, as well as baking. With its delectable flavor and eye-catching hue, the Pink Lady Apple is sure to be a crowd favorite."
+        }
+    },
+    {
+        "plant_id": 116,
+        "common_name": "Scolopendrifolium Japanese Maple",
+        "scientific_name": [
+            "Acer palmatum 'Scolopendrifolium'"
+        ],
+        "other_name": [
+            "Scolopendrifolium Rubrum",
+            "Atrolineare"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/116_acer_palmatum_scolopendrifolium/small/Acer_palmatum_Scolopendrifolium_0zz.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "tree",
+            "max_height": 12,
+            "pruning_month": [
+                "March",
+                "April",
+                "August",
+                "March",
+                "April",
+                "August",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Scolopendrifolium Japanese Maple is an amazing addition to your garden. Its unique, heavily lobed leaves offer a stunning burst of color, from green in the spring to yellow in the summer, and shades of red, orange, and purple in the fall. An added benefit is that it's low maintenance - it only needs to be watered occasionally, and requires minimal pruning. Plus, its slow-growing nature keeps it small and is ideal for smaller gardens. With its minimal upkeep and beautiful foliage, it's clear why the Scolopendrifolium Japanese Maple is such a popular plant."
+        }
+    },
+    {
+        "plant_id": 760,
+        "common_name": "serviceberry",
+        "scientific_name": [
+            "Amelanchier canadensis 'Glenn Form' RAINBOW PILLAR"
+        ],
+        "other_name": [
+            "Canadian Serviceberry",
+            "Chuckleberry",
+            "Chuckleberry"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/760_amelanchier_canadensis_glenn_form_rainbow_pillar/small/33535607781_dd8240e91d_b.jpg",
+        "extra_info": {
+            "family": "Rosaceae",
+            "type": "Tree",
+            "max_height": 30,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Sandy Loamy Clay"
+            ],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Serviceberry (Amelanchier canadensis 'Glenn Form' RAINBOW PILLAR) is an amazing ornamental plant. Its leaves appear in a stunning array of colors, from golden yellow, to purplish red and even deep purple. Its white, bell-shaped flowers also offer a beautiful contrast to the foliage. Furthermore, its bright red fall fruits provide a vibrant accent to any landscape and offer a food source for birds and other wildlife animals. The Rainbow Pillar variety provides a stunning upright form, making it an ideal specimen plant for your garden. With low maintenance needs, this stunning shrub is an excellent choice for any landscape."
+        }
+    },
+    {
+        "plant_id": 735,
+        "common_name": "lily of the Incas",
+        "scientific_name": [
+            "Alstroemeria aurea"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/735_alstroemeria_aurea/small/9065256170_72118879aa_b.jpg",
+        "extra_info": {
+            "family": "Alstroemeriaceae",
+            "type": "Bulb",
+            "max_height": 3,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Lily of the Incas, also known as Alstroemeria aurea, is a stunning herbaceous perennial flower known for its beauty and amazing durability. Featuring bright yellow and orange petals, the lily of the Incas makes an eye-catching addition to any garden. Its long-lasting blooms also make it an ideal choice for cut flower arrangements. The plant is also easy to care for and makes a great option for both experienced and novice gardeners alike. Its evergreen foliage provides additional interest and makes it a great choice for flower borders and flower beds. Lily of the Incas’ amazing durability, colorful blooms, and ease of care make it an ideal choice for anyone looking for a beautiful and reliable flower."
+        }
+    },
+    {
+        "plant_id": 859,
+        "common_name": "snapdragon",
+        "scientific_name": [
+            "Antirrhinum majus"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "Full sun"
+        ],
+        "extra_info": {
+            "family": "Plantaginaceae",
+            "type": "Flower",
+            "max_height": 3,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [
+                "Alkaline",
+                " Well-drained"
+            ],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Snapdragon (Antirrhinum majus) is a beautiful and unique flowering plant that stands out from the crowd. This colorful native of Europe and North Africa consists of tall spikes of snapdragon shaped blooms in vibrant shades of purple, white, pink, yellow, and red. The low-growing plants make an excellent addition to any garden bed and attract butterflies and birds. Snapdragon flowers bloom from late spring to early summer and are easy to care for. Plus, their name comes from the belief that if you squeeze their blooms, they will “snap” their jaws. Snapdragons are an amazing addition to your garden and make a great gift."
+        }
+    },
+    {
+        "plant_id": 970,
+        "common_name": "wormwood",
+        "scientific_name": [
+            "Artemisia absinthium"
+        ],
+        "other_name": [
+            "Common Wormwood"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Full sun"
+        ],
+        "extra_info": {
+            "family": "Asteraceae",
+            "type": "Herb",
+            "max_height": 3,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": null,
+            "medicinal": true,
+            "poisonous_to_humans": 1,
+            "poisonous_to_pets": 1,
+            "description": "Wormwood (Artemisia absinthium) is an amazing medicinal herb that stands out for its extraordinary healing power. Wormwood has been used over centuries in traditional medicine for treating digestive problems to aiding in parasite and worm elimination. It also has antibacterial, antiviral and anti parasitic properties, making it great for boosting the immune system. Wormwood is also known to reduce fever and regulated menstruation. Its bitter taste has made it popular in cocktails such as absinthe. Due to its strong scent and attractive foliage, it is also a great addition to the garden."
+        }
+    },
+    {
+        "plant_id": 299,
+        "common_name": "Princeton Sentry Ginkgo",
+        "scientific_name": [
+            "Ginkgo biloba 'Princeton Sentry'"
+        ],
+        "other_name": [
+            "Maidenhair Tree",
+            "ginkgo"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/299_ginkgo_biloba_princeton_sentry/small/10447348824_071fbea762_b.jpg",
+        "extra_info": {
+            "family": "Ginkgoaceae",
+            "type": "tree",
+            "max_height": 70,
+            "pruning_month": [
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Princeton Sentry Ginkgo (Ginkgo biloba 'Princeton Sentry') is an amazing and attractive species of tree suitable for a variety of uses. Its attractive, fan-shaped foliage is medium green in color, turning a brilliant yellow in the fall. Its oval-shaped crown offers filtered shade and makes it a great choice for street-side planting where its lush foliage can be appreciated. It has a very strong and durable trunk and is highly resistant to storm damage, while its roots remain strong and wide, making it ideal for tight spaces like small yards. Its strong resilience to air pollution and ability to thrive in a variety of soil types is unmatched, making it a great low maintenance choice."
+        }
+    },
+    {
+        "plant_id": 533,
+        "common_name": "bugbane",
+        "scientific_name": [
+            "Actaea simplex (Atropurpurea Group) 'James Compton'"
+        ],
+        "other_name": [
+            "cimicifuga"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "deep shade",
+            "filtered shade",
+            "part sun/part shade"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Shrub",
+            "max_height": 6,
+            "pruning_month": [
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugbane is an amazing and attractive plant species that is perfect for many gardens. Its dark, purplish-brown foliage provides a stunning contrast to other garden plants. The species is also known for its tall spires of ivory-white flowers and its sweet, spicy fragrance. It is capable of providing a dramatic display when planted in masses and it is deer-resistant. On top of its good looks, Bugbane also attracts beneficial wildlife such as bees, butterflies, and hummingbirds. Finally, its foliage provides coverage and maintains moisture in gardens and landscapes in the summer. All of these features make Bugbane an amazing plant that should be considered for any garden."
+        }
+    },
+    {
+        "plant_id": 266,
+        "common_name": "Japanese Cedar",
+        "scientific_name": [
+            "Cryptomeria japonica"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Full sun",
+            " Part sun/part shade",
+            " Sheltered"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/266_cryptomeria_japonica/small/51941933370_9cda81ee96_b.jpg",
+        "extra_info": {
+            "family": "Cupressaceae",
+            "type": "tree",
+            "max_height": 60,
+            "pruning_month": [
+                "December",
+                "January",
+                "February",
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Acidic",
+                " Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Japanese Cedar is an amazing plant species, native to Japan and other parts of East Asia. This evergreen tree is widely known for its ability to tolerate cold temperatures and its fast growth rate, reaching heights of up to 135 feet. Its traditional dark green needles are often curved, giving it an elegant and sophisticated look. Japanese Cedar has a light, aromatic smell and its wood is widely used for making furniture, internal structures, and carvings. Not only is Japanese Cedar a beautiful sight both in the wild and in gardens, but it is also a multipurpose, easy to care for tree that can be a great choice for ornamental landscaping. Its year round color and stunning silhouette make it a truly amazing plant species."
+        }
+    },
+    {
+        "plant_id": 773,
+        "common_name": "amur peppervine",
+        "scientific_name": [
+            "Ampelopsis brevipedunculata"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/773_ampelopsis_brevipedunculata/small/30639333801_f26c72e005_b.jpg",
+        "extra_info": {
+            "family": "Vitaceae",
+            "type": "Vine",
+            "max_height": 20,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Amur peppervine is an amazing plant species because it is incredibly hardy and resilient. Despite harsh conditions, this hardy native of Northeast Asia will thrive, with its fall foliage turning a bright pink and its leaves staying throughout the winter. It is also a very fast-growing vine, reaching heights of up to 30 feet in just a few years. As a bonus, it is also great for wildlife, attracting birds and butterflies to gardens. And because it is an evergreen, it will bring a pleasant green to landscapes year-round. All in all, Amur peppervine is an amazing plant species!"
+        }
+    },
+    {
+        "plant_id": 179,
+        "common_name": "Variegated Japanese Angelica Tree",
+        "scientific_name": [
+            "Aralia elata 'Variegata'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/179_aralia_elata_variegata/small/25613108958_842b5c1a23_b.jpg",
+        "extra_info": {
+            "family": "Araliaceae",
+            "type": "tree",
+            "max_height": 20,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "February",
+                "March"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Variegated Japanese Angelica Tree (Aralia elata 'Variegata') is something special. Its bold variegated leaves of yellow, green, and white make it an eye catching feature in any landscape. It is an easy to care for tree, growing to heights of 10 feet or more with a spread of around 6-8 feet. The leaves and stems provide texture and year-round interest, making it a great addition to any garden or yard. Pest and disease resistant, this tree also produces fragrant white flowers in the summer, followed by blue-black berries in the fall. Perfect for small gardens, it's a great way to add a unique and beautiful touch to any outdoor space."
+        }
+    },
+    {
+        "plant_id": 499,
+        "common_name": "yarrow",
+        "scientific_name": [
+            "Achillea 'Terracotta'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/499_achillea_terracotta/small/51814554903_89600efb50_b.jpg",
+        "extra_info": {
+            "family": "Asteraceae",
+            "type": "Herb",
+            "max_height": 3,
+            "pruning_month": [
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Achillea 'Terracotta' - more commonly known as yarrow - is an amazing plant species for any home gardener. Its beautiful terracotta-coloured blooms add an eye-catching splash of colour in any garden, while its natural air freshening properties help naturally deter pests. Plus, its easy to maintain - once established, it's drought-tolerant and loves the sun! Its blooming season is usually mid to late spring, and its pollinator-friendly flowers will attract and sustain wildlife in the garden. A classic, low maintenance plant choice for any garden, Achillea 'Terracotta' is a great addition to any outdoor space."
+        }
+    },
+    {
+        "plant_id": 1,
+        "common_name": "European Silver Fir",
+        "scientific_name": [
+            "Abies alba"
+        ],
+        "other_name": [
+            "Common Silver Fir"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/1_abies_alba/small/1536px-Abies_alba_SkalitC3A9.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 60,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "European Silver Fir (Abies alba) is an amazing coniferous species native to mountainous regions of central Europe and the Balkans. It is an evergreen tree with a narrow, pyramidal shape and long, soft needles. Its bark is scaly grey-brown and its branches are highly ornamental due to its conical-shaped silver-tinged needles. It is pruned for use as an ornamental evergreen hedging and screening plant, and is also popular for use as a Christmas tree. Young trees grow quickly and have strong, flexible branches which makes them perfect for use as windbreaks. The European Silver Fir is an impressive species, making it ideal for gardens and public spaces."
+        }
+    },
+    {
+        "plant_id": 680,
+        "common_name": "golden garlic",
+        "scientific_name": [
+            "Allium moly"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "extra_info": {
+            "family": "Amaryllidaceae",
+            "type": "Bulb",
+            "max_height": 1.5,
+            "pruning_month": [
+                "November",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Golden garlic (Allium moly) is an amazing plant species that is highly praised by gardeners. Its oversized, long-lasting bulbs have a mild yet piquant flavor and generate an abundance of showy yellow flowers. With this plant species, there's no need to worry about planting multiple bulbs, as it self-propagates easily. Golden garlic's high levels of potassium, sulfur and selenium make it an effective natural remedy for many conditions, from diabetes to high cholesterol levels. And if that was not enough, the leaves and flowers of this fragrant plant make for a beautiful addition to any garden."
+        }
+    },
+    {
+        "plant_id": 822,
+        "common_name": "windflower",
+        "scientific_name": [
+            "Anemone hybrida 'Pretty Lady Diana'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/822_anemone_hybrida_pretty_lady_diana/small/52319580076_763cef45d9_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 1.5,
+            "pruning_month": [
+                "December",
+                "January",
+                "February",
+                "May",
+                "May",
+                "June",
+                "July",
+                "June",
+                "July",
+                "August"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Windflower (Anemone hybrida 'Pretty Lady Diana') is an amazing perennial flower with delicate blooms of pure white petals and a golden center. The flowers are the perfect addition to any garden, as they are hardy and can thrive in a variety of climates. Throughout the summer, they will provide continuously blooming clusters of vibrantly contrasting color. The blooms make excellent cut flowers when they are in full bloom. Not only are they eye-catching and long-lasting, they’re also a source of food for pollinators like bees, butterflies and hummingbirds. And, thanks to its large and deep root system, it also prevents soil erosion. With its captivating blooms and low maintenance requirements, Windflower is an ideal choice for bringing beauty and life to any garden."
+        }
+    },
+    {
+        "plant_id": 509,
+        "common_name": "climbing monk's hood",
+        "scientific_name": [
+            "Aconitum hemsleyanum"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/509_aconitum_hemsleyanum/small/6166179411_f2598d51ec_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Vine",
+            "max_height": 10,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 1,
+            "poisonous_to_pets": 1,
+            "description": "Climbing Monk's Hood (Aconitum hemsleyanum) is an amazing climber with beautiful deep violet-blue flowers. This hardy perennial thrives in partially shady areas and can quickly cover walls and fences with its vigorous tendrils of foliage, forming an impressive display. Its foliage is also a great source of contrast against brighter colors, providing a touch of subtle drama. For additional charm and interest, its large, rounded flowers are sometimes marked with a distinctive white eye, adding elegance to any outdoor space. With its attractive foliage, an attractive and enchanting blossom, and its ease of growth, Climbing Monk's Hood is an ideal addition to any garden."
+        }
+    },
+    {
+        "plant_id": 645,
+        "common_name": "bugleweed",
+        "scientific_name": [
+            "Ajuga reptans 'Silver Beauty'"
+        ],
+        "other_name": [
+            "carpet bugleweed",
+            "Bugleweed"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/645_ajuga_reptans_silver_beauty/small/Ajuga_reptans_2zz.jpg",
+        "extra_info": {
+            "family": "Lamiaceae",
+            "type": "Shrub",
+            "max_height": 0.75,
+            "pruning_month": [
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Rocky ",
+                " gravelly ",
+                " dry"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": true,
+            "indoor": true,
+            "care_level": null,
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugleweed (Ajuga reptans 'Silver Beauty') is an amazing plant species, renowned for its variegated foliage and beautiful purple flower spikes that bloom throughout spring and summer. Unlike other varieties, 'Silver Beauty' features glossy, silver-green foliage that adds an elegant touch to gardens. Its low-maintenance nature means it requires little care and attention, allowing gardeners to enjoy its beauty without too much fuss. Plus, it's relatively pest and disease resistant, meaning even those with black thumbs can enjoy the beauty of this resilient plant. Best of all, this fast-growing species makes an ideal ground-cover and perfect addition to rock gardens, meadows, borders, and more!"
+        }
+    },
+    {
+        "plant_id": 161,
+        "common_name": "Autumn Moon Full Moon Maple",
+        "scientific_name": [
+            "Acer shirasawanum 'Autumn Moon'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/161_acer_shirasawanum_autumn_moon/small/4846304086_2ff780588a_b.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 20,
+            "pruning_month": [
+                "September",
+                "October",
+                "November",
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Autumn Moon Full Moon Maple is an amazing species of maple tree, with light-green leaves that become yellow and orange in autumn. It has a round, dome-shaped canopy and its branches form an elegant, spreading shape. The stunning foliage makes it a sight to behold in autumn, with its brightly-colored leaves creating a vivid canvas. In addition, this hardy tree will grow in most climates and it's easy to care for. It can also be used a specimen tree or planted near a pond or stream to add a splash of color to the landscape. The Autumn Moon Full Moon Maple truly is a unique, beautiful tree."
+        }
+    },
+    {
+        "plant_id": 809,
+        "common_name": "windflower",
+        "scientific_name": [
+            "Anemone blanda 'White Splendour'"
+        ],
+        "other_name": [
+            "blue wood anemone"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/809_anemone_blanda_white_splendour/small/15814358472_a7f25a6bc1_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Bulb",
+            "max_height": 0.75,
+            "pruning_month": [
+                "May",
+                "June",
+                "July",
+                "September",
+                "October",
+                "November",
+                "December",
+                "January",
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Windflower (Anemone blanda 'White Splendour') is a truly amazing plant. Its delicate white petals, each with a bright yellow centre, create a dazzling display of colour in the garden. It is a low-maintenance plant that grows quickly and blooms for many months during the summer season. Even though it prefers full sun, it can still thrive during the cooler months of autumn and spring, adding an invaluable addition to any garden. Its easy-to-grow nature combined with its vibrant display makes the Windflower an appealing choice for any gardener."
+        }
+    },
+    {
+        "plant_id": 917,
+        "common_name": "Norfolk Island pine",
+        "scientific_name": [
+            "Araucaria heterophylla"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/917_araucaria_heterophylla/small/49833684212_2aff9d7b3c_b.jpg",
+        "extra_info": {
+            "family": "Araucariaceae",
+            "type": "Needled evergreen",
+            "max_height": 200,
+            "pruning_month": [
+                "May",
+                "December",
+                "January",
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Norfolk Island pine is an evergreen coniferous tree that is native to small Norfolk island between New Zealand and Australia. Its unusual pyramid shape makes it a popular landscape species and a favoured indoor plant. Not only is the Norfolk Island pine an attractive-looking tree, it is also a very versatile species. It is one of few plants that thrive in salty air, so it is a great choice for coastal gardens, as well as indoor spaces. The tree grows very slowly, but it is drought-tolerant and relatively pest-free, which makes it a great choice for Low-Maintenance gardeners. The overall beauty and adaptability of the Norfolk Island pine make it an amazing addition to any landscape."
+        }
+    },
+    {
+        "plant_id": 462,
+        "common_name": "red maple",
+        "scientific_name": [
+            "Acer rubrum 'Franksred' RED SUNSET"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/462_acer_rubrum_franksred_red_sunset/small/tree_leaves_maple_autumn_fall_red_woods_forest-1017374.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "Tree",
+            "max_height": 50,
+            "pruning_month": [
+                "March",
+                "April",
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Red Maple (Acer rubrum 'Franksred' RED SUNSET) is an amazing species of tree. It is a fast-growing deciduous tree that is renowned for its distinctive red fall foliage and its red twig tips in winter. Its spreading horizontal branches create a soft, rounded form that makes it an ideal specimen tree in gardens and landscapes. It’s also drought tolerant and popular for its striking red buds and flowers in spring. In fall, its three-lobed, bright green leaves turn vibrant red, setting any landscape ablaze with beauty. Once established, it is very tolerant of most conditions, making it an ideal choice for gardeners needing year-round beauty and blooms."
+        }
+    },
+    {
+        "plant_id": 236,
+        "common_name": "Constellation Flowering Dogwood",
+        "scientific_name": [
+            "Cornus 'Constellation'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/236_cornus_constellation/small/Cornus_x_rutgersensis_Constellation_5zz.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 25,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "March",
+                "April",
+                "May",
+                "May"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Constellation Flowering Dogwood (Cornus 'Constellation') is a spectacular small tree that provides year-round beauty. It has a unique, star-shaped leaf pattern in the spring and early summer, followed by bright white blooms in late spring to early summer. These gorgeous flowers are framed by stunning dark blue-green foliage that deepens to a deep purple colour in the fall. Perfect for any sunny or semi-shaded garden, this dogwood is extremely easy to grow and drought tolerant. Its monarch-like beauty will bring your garden to life and provide year-round interest."
+        }
+    },
+    {
+        "plant_id": 715,
+        "common_name": "giant elephant's ear",
+        "scientific_name": [
+            "Alocasia macrorrhizos"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/715_alocasia_macrorrhizos/small/33234440338_8b31463973_b.jpg",
+        "extra_info": {
+            "family": "Araceae",
+            "type": "Bulb",
+            "max_height": 15,
+            "pruning_month": [
+                "March",
+                "April",
+                "August"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": true,
+            "indoor": true,
+            "care_level": null,
+            "medicinal": true,
+            "poisonous_to_humans": 1,
+            "poisonous_to_pets": 1,
+            "description": "The giant elephant's ear (Alocasia macrorrhizos) is an amazing plant species because of its large and broad leaves. Its leaves can grow to be over 6 feet long and 3 feet wide. It is a tropical plant, preferring humid environments and is great for creating a tropical feel in your home. The foliage is also a striking addition to your garden, with its huge, dark green leaves veined with lighter green veins creating an interesting pattern. Its leaves also offer some shade and relief from the hot sun on hot summer days."
+        }
+    },
+    {
+        "plant_id": 738,
+        "common_name": "lily of the Incas",
+        "scientific_name": [
+            "Alstroemeria isabellana"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/738_alstroemeria_isabellana/small/29065273245_e56206d0d9_b.jpg",
+        "extra_info": {
+            "family": "Alstroemeriaceae",
+            "type": "Flower",
+            "max_height": 2.5,
+            "pruning_month": [
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The 'Lily of the Incas' (Alstroemeria isabellana) is truly an amazing plant, boasting an abundance of beautiful colors and butterfly-like flowers that make a great addition to any garden. Its oval-shaped petals come in vibrant shades of pink and red, topped with delicate yellow and green highlights. The flowers bloom for up to 8 weeks, and its clumps of stems produce leaves that add contrast and texture. This hardy perennial is perfect for borders and beds, and is resistant to deer, drought, and heat. Its sweet, fragrant scent is an added bonus, and its an ideal plant for pollinators. The 'Lily of the Incas' is sure to add beauty and character to any garden."
+        }
+    },
+    {
+        "plant_id": 884,
+        "common_name": "columbine",
+        "scientific_name": [
+            "Aquilegia glandulosa"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/884_aquilegia_glandulosa/small/51193625802_b98222629d_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 1,
+            "pruning_month": [
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Columbine, or Aquilegia Glandulosa and its gorgeous five-petaled bloom, is a great addition to any garden. Its deep purple to blue petals, white to yellow tips, and deep green stem and foliage add plenty of visual appeal to any outdoor space. This North American native is easy to grow and attracts plenty of pollinators like butterflies and hummingbirds. It thrives in partial shade, but can survive in full sun, too. Best of all, when treated right, Columbine will reward gardeners with blooms all throughout the summer season. It's an amazing plant to watch and admire, and one you'll never tire of."
+        }
+    },
+    {
+        "plant_id": 512,
+        "common_name": "monkshood",
+        "scientific_name": [
+            "Aconitum volubile"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/512_aconitum_volubile/small/51809062968_f4ded6dffd_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Vine",
+            "max_height": 12,
+            "pruning_month": [
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 1,
+            "poisonous_to_pets": 1,
+            "description": "Monkshood (Aconitum volubile) is an amazing plant species whose remarkable beauty and powerful chemistry has been intriguing humans for thousands of years. It's striking blue-violet flowers, often times featuring a hood-like shape, grow densely along tall stalks in mid-summer, making it a unique addition to any garden. Its active ingredient, aconite, has been used medicinally for centuries and acts as a sedative and an analgesic. Its toxic properties make it ideal for its use as a natural insecticide, as well as an antidote to certain poisons. Its mysterious characteristics make Monkshood a must-have plant species for anyone looking for a unique and captivating piece of nature in their home."
+        }
+    },
+    {
+        "plant_id": 865,
+        "common_name": "Indian hemp",
+        "scientific_name": [
+            "Apocynum cannabinum"
+        ],
+        "other_name": [
+            "Indian Hemp",
+            "Common Dogbane",
+            "Prairie Dogbane",
+            "Common Dogbane",
+            "Prairie Dogbane"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "Partial Shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/865_apocynum_cannabinum/small/52279327528_0d7dd70f2c_b.jpg",
+        "extra_info": {
+            "family": "Apocynaceae",
+            "type": "Herb",
+            "max_height": 4,
+            "pruning_month": [
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": "Moderate",
+            "soil": [
+                "Clay",
+                " Sand",
+                " Loam"
+            ],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 1,
+            "poisonous_to_pets": 1,
+            "description": "Indian hemp (Apocynum cannabinum) is a truly amazing plant species. Not only are its leaves and bark used in traditional medicine, but the roots are rich in a variety of useful compounds. It can be used to treat a wide range of illnesses, from stomach aches to insomnia. The plant is also extremely hardy and drought-resistant, making it ideal for growing in rocky or sandy soils. The reddish-brown leaves of Indian hemp provide a gorgeous contrast when grown against other plants in a garden. Bees and other pollinators love the fragrant, tubular flowers, adding to its ecologic value. With its simple versatility and range of uses, Indian hemp is an incredible addition to any outdoor space."
+        }
+    },
+    {
+        "plant_id": 842,
+        "common_name": "soursop",
+        "scientific_name": [
+            "Annona muricata"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/842_annona_muricata/small/52334747039_ee5c16a899_b.jpg",
+        "extra_info": {
+            "family": "Annonaceae",
+            "type": "Tree",
+            "max_height": 20,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The soursop, or Annona muricata, is an amazing tropical fruit tree. It produces large, green, spiky fruits that turn yellow when ripe. The creamy, white flesh inside has a sweet, sour taste, giving the fruit its unusual name. Not only is the soursop delicious in taste and texture, but it is believed to be an effective treatment for many ailments such as cancer, depression, infectious diseases, inflammation, and even asthma. Plus, the leaves of the tree can be used for making tea and the seeds can be used for medical purposes. There are so many amazing benefits of the soursop, it truly is a miracle of nature."
+        }
+    },
+    {
+        "plant_id": 148,
+        "common_name": "Emerald Queen Norway Maple",
+        "scientific_name": [
+            "Acer platanoides 'Emerald Queen'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/148_acer_platanoides_emerald_queen/small/Acer_saccharum_28Sugar_maple29_282692405476329.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "tree",
+            "max_height": 50,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "High",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Emerald Queen Norway Maple is an amazing tree species. With its vivid green, waxy leaves that emerge in early spring and its stately, oval-shaped canopy, it's truly a sight to behold. It’s an extremely popular ornamental tree species and its broadleaf resistant to drought and pollution. Its dark green foliage and yellowish-green fall color make the Emerald Queen Norway Maple an ideal choice for parks, large gardens, business landscapes, and avenue plantings. This hardy species grows in moist, well-drained soils, as long as it has full sun. It's a fast-growing maple that can reach a height of 40' and is winter-hardy in its zone. All in all, it's a stunning and resilient tree that brings beauty and longevity to any garden."
+        }
+    },
+    {
+        "plant_id": 533,
+        "common_name": "bugbane",
+        "scientific_name": [
+            "Actaea simplex (Atropurpurea Group) 'James Compton'"
+        ],
+        "other_name": [
+            "cimicifuga"
+        ],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "deep shade",
+            "filtered shade",
+            "part sun/part shade"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Shrub",
+            "max_height": 6,
+            "pruning_month": [
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugbane is an amazing and attractive plant species that is perfect for many gardens. Its dark, purplish-brown foliage provides a stunning contrast to other garden plants. The species is also known for its tall spires of ivory-white flowers and its sweet, spicy fragrance. It is capable of providing a dramatic display when planted in masses and it is deer-resistant. On top of its good looks, Bugbane also attracts beneficial wildlife such as bees, butterflies, and hummingbirds. Finally, its foliage provides coverage and maintains moisture in gardens and landscapes in the summer. All of these features make Bugbane an amazing plant that should be considered for any garden."
+        }
+    },
+    {
+        "plant_id": 525,
+        "common_name": "bugbane",
+        "scientific_name": [
+            "Actaea 'Pink Spire'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "part shade",
+            "part sun/part shade",
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/525_actaea_pink_spire/small/2000px-Actaea_Brunette_cohosh_September_2014_U.K.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Shrub",
+            "max_height": 4,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Bugbane (Actaea 'Pink Spire') is an amazing plant species because it features bright pink blooms in early summer and beautiful foliage throughout the rest of the season. The flowers attract butterflies and other pollinators, which enhances the beauty of the plant and provides a great source of food for wildlife. Its unique, finely-dissected leaves are a stunning dark green, adding depth and texture to any garden. This shade-loving perennial reaches a mature size of 2-3 feet tall and wide, making it ideal for smaller gardens and containers. Plus, bugbane is deer and rabbit resistant so you can rest assured it will stay beautiful in your garden."
+        }
+    },
+    {
+        "plant_id": 91,
+        "common_name": "Osakazuki Japanese Maple",
+        "scientific_name": [
+            "Acer palmatum 'Osakazuki'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/91_acer_palmatum_osakazuki/small/55257376_8dea2df86d_b.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "tree",
+            "max_height": 20,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Osakazuki Japanese Maple is an amazing plant species to have in any garden. Its bright red foliage really stands out against the various green tones of the garden, and its vibrant colour persists through all four seasons. Furthermore, its mounding form makes for an interesting focal point, easily capable of commandeering the spot light. Its low maintenance care requirements, sparse branching pattern and delicate texture make it an attractive ornamental addition. Its more robust root system makes it ideal for zones 5-8. Overall, the Osakazuki Japanese Maple is an amazing addition to any landscape, providing year-round colour and texture to transform the garden into an awe-inspiring spectacle."
+        }
+    },
+    {
+        "plant_id": 537,
+        "common_name": "variegated kiwi vine",
+        "scientific_name": [
+            "Actinidia kolomikta"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/537_actinidia_kolomikta/small/51490517809_fc47df43b2_b.jpg",
+        "extra_info": {
+            "family": "Actinidiaceae",
+            "type": "Vine",
+            "max_height": 20,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Alkaline",
+                " Well-drained"
+            ],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The variegated kiwi vine (Actinidia kolomikta) is an amazing plant species known for its beauty and hardiness. It produces long, trailing stems covered with green and cream-colored leaves, providing a unique and captivating look to any garden. The vine is incredibly easy to care for, withstanding temperatures down to -20 degrees Fahrenheit, while also thriving in a variety of lighting conditions. As a deciduous climber, it will remain a vibrant green in the warmer months and rich red in the cool. It's a perfect choice for a small trellis or a larger arbor, and can be trained to fit any desired space. With its vibrant coloring, easy maintenance and cold hardiness, the variegated kiwi vine is an amazing addition to any garden."
+        }
+    },
+    {
+        "plant_id": 866,
+        "common_name": "Cape pondweed",
+        "scientific_name": [
+            "Aponogeton distachyos"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "Full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/866_aponogeton_distachyos/small/51708012018_04d7cd2cda_b.jpg",
+        "extra_info": {
+            "family": "Aponogetonaceae",
+            "type": "Reed",
+            "max_height": 4,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "May",
+                "June",
+                "July",
+                "August",
+                "August",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Cape Pondweed is an amazing species of aquatic plant native to south-eastern Africa. This perennial plant has unique lobed foliage, which gives it an attractive appearance in aquaria and ponds. It also produces showy white flowers that rise above the surface of the water. The rhizomes of Cape Pondweed form a strong root system, and the stolons help the perennial to quickly spread through the water. Its fast-growing stems can reach up to a metre long, providing necessary shelter and shade for aquatic wildlife. Being easy to find in most aquarium stores, this species is a popular choice for water gardens and aquascaping, and is an excellent water purifier."
+        }
+    },
+    {
+        "plant_id": 299,
+        "common_name": "Princeton Sentry Ginkgo",
+        "scientific_name": [
+            "Ginkgo biloba 'Princeton Sentry'"
+        ],
+        "other_name": [
+            "Maidenhair Tree",
+            "ginkgo"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/299_ginkgo_biloba_princeton_sentry/small/10447348824_071fbea762_b.jpg",
+        "extra_info": {
+            "family": "Ginkgoaceae",
+            "type": "tree",
+            "max_height": 70,
+            "pruning_month": [
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Princeton Sentry Ginkgo (Ginkgo biloba 'Princeton Sentry') is an amazing and attractive species of tree suitable for a variety of uses. Its attractive, fan-shaped foliage is medium green in color, turning a brilliant yellow in the fall. Its oval-shaped crown offers filtered shade and makes it a great choice for street-side planting where its lush foliage can be appreciated. It has a very strong and durable trunk and is highly resistant to storm damage, while its roots remain strong and wide, making it ideal for tight spaces like small yards. Its strong resilience to air pollution and ability to thrive in a variety of soil types is unmatched, making it a great low maintenance choice."
+        }
+    },
+    {
+        "plant_id": 446,
+        "common_name": "hedge maple",
+        "scientific_name": [
+            "Acer campestre 'Evelyn' QUEEN ELIZABETH"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/446_acer_campestre_evelyn_queen_elizabeth/small/50573659347_5a5bbb0e30_b.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "Tree",
+            "max_height": 35,
+            "pruning_month": [
+                "March",
+                "April",
+                "December",
+                "January",
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Hedge Maple (Acer campestre 'Evelyn' QUEEN ELIZABETH) is an amazing species of maple tree beloved by many gardeners and landscapers. The tree offers eye-catching green foliage, displaying clusters of yellow flowers in spring and vibrant orange-bronze leaves in fall. In addition to its ornamental appeal, Hedge Maple is a resilient tree, able to adapt to various conditions and grow in sun or shade. The hardy tree is also low-maintenance and slow-growing, making it ideal for growing along hedgerows for a lush and dramatic look. With its attractive foliage and versatile growth habit, Hedge Maple (Acer campestre 'Evelyn' QUEEN ELIZABETH) is an ideal choice for any garden."
+        }
+    },
+    {
+        "plant_id": 655,
+        "common_name": "hollyhock",
+        "scientific_name": [
+            "Alcea rosea (single)"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/655_alcea_rosea_single/small/51265082640_c6f378dbd5_b.jpg",
+        "extra_info": {
+            "family": "Malvaceae",
+            "type": "Shrub",
+            "max_height": 8,
+            "pruning_month": [
+                "June",
+                "July",
+                "August",
+                "June",
+                "July"
+            ],
+            "maintenance": "High",
+            "soil": [
+                "Humus rich",
+                " Well-drained"
+            ],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Hollyhock (Alcea Rosea) is an incredible flower that makes a stunning addition to any garden. With its beautiful, five petal blooms, the plant can reach up to 6 feet in height and can be found in a variety of colors including pink, yellow, white, and purple. The flowers are most often single and tend to be bi-colored with a dark center. Planting this flower in your garden will provide you with a great deal of beauty and contrast as the leaves and flower buds take on a deep purple hue before the blooms appear. Not only are these flowers eye-catching, but they are also highly fragrant, perfect for attracting pollinators to your garden."
+        }
+    },
+    {
+        "plant_id": 787,
+        "common_name": "dwarf blue star",
+        "scientific_name": [
+            "Amsonia tabernaemontana 'Short Stack'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/787_amsonia_tabernaemontana_short_stack/small/Amsonia_tabernaemontana_Blue_Ice_2zz.jpg",
+        "extra_info": {
+            "family": "Apocynaceae",
+            "type": "Shrub",
+            "max_height": 1,
+            "pruning_month": [
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Easy",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Dwarf blue star (Amsonia tabernaemontana 'Short Stack') is an amazing plant species due to its versatility and hardiness. This low-maintenance perennial is compact and features fragrant, star-shaped blue flowers in the springtime. Long, narrow foliage with a mid-green color stays vivid through the summer months and turns a stunning golden yellow in autumn. This versatile plant is perfect for the front of a garden bed or as a low hedge, and can handle extreme temperatures and humidity with ease. Its low-growing habit eliminates the need for pruning, while its long-lasting blooms brighten up any garden. Dwarf blue star is a great choice for those looking for an attractive, easy-care plant."
+        }
+    },
+    {
+        "plant_id": 22,
+        "common_name": "Green Cascade Maple",
+        "scientific_name": [
+            "Acer japonicum 'Green Cascade'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/22_acer_japonicum_green_cascade/small/4847225395_2509ee2bfe_b.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "tree",
+            "max_height": 30,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Green Cascade Maple (Acer japonicum 'Green Cascade') is an amazing plant with stunning features. It has a unique cascading form which means it is slightly wider at the base and gradually narrows as it grows taller. The foliage of this tree is deep green with reddish-tinged edges in the spring and summer, transforming to a deep yellow-green in autumn. This foliage provides a beautiful contrast with the bark which is grey-brown with a light orange tone. The Green Cascade Maple is an excellent choice for a specimen tree or to provide a natural screen. It's versatile, easy to care for, and provides stunning visual appeal all year round."
+        }
+    },
+    {
+        "plant_id": 431,
+        "common_name": "black cat claw",
+        "scientific_name": [
+            "Acacia redolens"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/431_acacia_redolens/small/40378248193_eb3db1b183_b.jpg",
+        "extra_info": {
+            "family": "Fabaceae",
+            "type": "Broadleaf evergreen",
+            "max_height": 6,
+            "pruning_month": [
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Black Cat Claw, or Acacia redolens, is an amazing plant species particularly suited to many climates. It is fast-growing and produces beautiful, delicate yellow flowers during its blooming season. Its most unique feature is its long, narrow thorns, which give it its name. The Cat’s Claw thorns also serve a useful purpose, providing protection from injury and animals. The foliage provides a lush green canopy that is sure to please any gardener. This plant is an ideal choice for anyone wanting an attractive and hardy addition to their garden."
+        }
+    },
+    {
+        "plant_id": 170,
+        "common_name": "Armstrong Maple",
+        "scientific_name": [
+            "Acer x freemanii 'Armstrong'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/170_acer_x_freemanii_armstrong/small/10482927313_0306d993c3_b.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 50,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "June",
+                "July"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Armstrong Maple (Acer x freemanii 'Armstrong') is an extremely hardy and resilient tree, able to thrive and adapt in most soil conditions. It produces unique green foliage with yellow-orange tips throughout summer before turning a stunning orange-red hue in the fall. The Armstrong Maple is an excellent choice for homeowners looking to add beauty to their property as it grows quickly, reaching heights of up to 30 feet and with a wide, rounded canopy. To top it off, this type of maple is also resistant to most diseases, making it an ideal choice for those wanting a long-lasting and healthy tree in their yard."
+        }
+    },
+    {
+        "plant_id": 739,
+        "common_name": "lily of the Incas",
+        "scientific_name": [
+            "Alstroemeria 'Jupiter'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/739_alstroemeria_jupiter/small/px1609578-image-kwypqzx5.jpg",
+        "extra_info": {
+            "family": "Alstroemeriaceae",
+            "type": "Bulb",
+            "max_height": 3,
+            "pruning_month": [
+                "March",
+                "April",
+                "August",
+                "March",
+                "April",
+                "August"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The lily of the Incas, Alstroemeria 'Jupiter', is an amazing plant. Its vibrant pink and white flower petals are breathtaking, adding color and life to any garden or home. Its stems can reach up to three feet tall, and their signature trumpet-shaped blooms will attract birds, butterflies, and other pollinators. In addition to its beauty, this species thrives in almost any soil and can even survive in dry or cold climates, making it a great choice for gardeners in a variety of locations."
+        }
+    },
+    {
+        "plant_id": 999,
+        "common_name": "giant cane bamboo",
+        "scientific_name": [
+            "Arundinaria gigantea"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/999_arundinaria_gigantea/small/24505585774_54c8864f95_b.jpg",
+        "extra_info": {
+            "family": "Poaceae",
+            "type": "Ornamental grass",
+            "max_height": 12,
+            "pruning_month": [
+                "March",
+                "April",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "High",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "High",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Giant Cane Bamboo (Arundinaria gigantea) is an amazing species of grass that is reaching heights of over 30 feet! Its amazing because it is hardy and grows very rapidly and is both drought and frost tolerant. It has a beautiful, exotic aesthetic that adds character to any garden and its thick, woody stems lend a subtle privacy fence when planted in large clumps. It is also a great choice for container gardening and grows happily in a range of soils and light levels. There are few plants as varied and resilient as Giant Cane Bamboo, and it is perfect for just about any garden."
+        }
+    },
+    {
+        "plant_id": 870,
+        "common_name": "columbine",
+        "scientific_name": [
+            "Aquilegia caerulea 'Rotstern'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "Full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/870_aquilegia_caerulea_rotstern/small/columbine-red-white-pink.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 2,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Columbine (Aquilegia caerulea 'Rotstern') is an amazing plant species due to its beautiful and unique blooming displays. The flower's vibrant blue petals add a cheerful color to any garden and its star-shaped blooms in a mix of blue and yellow are quite distinctive. Columbine is also quite a versatile plant, as it can grow in a variety of climates and soil types. In addition, its blooming period is quite long, and it is easy to care for, making it suitable for inexperienced gardeners. Altogether, the Columbine truly stands out among other flowering plants and is sure to bring beauty and joy to any garden or home."
+        }
+    },
+    {
+        "plant_id": 960,
+        "common_name": "black chokeberry",
+        "scientific_name": [
+            "Aronia melanocarpa 'Autumn Magic'"
+        ],
+        "other_name": [
+            "Chokeberry"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Sun",
+            " Partial Shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/960_aronia_melanocarpa_autumn_magic/small/49923896838_646194f3f3_b.jpg",
+        "extra_info": {
+            "family": "Rosaceae",
+            "type": "Deciduous shrub",
+            "max_height": 6,
+            "pruning_month": [
+                "September",
+                "October",
+                "November",
+                "March",
+                "April",
+                "May",
+                "May",
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Sandy Clay Rocky"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The black chokeberry, Aronia melanocarpa 'Autumn Magic', is an amazing shrub species! This deciduous shrub grows easily in a variety of climates, and produces dark purple, almost black berries that are both delicious and highly nutritious. Planting this species in your garden will provide dynamic foliage of intense pink or red in the autumn months. The nectar-rich blooms of the black chokeberry provide food for butterflies, bees and other pollinators. The berries are a treat for birds, and make a delicious jam for humans! With its easy-to-maintain qualities, and its beautiful and edible offerings, the black chokeberry is truly an amazing garden species."
+        }
+    },
+    {
+        "plant_id": 22,
+        "common_name": "Green Cascade Maple",
+        "scientific_name": [
+            "Acer japonicum 'Green Cascade'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/22_acer_japonicum_green_cascade/small/4847225395_2509ee2bfe_b.jpg",
+        "extra_info": {
+            "family": "Sapindaceae",
+            "type": "tree",
+            "max_height": 30,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Green Cascade Maple (Acer japonicum 'Green Cascade') is an amazing plant with stunning features. It has a unique cascading form which means it is slightly wider at the base and gradually narrows as it grows taller. The foliage of this tree is deep green with reddish-tinged edges in the spring and summer, transforming to a deep yellow-green in autumn. This foliage provides a beautiful contrast with the bark which is grey-brown with a light orange tone. The Green Cascade Maple is an excellent choice for a specimen tree or to provide a natural screen. It's versatile, easy to care for, and provides stunning visual appeal all year round."
+        }
+    },
+    {
+        "plant_id": 494,
+        "common_name": "Siberian yarrow",
+        "scientific_name": [
+            "Achillea sibirica"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/494_achillea_sibirica/small/7762255084_e1def57a0c_b.jpg",
+        "extra_info": {
+            "family": "Asteraceae",
+            "type": "Herb",
+            "max_height": 2.5,
+            "pruning_month": [
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": null,
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Siberian yarrow (Achillea sibirica) is a drought-tolerant perennial with striking, flat-topped clusters of feathery-looking yellow flowers. It blooms in early summer and its buds are a deep maroon color. It is an essential plant in the dry, sunny gardens of North America due to its excellent drought-tolerance and drought-resilience. Siberian yarrow's tolerance of extreme temperatures make it an ideal choice for shade gardens and cold regions. Its long-lasting, lovely foliage is a long-term burst of color and excellent addition to any garden. It also does not require very much maintenance and requires very little water for survival. Siberian yarrow's beauty and resilience make it a great choice for any garden."
+        }
+    },
+    {
+        "plant_id": 424,
+        "common_name": "Spanish fir",
+        "scientific_name": [
+            "Abies pinsapo 'Horstmann'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/424_abies_pinsapo_horstmann/small/1508px-Abies_pinsapo_27Horstmann27_-_Oregon_Garden_-_Silverton2C_Oregon_-_DSC00267.jpg",
+        "extra_info": {
+            "family": "Pinaceae",
+            "type": "Needled evergreen",
+            "max_height": 2,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Spanish fir (Abies pinsapo 'Horstmann') is an amazing species of tree, native to the mountainous regions of Southern Spain. Its dense foliage of graceful, dark-green needles provides a striking backdrop to any setting. Its slower growth rate make it an ideal fit for gardens or parks with limited space. It is also highly resistant to pests, meaning it will stay healthy and vibrant with minimal care. Its rich, orange-brown bark provides further aesthetic appeal. The Spanish fir is one of the toughest conifers available and is well-suited to difficult growing conditions, making it a great choice for gardeners with challenging landscapes."
+        }
+    },
+    {
+        "plant_id": 934,
+        "common_name": "arisaema",
+        "scientific_name": [
+            "Arisaema ternatipartitum"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "Part shade",
+            "full shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/934_arisaema_ternatipartitum/small/50049704258_75cc030822_b.jpg",
+        "extra_info": {
+            "family": "Araceae",
+            "type": "Herb",
+            "max_height": 1.5,
+            "pruning_month": [
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Arisaema ternatipartitum, aka the Three-Sectioned Cobra Lily, is an amazing plant species favored by those looking for a colorful conversation piece. With it’s unique, three-parted \"cobra head\" replicating a cobra hood, the Arisaema is a sight to marvel at. Not only striking in appearance, the flowers have a perfume fragrance that will waft through any garden. Arisaema is a hardy species that can easily withstand cold temperatures and needs minimal maintenance. It’s a wonderful addition to any garden that will bring life and character to the area."
+        }
+    },
+    {
+        "plant_id": 168,
+        "common_name": "White Tigress Maple",
+        "scientific_name": [
+            "Acer tegmentosum 'White Tigress'"
+        ],
+        "other_name": [
+            "Manchurian Striped Maple"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/168_acer_tegmentosum_white_tigress/small/800px-Acer_tegmentosum_-_Morris_Arboretum_-_DSC00441.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 30,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "August",
+                "December",
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "August"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The White Tigress Maple is an amazing species of tree that is sure to put a smile on anyone's face. It is adorned with boldly contrasting foliage consisting of white and green leaves that often turn orange-red in the summer. White Tigress Maple is a low-maintenance Maple tree, which makes it ideal for any landscape. In addition, it is a fast grower and grows up to 30 feet in height with a 25-foot spread, making it a great source of shade. Its white flowers are very attractive and it provides a beautiful overall display. With its stunning foliage and low-maintenance requirements, the White Tigress Maple is a winner in any garden."
+        }
+    },
+    {
+        "plant_id": 270,
+        "common_name": "Gold Rider Leyland Cypress",
+        "scientific_name": [
+            "Cupressocyparis x leylandii 'Gold Rider'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 35,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Gold Rider Leyland Cypress (Cupressocyparis x leylandii 'Gold Rider') is an amazing plant species. An evergreen conifer with a beautiful bright gold new growth, contrasting dark-green mature foliage and sharply contrasting gold tips on the branch ends. It has an upright, bushy habit and can reach heights of up to 40 feet with a 3-foot spread - making it ideal for hedges, windbreaks, and screens. Plus, it is very tolerant of various soil types, thrives in climates with hot summers, and is also very wind and drought tolerant. Gold Rider Leyland Cypress is also unmatched in versatility as it can be grown in containers as well as directly in the ground. An easy-care, but stunning addition to any garden."
+        }
+    },
+    {
+        "plant_id": 821,
+        "common_name": "windflower",
+        "scientific_name": [
+            "Anemone hybrida 'Lady Gilmour'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/821_anemone_hybrida_lady_gilmour/small/51559945315_4df8ec30b5_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 4,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Windflower (Anemone hybrida 'Lady Gilmour') is an amazing plant species for any garden. It boasts stunning, 3-inch lavender-blue windflowers which bloom in early spring, surrounding elegant foliage. It's an easy-care perennial, tolerant of a wide range of soil pH levels, and is useful in rock gardens, border edges, or a cottage garden. It attracts both butterflies and hummingbirds, is deer and rabbit resistant, and grows best in full sun to partial shade. Its beauty, hardiness, and easy maintenance make Windflower an ideal choice to beautify your garden."
+        }
+    },
+    {
+        "plant_id": 703,
+        "common_name": "grey alder",
+        "scientific_name": [
+            "Alnus incana"
+        ],
+        "other_name": [
+            "Tag Alder",
+            "Grey Alder",
+            "Hoary Alder",
+            "Mountain Alder",
+            "White Alder",
+            "Grey Alder",
+            "Hoary Alder",
+            "Mountain Alder",
+            "White Alder"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "Sun",
+            " Partial Shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/703_alnus_incana/small/52399973491_ccfed31074_b.jpg",
+        "extra_info": {
+            "family": "Betulaceae",
+            "type": "Tree",
+            "max_height": 60,
+            "pruning_month": [
+                "February"
+            ],
+            "maintenance": "Low",
+            "soil": [
+                "Sandy Loamy Clay Humus"
+            ],
+            "growth_rate": "Low",
+            "invasive": true,
+            "indoor": true,
+            "care_level": "Low",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Grey Alder (Alnus incana) is an amazing species of plant due to its hardy nature. It is native to much of Europe, Asia and North America, and can tolerate a variety of soil and climate conditions. Grey Alder is often planted as an ornamental tree due to its distinctive grey-green foliage and spreading habit. It is also a valuable wildlife species, providing food and shelter to a variety of birds and animals. Grey Alder is also often chosen for improving soil fertility and helping to protect watersheds from pollutants. This resilient species is great for urban and rural landscaping and is definitely worth consideration!"
+        }
+    },
+    {
+        "plant_id": 318,
+        "common_name": "Bay Laurel",
+        "scientific_name": [
+            "Laurus nobilis"
+        ],
+        "other_name": [
+            "Sweet Bay",
+            "Bay Leaf"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part sun/part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/318_laurus_nobilis/small/24776239912_a8a8ce8368_b.jpg",
+        "extra_info": {
+            "family": "Lauraceae",
+            "type": "tree",
+            "max_height": 30,
+            "pruning_month": [
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "May",
+                "September",
+                "October",
+                "November",
+                "May",
+                "June",
+                "July",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November"
+            ],
+            "maintenance": "Moderate",
+            "soil": [
+                "Well-drained"
+            ],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Bay Laurel (Laurus nobilis) is a hardy, evergreen shrub native to the Mediterranean. This versatile plant is well known for its culinary use as a flavorful herb, but it is also admired for its ornamental features. The glossy, dark green Bay Laurel leaves can be used fresh or dried for a range of culinary dishes. Additionally, it can make a great addition to any garden due to its beauty. The tree can grow up to 4 meters in height and its fragrant yellow flowers will attract pollinators. It is also incredibly easy to care for and can grow in a variety of climates. In conclusion, the Bay Laurel is an amazing plant species due to its unique flavors, ornamental features, and hardy nature."
+        }
+    },
+    {
+        "plant_id": 892,
+        "common_name": "columbine",
+        "scientific_name": [
+            "Aquilegia 'Spezialrasse'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "Full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/892_aquilegia_spezialrasse/small/52178317178_05de321273_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 2.5,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "Moderate",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Columbine (Aquilegia 'Spezialrasse') is a truly spectacular plant. Its elegant, bell-shaped blooms in bright shades of red, purple and yellow make a gorgeous floral display that is sure to draw attention. The lush, green foliage and long-lasting blooms add color and texture to the garden while providing excellent cut flowers. This unique species is also very hardy and can tolerate shade, sun and even poor soil conditions. With regular watering and fertilization, columbine will remain a stunning addition to your garden for many seasons."
+        }
+    },
+    {
+        "plant_id": 277,
+        "common_name": "Japanese Blueberry Tree",
+        "scientific_name": [
+            "Elaeocarpus decipiens"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "3",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/277_elaeocarpus_decipiens/small/2560px-Elaeocarpus_decipiens_at_Mounts_Botanical_Garden.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 40,
+            "pruning_month": [
+                "December",
+                "January",
+                "November",
+                "February"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": true,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Japanese Blueberry Tree, Elaeocarpus decipiens, is a truly amazing species of tree. It is native to Japan, and its beautiful foliage and delicate spring flowers make it an ideal ornamental in any garden. It can grow up to 20 feet tall and has unique, fan-shaped leaves that are an eye-catching deep green. Aside from its ornamental qualities, it produces edible blueberry-like fruits that, while small, are full of flavor. These fruits are especially noted for their sweetness and fragrant aroma. For those looking for an elegant and productive tree, the Japanese Blueberry Tree is an ideal choice."
+        }
+    },
+    {
+        "plant_id": 56,
+        "common_name": "Green Hornet Cutleaf Japanese Maple*",
+        "scientific_name": [
+            "Acer palmatum 'Green Hornet'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/56_acer_palmatum_green_hornet/small/Acer_palmatum_var._dissectum_Viridis_0zz.jpg",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 8,
+            "pruning_month": [
+                "May",
+                "June",
+                "July"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Moderate",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Green Hornet Cutleaf Japanese Maple (Acer palmatum 'Green Hornet') is an eye-catching accent tree for your garden. With its vibrant green and yellow-orange leaves, it provides spectacular colour all year round. Its deeply cut, delicate lobed leaves provide an interesting texture, while its cascading growth pattern creates a stunning visual effect. This small tree is perfect in rock gardens, adding a burst of colour and life to any space. Its hardy nature and resistance to disease makes it an excellent addition to any landscape. Green Hornet Cutleaf Japanese Maple is easy to maintain, requiring minimal pruning and upkeep. With its amazing foliage and low maintenance needs, it's an ideal choice for any garden."
+        }
+    },
+    {
+        "plant_id": 755,
+        "common_name": "Joseph's coat",
+        "scientific_name": [
+            "Amaranthus tricolor (vegetable group)"
+        ],
+        "other_name": [],
+        "cycle": "Annual",
+        "watering_frequency_in_days": "2",
+        "sunlight": [
+            "full sun"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": "Amaranthaceae",
+            "type": "Vegetable",
+            "max_height": 4,
+            "pruning_month": [
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": null,
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Joseph's Coat (Amaranthus tricolor) is a kaleidoscopic vegetable with an undeniable wow factor. This annual ornamental plant produces astonishingly vibrant three-toned foliage, a colourful mix of green, pink, purple and red making it a must have for gardeners who want an eye-catching show of colour. Joseph's coat is also easy to grow, tolerating many soil and water conditions and prefers warm weather. The plant can grow to a significant size, adding a lush decorative backdrop to any garden. Not only admirable in the landscape, Joseph's coat packs a nutritious punch and is edible. Add the colorful leaves to salads, soups and stir fries; they are high in vitamins, minerals and antioxidants."
+        }
+    },
+    {
+        "plant_id": 191,
+        "common_name": "Whitespire Birch",
+        "scientific_name": [
+            "Betula populifolia 'Whitespire'"
+        ],
+        "other_name": [
+            "Betula platyphylla"
+        ],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "part sun/part shade",
+            "full sun"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/191_betula_populifolia_whitespire/small/Betula_populifolia_leaves.jpg",
+        "extra_info": {
+            "family": "Betulaceae",
+            "type": "tree",
+            "max_height": 40,
+            "pruning_month": [
+                "February",
+                "March",
+                "April"
+            ],
+            "maintenance": "High",
+            "soil": [
+                "Sand"
+            ],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Whitespire Birch (Betula populifolia 'Whitespire') is a stunning deciduous tree with a truly stunning white bark. It is native to eastern North America and is a great choice for landscaping due to its size and graceful structure. In addition to its attractive exterior, Whitespire Birch is also known for its tolerance to drought and it is relatively pest and disease-resistant. The leaves of this tree are also admired for its blue-green color and its serrated shape that becomes yellow in the fall. For those looking to liven up a space, Whitespire Birch is a great option that offers both ecological benefits and beauty."
+        }
+    },
+    {
+        "plant_id": 38,
+        "common_name": "Azuma Murasaki Japanese Maple",
+        "scientific_name": [
+            "Acer palmatum 'Azuma Murasaki'"
+        ],
+        "other_name": [],
+        "cycle": "Perennial",
+        "watering_frequency_in_days": "7",
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://images.pexels.com/photos/1002703/pexels-photo-1002703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "extra_info": {
+            "family": null,
+            "type": "tree",
+            "max_height": 15,
+            "pruning_month": [
+                "February",
+                "March",
+                "April",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September"
+            ],
+            "maintenance": null,
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Medium",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "The Azuma Murasaki Japanese Maple is an amazing species due to its exquisite foliage. In spring the foliage is a deep purple that transitions to the bright green of summer. In autumn, the leaves turn from yellow to red to orange, creating a truly stunning display of color. The delicate, lacy leaves are stunning in any landscape and can be enjoyed for their beauty for many months out of the year. As an added benefit, this hardy plant is resistant to disease and pests, making it an ideal species for all kinds of spaces."
+        }
+    },
+    {
+        "plant_id": 817,
+        "common_name": "Japanese anemone",
+        "scientific_name": [
+            "Anemone hupehensis var. japonica 'Prinz Heinrich'"
+        ],
+        "other_name": [],
+        "cycle": "Herbaceous Perennial",
+        "watering_frequency_in_days": null,
+        "sunlight": [
+            "full sun",
+            "part shade"
+        ],
+        "default_image": "https://perenual.com/storage/species_image/817_anemone_hupehensis_var_japonica_prinz_heinrich/small/52319889353_607924bbf8_b.jpg",
+        "extra_info": {
+            "family": "Ranunculaceae",
+            "type": "Flower",
+            "max_height": 3,
+            "pruning_month": [
+                "December",
+                "January",
+                "March",
+                "April",
+                "May"
+            ],
+            "maintenance": "Low",
+            "soil": [],
+            "growth_rate": "Low",
+            "invasive": false,
+            "indoor": false,
+            "care_level": "Moderate",
+            "medicinal": false,
+            "poisonous_to_humans": 0,
+            "poisonous_to_pets": 0,
+            "description": "Japanese anemone (Anemone hupehensis var. japonica 'Prinz Heinrich') is a stunning and unique flower beloved for its beauty. It stands out in any garden due to its bold pink flowers and long-lasting blooms which start in mid-summer and last through autumn. The ample flower petals are deeply lobed and the clusters of furry stamens add to its charm. Its foliage is also attractive, with delicate, deeply lobed leaves in dark green. This perennial plant will brighten up any garden with its beauty and comes in other varieties with white and red blooms as well. Japanese anemone is easy to look after and soil conditions don't have to be perfect for it to thrive, making it a great choice for any flower enthusiast."
+        }
+    }
+]

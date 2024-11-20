@@ -9,10 +9,18 @@
   "scripts": {
     "prepare": "husky",
     "test": "jest",
-    "seed": "node ./db/seeds/seed.js"
+    "perenual": "node ./db/seeds/utils/api.js",
+    "seed-plants-test": "node ./db/seeds/test-seeds/plants.seed.js",
+    "seed-user_gardens-test": "node ./db/seeds/test-seeds/user_gardens.seed.js",
+    "seed-users-test": "node ./db/seeds/test-seeds/users.seed.js",
+    "seed-plants-dev": "node ./db/seeds/development-seeds/plants.seed.js",
+    "seed-user_gardens-dev": "node ./db/seeds/development-seeds/user_gardens.seed.js",
+    "seed-users-dev": "node ./db/seeds/development-seeds/users.seed.js"
   },
   "dependencies": {
     "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "jest": "^29.7.0",
     "mongodb": "^6.10.0",

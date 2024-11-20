@@ -9,21 +9,14 @@ const getAllPlants = (writeOrAppend) => {
   if (writeOrAppend !== "append" && writeOrAppend !== "write") {
     throw new Error("Please use append or write in the getAllPlants function");
   }
-  // return api
-  //   .get(`/species-list`, {
-  //     params: {
-  //       // key: "sk-hy196735e4da80ca17633", //main key
-  //       key: "sk-89b8673ca3abd7c037695", //alt key
-  //     },
-  //   })
-  //   .then(({ data: { data } }) => {
-  //     return data.map((plant) => plant.id);
-  //   })
-  //   .then((plantIds) => {
   const plantIds = [
-    543, 877, 866, 980, 303, 940, 65, 626, 472, 287, 765, 125, 730, 568, 525,
-    914, 339, 716, 418, 563, 607, 517, 678, 918, 385, 804, 687, 237, 499, 454,
-    25, 968, 148, 723, 854, 984, 831, 156, 147, 789,
+    935, 830, 499, 697, 322, 215, 274, 308, 391, 58, 597, 443, 135, 588, 708,
+    470, 703, 688, 489, 502, 834, 890, 493, 381, 322, 101, 173, 325, 637, 646,
+    637, 3, 530, 999, 501, 503, 210, 198, 153, 376, 116, 760, 735, 859, 970,
+    299, 533, 266, 773, 179, 499, 1, 680, 822, 509, 645, 161, 809, 917, 462,
+    236, 715, 738, 884, 512, 865, 842, 148, 533, 525, 91, 537, 866, 299, 446,
+    655, 787, 22, 431, 170, 739, 999, 870, 960, 22, 494, 424, 934, 168, 270,
+    821, 703, 318, 892, 277, 56, 755, 191, 38, 817,
   ];
   const mappedPlants = plantIds.map((plant_id) => {
     return api
@@ -31,7 +24,8 @@ const getAllPlants = (writeOrAppend) => {
         params: {
           // key: "sk-hy196735e4da80ca17633", //main key
           // key: "sk-89b8673ca3abd7c037695", //alt key
-          key: "sk-K5a1673cd533db6bb7691", //key number 3
+          // key: "sk-K5a1673cd533db6bb7691", //key number 3
+          key: "sk-7ct3673dc7370b6ab7709", //Su's key
         },
       })
       .then(({ data }) => {
@@ -75,8 +69,8 @@ const getAllPlants = (writeOrAppend) => {
       const plantsToJSON = JSON.stringify(plants, null, 4);
 
       writeOrAppend === "append"
-        ? fs.appendFile("db/data/test-data/plants.json", plantsToJSON)
-        : fs.writeFile("db/data/test-data/plants.json", plantsToJSON);
+        ? fs.appendFile("db/data/development-data/plants.json", plantsToJSON)
+        : fs.writeFile("db/data/development-data/plants.json", plantsToJSON);
     })
     .then(() => {
       console.log("File written or appended");
@@ -85,8 +79,7 @@ const getAllPlants = (writeOrAppend) => {
       throw error;
     });
 };
+
 getAllPlants("write");
-//);
-//}
 
 module.exports = { getAllPlants };

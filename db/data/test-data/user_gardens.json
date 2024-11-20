@@ -1,0 +1,104 @@
+[
+  {
+    "user_id": 1,
+    "user_plants": [
+      {
+        "garden_plant_id": 1,
+        "plant_id": 385,
+        "last_watered": "18/11/24",
+        "nickname": "Sammy",
+        "journal_entries": [
+          {
+            "date": "15/11/24",
+            "text": "My plant is small",
+            "height_entry_in_cm": 30
+          },
+          {
+            "date": "22/11/24",
+            "text": "My plant is growing",
+            "height_entry_in_cm": 40
+          },
+          {
+            "date": "23/11/24",
+            "text": "My plant is HUGE",
+            "height_entry_in_cm": 90
+          }
+        ]
+      },
+      {
+        "garden_plant_id": 2,
+        "plant_id": 125,
+        "last_watered": "12/11/24",
+        "nickname": "Johnny",
+        "journal_entries": [
+          {
+            "date": "15/11/24",
+            "text": "My plant is small",
+            "height_entry_in_cm": 30
+          },
+          {
+            "date": "22/11/24",
+            "text": "My plant is growing",
+            "height_entry_in_cm": 40
+          },
+          {
+            "date": "23/11/24",
+            "text": "My plant is HUGE",
+            "height_entry_in_cm": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "user_plants": [
+      {
+        "garden_plant_id": 1,
+        "plant_id": 980,
+        "last_watered": "18/11/24",
+        "nickname": "Peter",
+        "journal_entries": [
+          {
+            "date": "15/11/24",
+            "text": "My plant is small",
+            "height_entry_in_cm": 30
+          },
+          {
+            "date": "22/11/24",
+            "text": "My plant is growing",
+            "height_entry_in_cm": 40
+          },
+          {
+            "date": "23/11/24",
+            "text": "My plant is HUGE",
+            "height_entry_in_cm": 90
+          }
+        ]
+      },
+      {
+        "garden_plant_id": 2,
+        "plant_id": 303,
+        "last_watered": "12/11/24",
+        "nickname": "Amy",
+        "journal_entries": [
+          {
+            "date": "15/11/24",
+            "text": "My plant is small",
+            "height_entry_in_cm": 30
+          },
+          {
+            "date": "22/11/24",
+            "text": "My plant is growing",
+            "height_entry_in_cm": 40
+          },
+          {
+            "date": "23/11/24",
+            "text": "My plant is HUGE",
+            "height_entry_in_cm": 90
+          }
+        ]
+      }
+    ]
+  }
+]
