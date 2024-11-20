@@ -9,13 +9,7 @@
   "scripts": {
     "prepare": "husky",
     "test": "jest",
-    "perenual": "node ./db/seeds/utils/api.js",
-    "seed-plants-test": "node ./db/seeds/test-seeds/plants.seed.js",
-    "seed-user_gardens-test": "node ./db/seeds/test-seeds/user_gardens.seed.js",
-    "seed-users-test": "node ./db/seeds/test-seeds/users.seed.js",
-    "seed-plants-dev": "node ./db/seeds/development-seeds/plants.seed.js",
-    "seed-user_gardens-dev": "node ./db/seeds/development-seeds/user_gardens.seed.js",
-    "seed-users-dev": "node ./db/seeds/development-seeds/users.seed.js"
+    "seed-dev": "node db/seeds/run-seed-dev.js "
   },
   "dependencies": {
     "axios": "^1.7.7",
