@@ -1,16 +1,12 @@
 const { MongoClient } = require("mongodb");
+const ENV = process.env.NODE_ENV || "development";
 
-const config = {
-  dev: {
-    uri: "mongodb://localhost:27017",
-  },
-  test: {
-    uri: "mongodb://localhost:27017",
-  },
-};
+require("dotenv").config({
+  path: `${__dirname}/../.env.${ENV}`,
+});
 
-const env = process.env.NODE_ENV || "dev";
+const URI = process.env.MONGO_URI;
 
-const client = new MongoClient(config[env].uri);
+const client = new MongoClient(URI);
 
 module.exports = client;
