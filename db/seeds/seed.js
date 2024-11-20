@@ -1,4 +1,4 @@
-const client = require("../../connection");
+const client = require("../connection");
 const plantsToSeed = require(`../../data/${
   process.env.NODE_ENV || "development"
 }-data/plants.json`);
@@ -10,8 +10,7 @@ const user_gardensToSeed = require(`../../data/${
 }-data/user_gardens.json`);
 
 const seedCollections = () => {
-  console.log(client, "< client");
-  client
+  return client
     .connect()
     .then(() => {
       console.log("Connected to the database.");
@@ -19,14 +18,13 @@ const seedCollections = () => {
       const plants = db.collection("plants");
       const users = db.collection("users");
       const user_gardens = db.collection("user_gardens");
-
-      return Promise.all([plants.drop(), users.drop(), user_gardens.drop()])
-        .then(() => {
-          console.log("Existing collections dropped.");
-        })
-        .then(() => plants.insertMany(plantsToSeed))
-        .then(() => users.insertMany(usersToSeed))
-        .then(() => user_gardens.insertMany(user_gardensToSeed));
+    return Promise.all([plants.drop(), users.drop(), user_gardens.drop()])
+      .then(() => {
+        console.log("Existing collections dropped.");
+      })
+      .then(() => plants.insertMany(plantsToSeed))
+      .then(() => users.insertMany(usersToSeed))
+      .then(() => user_gardens.insertMany(user_gardensToSeed));
     })
     .then(() => {
       console.log("Collections seeded successfully!");
@@ -44,5 +42,8 @@ const seedCollections = () => {
       );
     });
 };
+
+// Run for development database with npm run seed-dev:
+seedCollections();
 
 module.exports = { seedCollections };

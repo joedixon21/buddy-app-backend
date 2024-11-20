@@ -1,7 +1,7 @@
 const request = require("supertest");
 const client = require("../db/connection");
 // const app = require("../app");
-const { seedCollections } = require("../db/seeds/test-seeds/plants.seed");
+const { seedCollections } = require("../db/seeds/seed");
 // const {
 //   seedUser_gardens,
 // } = require("../db/seeds/test-seeds/user_gardens.seed");
