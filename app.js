@@ -3,9 +3,9 @@ const app = express();
 const cors = require("cors");
 
 // Require controller functions here
-const {} = require("./controllers/plants.controller");
-const {} = require("./controllers/user_gardens.controller");
-const {} = require("./controllers/users.controller");
+// const {} = require("./controllers/plants.controller");
+// const {} = require("./controllers/user_gardens.controller");
+// const {} = require("./controllers/users.controller");
 
 const { customErrorHandle, ServerErrorHandle } = require("./error-handling");
 

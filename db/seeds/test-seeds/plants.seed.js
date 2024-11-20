@@ -1,41 +1,48 @@
-const { MongoClient } = require("mongodb");
-const plantsToSeed = require("../../data/test-data/plants.json");
+const client = require("../../connection");
+const plantsToSeed = require(`../../data/${
+  process.env.NODE_ENV || "development"
+}-data/plants.json`);
+const usersToSeed = require(`../../data/${
+  process.env.NODE_ENV || "development"
+}-data/users.json`);
+const user_gardensToSeed = require(`../../data/${
+  process.env.NODE_ENV || "development"
+}-data/user_gardens.json`);
 
-export const seedPlants = () => {
-  // Connection URL
-  const uri = "mongodb://localhost:27017";
-
-  // Test Data
-
-  const client = new MongoClient(uri);
-
+const seedCollections = () => {
+  console.log(client, "< client");
   client
     .connect()
     .then(() => {
       console.log("Connected to the database.");
-      const db = client.db("buddy_test");
+      const db = client.db(`buddy_${process.env.NODE_ENV || "dev"}`);
       const plants = db.collection("plants");
+      const users = db.collection("users");
+      const user_gardens = db.collection("user_gardens");
 
-      // Drop the plants collection if it exists
-      return plants
-        .drop()
+      return Promise.all([plants.drop(), users.drop(), user_gardens.drop()])
         .then(() => {
-          console.log("Existing plants collection dropped.");
-        })
-        .catch(() => {
-          console.log(
-            "No existing plants collection found. Proceeding to seed data."
-          );
+          console.log("Existing collections dropped.");
         })
         .then(() => plants.insertMany(plantsToSeed))
-        .then(() => {
-          console.log("Plants collection seeded successfully!");
-        });
+        .then(() => users.insertMany(usersToSeed))
+        .then(() => user_gardens.insertMany(user_gardensToSeed));
     })
-    .catch((err) => {
-      console.error(
-        "An error occurred while seeding the plants collection:",
-        err
+    .then(() => {
+      console.log("Collections seeded successfully!");
+    })
+    .then(() => {
+      if (!process.env.NODE_ENV) {
+        client.close().then(() => {
+          console.log("Database connection closed.");
+        });
+      }
+    })
+    .catch(() => {
+      console.log(
+        "At least one of the existing collections not found. Cannot seed data."
       );
     });
 };
+
+module.exports = { seedCollections };

@@ -2,10 +2,10 @@ const { MongoClient } = require("mongodb");
 
 const config = {
   dev: {
-    uri: "mongodb://localhost:27017/buddy_dev",
+    uri: "mongodb://localhost:27017",
   },
   test: {
-    uri: "mongodb://localhost:27017/buddy_test",
+    uri: "mongodb://localhost:27017",
   },
 };
 
