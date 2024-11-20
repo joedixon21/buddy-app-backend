@@ -1,8 +1,12 @@
 const mongoose = require("mongoose");
 
-exports.fetchAllPlantsList = mongoose.Schema({
+const PlantListSchema = mongoose.Schema({
   common_name: {
     type: String,
     required: true,
   },
 });
+
+const Plant = mongoose.model("Plant", PlantListSchema);
+
+module.exports = Plant;

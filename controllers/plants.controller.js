@@ -1,7 +1,7 @@
-const { fetchAllPlantsList } = require("../models/plants.model");
+const Plant = require("../models/plants.model");
 
 exports.getAllPlantsList = (request, response, next) => {
-  fetchAllPlantsList()
+  const plant = Plant.find({})
     .then(() => {})
     .catch((err) => {
       next(err);
