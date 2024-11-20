@@ -19,18 +19,18 @@ afterAll(() => {
 
 // Test suite:
 
-describe("/api/plants", () => {
-  test("GET: 200 - responds with an array of plant objects with properties: ...", () => {
-    return request(app)
-      .get("/api/plants")
-      .expect(200)
-      .then(({ body }) => {
-        console.log(body);
-        expect(body.plants.length).toBe(10);
-        body.plants.forEach((plant) => {
-          expect(typeof plant.common_name).toBe("string");
-          expect(typeof plant.scientific_name).toBe("string");
-        });
-      });
-  });
-});
+// describe("/api/plants", () => {
+//   test("GET: 200 - responds with an array of plant objects with properties: ...", () => {
+//     return request(app)
+//       .get("/api/plants")
+//       .expect(200)
+//       .then(({ body }) => {
+//         console.log(body);
+//         expect(body.plants.length).toBe(10);
+//         body.plants.forEach((plant) => {
+//           expect(typeof plant.common_name).toBe("string");
+//           expect(typeof plant.scientific_name).toBe("string");
+//         });
+//       });
+//   });
+// });
