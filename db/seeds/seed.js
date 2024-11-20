@@ -1,5 +1,5 @@
 const { MongoClient } = require("mongodb");
-const plantsToEnterToDb = require("../../test-data-structure/plants.json");
+const plantsToEnterToDb = require("../data/test-data/plants.json");
 
 // Connection URL
 const uri = "mongodb://localhost:27017";

@@ -20,7 +20,11 @@ const getAllPlants = (writeOrAppend) => {
   //     return data.map((plant) => plant.id);
   //   })
   //   .then((plantIds) => {
-  const plantIds = [1, 2, 737, 92, 65, 29, 55, 18, 56, 10];
+  const plantIds = [
+    543, 877, 866, 980, 303, 940, 65, 626, 472, 287, 765, 125, 730, 568, 525,
+    914, 339, 716, 418, 563, 607, 517, 678, 918, 385, 804, 687, 237, 499, 454,
+    25, 968, 148, 723, 854, 984, 831, 156, 147, 789,
+  ];
   const mappedPlants = plantIds.map((plant_id) => {
     return api
       .get(`/species/details/${plant_id}`, {
@@ -50,10 +54,7 @@ const getAllPlants = (writeOrAppend) => {
           extra_info: {
             family: plant.family,
             type: plant.type,
-            height: {
-              min_value_in_ft: plant.dimensions.min_value,
-              max_value_in_ft: plant.dimensions.max_value,
-            },
+            max_height: plant.dimensions.max_value,
             pruning_month: plant.pruning_month,
             maintenance: plant.maintenance,
             soil: plant.soil,
@@ -71,11 +72,11 @@ const getAllPlants = (writeOrAppend) => {
   });
   return Promise.all(mappedPlants)
     .then((plants) => {
-      const plantsToJSON = JSON.stringify(plants);
+      const plantsToJSON = JSON.stringify(plants, null, 4);
 
       writeOrAppend === "append"
-        ? fs.appendFile("test-data-structure/plants.json", plantsToJSON)
-        : fs.writeFile("test-data-structure/plants.json", plantsToJSON);
+        ? fs.appendFile("db/data/test-data/plants.json", plantsToJSON)
+        : fs.writeFile("db/data/test-data/plants.json", plantsToJSON);
     })
     .then(() => {
       console.log("File written or appended");
@@ -84,6 +85,7 @@ const getAllPlants = (writeOrAppend) => {
       throw error;
     });
 };
+getAllPlants("write");
 //);
 //}
 
