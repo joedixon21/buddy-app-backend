@@ -19,6 +19,22 @@ const UserGardenSchema = new mongoose.Schema({
   user_plants: { type: [UserPlantSchema], required: true },
 });
 
-const UserGarden = mongoose.model("UserGarden", UserGardenSchema);
+const UserGarden = mongoose.model("user_garden", UserGardenSchema);
 
-module.exports = UserGarden;
+const fetchUserGardenByUserId = (user_id) => {
+  if (Number.isNaN(+user_id)) {
+    return Promise.reject({ msg: "Bad request", status: 400 });
+  }
+  return UserGarden.findOne({
+    user_id: user_id,
+  })
+    .exec()
+    .then((userGarden) => {
+      if (!userGarden) {
+        return Promise.reject({ msg: "Not found", status: 404 });
+      }
+      return userGarden;
+    });
+};
+
+module.exports = { fetchUserGardenByUserId };
