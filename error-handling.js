@@ -1,6 +1,6 @@
 exports.customErrorHandle = (err, request, response, next) => {
   if (err.status) {
-    response.status(err.status).send({ msg: err.msg });
+    response.status(err.status).send({ status: err.status, msg: err.msg });
   } else next(err);
 };
 

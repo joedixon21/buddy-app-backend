@@ -1,4 +1,4 @@
-const client = require("../connection");
+const { mongoose, URI, client } = require("../connection");
 const plantsToSeed = require(`../data/${
   process.env.NODE_ENV || "development"
 }-data/plants.json`);
@@ -8,49 +8,57 @@ const usersToSeed = require(`../data/${
 const user_gardensToSeed = require(`../data/${
   process.env.NODE_ENV || "development"
 }-data/user_gardens.json`);
-const db = client.db(process.env.MONGO_STACK);
-const plants = db.collection("plants");
-const users = db.collection("users");
-const user_gardens = db.collection("user_gardens");
 
 const seedCollections = () => {
+  const db = client.db(process.env.MONGO_STACK);
+  const plants = db.collection("plants");
+  const users = db.collection("users");
+  const user_gardens = db.collection("user_gardens");
+
   return client
     .connect()
     .then(() => {
       console.log("Connected to the database.");
 
-      return Promise.all([plants.drop(), users.drop(), user_gardens.drop()]);
+      return Promise.all([
+        plants
+          .drop()
+          .catch((err) =>
+            console.log("Plants collection not found:", err.message)
+          ),
+        users
+          .drop()
+          .catch((err) =>
+            console.log("Users collection not found:", err.message)
+          ),
+        user_gardens
+          .drop()
+          .catch((err) =>
+            console.log("User Gardens collection not found:", err.message)
+          ),
+      ]);
     })
     .then(() => {
-      console.log("Existing collections dropped.");
-    })
-    .then(() => {
-      return plants.insertMany(plantsToSeed);
-    })
-    .then(() => {
-      return users.insertMany(usersToSeed);
-    })
-    .then(() => {
-      return user_gardens.insertMany(user_gardensToSeed);
+      console.log("Existing collections dropped (or were already absent).");
+
+      return Promise.all([
+        plants.insertMany(plantsToSeed),
+        users.insertMany(usersToSeed),
+        user_gardens.insertMany(user_gardensToSeed),
+      ]);
     })
     .then(() => {
       console.log("Collections seeded successfully!");
     })
-    .then(() => {
-      if (!process.env.NODE_ENV) {
-        client.close().then(() => {
-          console.log("Database connection closed.");
-        });
-      } else return;
+    .finally(() => {
+      return client.close().then(() => {
+        console.log("Database connection closed.");
+      });
     })
     .catch((err) => {
-      console.log(err);
-      console.log(
-        "At least one of the existing collections not found. Cannot seed data."
-      );
+      console.error("Error during seeding:", err.message);
+      throw err;
     });
 };
-
-// Run for development database with npm run seed-dev:
 
 module.exports = { seedCollections };
