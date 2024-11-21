@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const PlantsSchema = mongoose.Schema({
+const PlantSchema = mongoose.Schema({
   plant_id: { type: String, required: true, index: { unique: true } },
   common_name: { type: String, required: true },
   scientific_name: [{ type: String }],
@@ -31,4 +31,12 @@ const PlantsSchema = mongoose.Schema({
   },
 });
 
-exports.Plants = mongoose.model("Plants", PlantsSchema);
+const Plant = mongoose.model("Plant", PlantSchema);
+
+const fetchAllPlants = () => {
+  return Plant.find({}).then((plants) => {
+    return plants;
+  });
+};
+
+module.exports = { fetchAllPlants };

@@ -1,23 +1,21 @@
 const express = require("express");
+const { mongoose, URI } = require("./db/connection");
 const app = express();
+const endpoints = require("./endpoints.json");
 const cors = require("cors");
-
-// Require controller functions here
-// const {} = require("./controllers/plants.controller");
+const { customErrorHandle, ServerErrorHandle } = require("./error-handling");
+const { getAllPlantsList } = require("./controllers/plants.controller");
 // const {} = require("./controllers/user_gardens.controller");
 // const {} = require("./controllers/users.controller");
+// app.use(cors());
 
-const { customErrorHandle, ServerErrorHandle } = require("./error-handling");
-
-app.use(cors());
 app.use(express.json());
 
 app.get("/api", (request, response) => {
-  response.status(200).send({ endpoints });
+  response.status(200).json({ endpoints });
 });
 
-// Insert API functions below
-app.get("/api/plants");
+app.get("/api/plants", getAllPlantsList);
 app.get("/api/plants/:plant_id");
 
 app.get("/api/:user_garden");
@@ -32,8 +30,17 @@ app.all("*", (request, response, next) => {
   response.status(404).send({ msg: "Path Not Found" });
 });
 
-// Update error handling below
 app.use(customErrorHandle);
 app.use(ServerErrorHandle);
+
+mongoose
+  .connect(URI)
+  .then(() => {
+    console.log("Connected to database!");
+  })
+  .catch((err) => {
+    console.log("Failed to connect to database.");
+    console.log(err);
+  });
 
 module.exports = app;
