@@ -7,12 +7,10 @@ const postUserGardenList = (request, response, next) => {
   console.log(request.body, "<< request body");
 
   createNewJournalEntry(user_id, garden_plant_id, journalEntry)
-    .then((updatedJournal) => {
-      console.log(updatedJournal, "<< in controller");
-      response.status(201).send(updatedJournal);
+    .then((newJournalEntry) => {
+      response.status(201).send({ new_entry: newJournalEntry });
     })
     .catch((err) => {
-      console.log(err);
       next(err);
     });
 };

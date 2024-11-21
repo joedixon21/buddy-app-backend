@@ -40,10 +40,11 @@ describe.only("/api/user_gardens/:user_id/:garden_plant_id", () => {
       .send(newJournalEntry)
       .expect(201)
       .then(({ body }) => {
-        expect(typeof body[3].text).toBe("string");
-        expect(typeof body[3].height_entry_in_cm).toBe("number");
-        expect(body[3].text).toBe("Leaves are looking a little yellow");
-        expect(body[3].height_entry_in_cm).toBe(20);
+        const newEntry = body.new_entry;
+        expect(typeof newEntry.text).toBe("string");
+        expect(typeof newEntry.height_entry_in_cm).toBe("number");
+        expect(newEntry.text).toBe("Leaves are looking a little yellow");
+        expect(newEntry.height_entry_in_cm).toBe(20);
       });
   });
 });
