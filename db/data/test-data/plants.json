@@ -11,7 +11,7 @@
             "Venus' Hair Fern"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "2",
+        "watering_frequency_in_days": 2,
         "sunlight": [
             "part shade",
             "part sun/part shade"
@@ -51,7 +51,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -140,7 +140,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun"
         ],
@@ -219,7 +219,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -292,7 +292,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "part shade",
             "full shade"
@@ -327,7 +327,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -364,7 +364,7 @@
             "European Beech"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -400,7 +400,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -511,7 +511,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "part shade",
             "full sun",
@@ -547,7 +547,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "part shade",
             "part sun/part shade",
@@ -585,7 +585,7 @@
             "Life Of Man"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Partial sun Shade"
         ],
@@ -628,7 +628,7 @@
             "Bull Bay"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -663,7 +663,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "5",
+        "watering_frequency_in_days": 5,
         "sunlight": [
             "full sun",
             "part shade"
@@ -700,7 +700,7 @@
             "Lowland Fir"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -736,7 +736,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -774,7 +774,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -887,7 +887,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun"
         ],
@@ -920,7 +920,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -967,7 +967,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "Full sun"
         ],
@@ -1039,7 +1039,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Filtered shade",
             " Full sun",
@@ -1079,7 +1079,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -1114,7 +1114,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -1227,7 +1227,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -1265,7 +1265,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -1298,7 +1298,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun"
         ],
@@ -1330,7 +1330,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -1368,7 +1368,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -1469,41 +1469,6 @@
             "poisonous_to_humans": 0,
             "poisonous_to_pets": 0,
             "description": "The Harlequin Norway Maple is an amazing and unique species of maple. Boasting bright green-yellow foliage and creamy white blooms, it’s a stunning addition to any garden. Its lush foliage provides plenty of shade, but also ensure that the hours of sunlight it does get will be enjoyed to the fullest. It grows best in full sun and is easy to care for; you’ll only need to prune it occasionally and make sure its soil is kept moist. It also produces small fruits that attract birds, so it’s sure to add a cheerful pop of color and wildlife to any outdoor space."
-        }
-    },
-    {
-        "plant_id": 789,
-        "common_name": "blue star",
-        "scientific_name": [
-            "Amsonia tabernaemontana var. salicifolia"
-        ],
-        "other_name": [],
-        "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
-        "sunlight": [
-            "full sun",
-            "part shade"
-        ],
-        "default_image": "https://perenual.com/storage/species_image/789_amsonia_tabernaemontana_var_salicifolia/small/33513881814_1dd810b855_b.jpg",
-        "extra_info": {
-            "family": "Apocynaceae",
-            "type": "Shrub",
-            "max_height": 3,
-            "pruning_month": [
-                "May",
-                "March",
-                "April"
-            ],
-            "maintenance": "Low",
-            "soil": [],
-            "growth_rate": "Low",
-            "invasive": false,
-            "indoor": false,
-            "care_level": "Medium",
-            "medicinal": true,
-            "poisonous_to_humans": 0,
-            "poisonous_to_pets": 0,
-            "description": "Blue Star (Amsonia tabernaemontana var. salicifolia) is an incredible native perennial that brightens up gardens throughout the summer. Bright star-shaped blue flowers are combined with shiny, willow-like foliage that supports the upright habit of this easy-to-care-for plant. This drought-tolerant beauty blooms in late spring, and its yellow and orange fall colors provide lasting interest in the garden. It draws birds, butterflies, and other beneficial insects. Versatile and hardy, Blue Star is an amazing specimen that adds texture and vibrant colors to any planting palette."
         }
     }
 ]
