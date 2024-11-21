@@ -28,3 +28,22 @@ describe("/api/plants", () => {
       });
   });
 });
+
+describe.only("/api/user_gardens/:user_id/:garden_plant_id", () => {
+  test("POST: 201 - responds with an object with journal entry", () => {
+    const newJournalEntry = {
+      text: "Leaves are looking a little yellow",
+      height_entry_in_cm: 20,
+    };
+    return request(app)
+      .post("/api/user_garden/1/plants/1/journal")
+      .send(newJournalEntry)
+      .expect(201)
+      .then(({ body }) => {
+        expect(typeof body[3].text).toBe("string");
+        expect(typeof body[3].height_entry_in_cm).toBe("number");
+        expect(body[3].text).toBe("Leaves are looking a little yellow");
+        expect(body[3].height_entry_in_cm).toBe(20);
+      });
+  });
+});

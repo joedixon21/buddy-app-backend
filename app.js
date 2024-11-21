@@ -5,7 +5,7 @@ const endpoints = require("./endpoints.json");
 const cors = require("cors");
 const { customErrorHandle, ServerErrorHandle } = require("./error-handling");
 const { getAllPlantsList } = require("./controllers/plants.controller");
-// const {} = require("./controllers/user_gardens.controller");
+const { postUserGardenList } = require("./controllers/user-gardens.controller");
 // const {} = require("./controllers/users.controller");
 // app.use(cors());
 
@@ -19,8 +19,11 @@ app.get("/api/plants", getAllPlantsList);
 app.get("/api/plants/:plant_id");
 
 app.get("/api/:user_garden");
-app.get("/api/:user_garden/:garden_plant_id");
-app.post("/api/:user_garden/:garden_plant_id");
+app.get("/api/user_garden/:garden_plant_id");
+app.post(
+  "/api/user_garden/:user_id/plants/:garden_plant_id/journal",
+  postUserGardenList
+);
 app.patch("/api/:user_garden/:garden_plant_id");
 app.delete("/api/:user_garden/:garden_plant_id");
 

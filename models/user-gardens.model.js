@@ -1,7 +1,10 @@
 const mongoose = require("mongoose");
 
 const JournalEntrySchema = new mongoose.Schema({
-  date: { type: String, required: true },
+  date: {
+    type: Date,
+    default: Date.now,
+  },
   text: { type: String, required: true },
   height_entry_in_cm: { type: Number, required: true },
 });
@@ -19,6 +22,23 @@ const UserGardenSchema = new mongoose.Schema({
   user_plants: { type: [UserPlantSchema], required: true },
 });
 
-const UserGarden = mongoose.model("UserGarden", UserGardenSchema);
+const UserGarden = mongoose.model("user_garden", UserGardenSchema);
 
-module.exports = UserGarden;
+const createNewJournalEntry = (user_id, garden_plant_id, journalEntry) => {
+  return UserGarden.findOne({ user_id })
+    .then((userGarden) => {
+      const updatedJournal = userGarden.user_plants.filter(
+        (plant) => plant.garden_plant_id === Number(garden_plant_id)
+      )[0];
+
+      updatedJournal.journal_entries.push(journalEntry);
+      updatedJournal.markModified("journal_entries");
+      return updatedJournal.save();
+    })
+    .then((updatedUserGarden) => {
+      console.log(updatedUserGarden.journal_entries, "<< new entry");
+      return updatedUserGarden.journal_entries;
+    });
+};
+
+module.exports = { UserGarden, createNewJournalEntry };
