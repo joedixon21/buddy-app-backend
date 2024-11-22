@@ -87,9 +87,28 @@ const createNewJournalEntry = (user_id, garden_plant_id, journalEntry) => {
     });
 };
 
+const removeUserGardenPlant = (user_id, garden_plant_id) => {
+  if (Number.isNaN(Number(user_id))) {
+    return Promise.reject({ status: 400, msg: "Bad Request" });
+  }
+  return UserGarden.findOne({ user_id })
+    .then((userGarden) => {
+      if (!userGarden) {
+        return Promise.reject({ status: 404, msg: "User Garden Not Found" });
+      }
+      userGarden.updateOne({
+        $pull: { user_plants: { garden_plant_id: Number(garden_plant_id) } },
+      });
+    })
+    .then((response) => {
+      return response;
+    });
+};
+
 module.exports = {
   fetchUserGardenByUserId,
   fetchUserGardenPlantByUserAndPlantId,
   createNewJournalEntry,
   UserGarden,
+  removeUserGardenPlant,
 };

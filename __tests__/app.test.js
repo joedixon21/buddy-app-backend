@@ -206,7 +206,7 @@ describe("api/user_gardens/:user_id/plants/:plant_id", () => {
   });
 });
 
-describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
+describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal", () => {
   test("POST: 201 - responds to a garden_plant_id with an object with a new journal entry added", () => {
     const newJournalEntry = {
       text: "Leaves are looking a little yellow",
@@ -259,6 +259,33 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
     return request(app)
       .post("/api/user_garden/1/plants/1/journal")
       .send(newJournalEntry)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad Request");
+      });
+  });
+});
+
+describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
+  test("DELETE: 204, responds by deleting a users garden plant by garden_plant_id", () => {
+    return request(app)
+      .delete("/api/user_garden/1/plants/1")
+      .expect(204)
+      .then(() => {
+        return request(app).get("/api/user_garden/1/plants/1").expect(404);
+      });
+  });
+  test("DELETE: 404, responds with an error when requested user does not exist on the database", () => {
+    return request(app)
+      .delete("/api/user_garden/9999/plants/1")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("User Garden Not Found");
+      });
+  });
+  test("DELETE: 400, responds with an error when invalid user_id data type is requested", () => {
+    return request(app)
+      .delete("/api/user_garden/not_valid_data/plants/1")
       .expect(400)
       .then(({ body }) => {
         expect(body.msg).toBe("Bad Request");
