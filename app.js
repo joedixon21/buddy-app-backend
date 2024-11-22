@@ -7,6 +7,7 @@ const { customErrorHandle, ServerErrorHandle } = require("./error-handling");
 const { getAllPlantsList } = require("./controllers/plants.controller");
 const {
   getUserGardenByUserId,
+  getUserGardenPlantByUserAndPlantId,
 } = require("./controllers/user_gardens.controller");
 // const {} = require("./controllers/user_gardens.controller");
 // const {} = require("./controllers/users.controller");
@@ -30,6 +31,11 @@ app.delete("/api/:user_garden/:garden_plant_id");
 app.get("/api/users");
 
 app.get("/api/user_gardens/:user_id", getUserGardenByUserId);
+
+app.get(
+  "/api/user_gardens/:user_id/plants/:plant_id",
+  getUserGardenPlantByUserAndPlantId
+);
 
 app.all("*", (request, response, next) => {
   response.status(404).send({ msg: "Path Not Found" });
