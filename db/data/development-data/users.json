@@ -2,11 +2,15 @@
   {
     "user_id": 1,
     "display_name": "Martha",
+    "email": "martha21@gmail.com",
+    "password": "123456",
     "user_access": 0
   },
   {
     "user_id": 2,
     "display_name": "Alan",
+    "email": "alan2121@gmail.com",
+    "password": "654321",
     "user_access": 1
   }
 ]

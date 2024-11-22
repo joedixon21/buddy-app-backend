@@ -3,6 +3,7 @@ const {
   fetchUserGardenPlantByUserAndPlantId,
   createNewJournalEntry,
   updateJournalTextByUserAndPlantAndJournalId,
+  removeUserGardenPlant,
 } = require("../models/user_gardens.model");
 
 const getUserGardenByUserId = (req, res, next) => {
@@ -59,9 +60,22 @@ const patchJournalTextByUserAndPlantAndJournalId = (req, res, next) => {
     });
 };
 
+const deleteUserGardenPlant = (request, response, next) => {
+  const { user_id, garden_plant_id } = request.params;
+
+  removeUserGardenPlant(user_id, garden_plant_id)
+    .then(() => {
+      response.status(204).send();
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
+
 module.exports = {
   getUserGardenByUserId,
   getUserGardenPlantByUserAndPlantId,
   postUserGardenList,
   patchJournalTextByUserAndPlantAndJournalId,
+  deleteUserGardenPlant,
 };
