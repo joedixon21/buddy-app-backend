@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const JournalEntrySchema = new mongoose.Schema({
-  date: { type: String, required: true },
+  date: { type: Number, default: Date.now() },
   text: { type: String, required: true },
-  height_entry_in_cm: { type: Number, required: true },
+  height_entry_in_cm: { type: Number },
 });
 
 const UserPlantSchema = new mongoose.Schema({
@@ -38,9 +38,6 @@ const fetchUserGardenByUserId = (userId) => {
 };
 
 const fetchUserGardenPlantByUserAndPlantId = ({ user_id, plant_id }) => {
-  console.log(Number.isNaN(Number(plant_id)), plant_id);
-  console.log(Number.isNaN(Number(user_id)), user_id);
-
   if (Number.isNaN(Number(plant_id)) || Number.isNaN(Number(user_id))) {
     return Promise.reject({ status: 400, msg: "Bad request" });
   }
@@ -60,7 +57,39 @@ const fetchUserGardenPlantByUserAndPlantId = ({ user_id, plant_id }) => {
   });
 };
 
+const createNewJournalEntry = (user_id, garden_plant_id, journalEntry) => {
+  if (journalEntry.text.length === 0) {
+    return Promise.reject({ status: 400, msg: "Bad Request" });
+  }
+  return UserGarden.findOne({ user_id })
+    .then((userGarden) => {
+      if (!userGarden) {
+        return Promise.reject({ status: 404, msg: "Not Found" });
+      }
+      const plantToUpdate = userGarden.user_plants.filter(
+        (plant) => plant.garden_plant_id === Number(garden_plant_id)
+      )[0];
+
+      if (!plantToUpdate) {
+        return Promise.reject({ status: 404, msg: "Not Found" });
+      }
+
+      plantToUpdate.journal_entries.push(journalEntry);
+
+      const newJournalEntry =
+        plantToUpdate.journal_entries[plantToUpdate.journal_entries.length - 1];
+
+      userGarden.markModified("user_plants");
+      return Promise.all([userGarden.save(), newJournalEntry]);
+    })
+    .then(([_, newJournalEntry]) => {
+      return newJournalEntry;
+    });
+};
+
 module.exports = {
   fetchUserGardenByUserId,
   fetchUserGardenPlantByUserAndPlantId,
+  createNewJournalEntry,
+  UserGarden,
 };
