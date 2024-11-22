@@ -9,17 +9,17 @@
         "nickname": "Sammy",
         "journal_entries": [
           {
-            "date": "15/11/24",
+            "date": 1732210199999,
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": "22/11/24",
+            "date": 1732210199999,
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": "23/11/24",
+            "date": 1732210199999,
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }
@@ -32,17 +32,17 @@
         "nickname": "Johnny",
         "journal_entries": [
           {
-            "date": "15/11/24",
+            "date": 1732210199999,
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": "22/11/24",
+            "date": 1732210199999,
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": "23/11/24",
+            "date": 1732210199999,
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }
@@ -60,17 +60,17 @@
         "nickname": "Peter",
         "journal_entries": [
           {
-            "date": "15/11/24",
+            "date": 1732210199999,
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": "22/11/24",
+            "date": 1732210199999,
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": "23/11/24",
+            "date": 1732210199999,
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }
@@ -83,17 +83,17 @@
         "nickname": "Amy",
         "journal_entries": [
           {
-            "date": "15/11/24",
+            "date": 1732210199999,
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": "22/11/24",
+            "date": 1732210199999,
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": "23/11/24",
+            "date": 1732210199999,
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }
