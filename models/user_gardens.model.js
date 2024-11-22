@@ -46,6 +46,7 @@ const fetchUserGardenPlantByUserAndPlantId = ({ user_id, plant_id }) => {
     if (!userGarden) {
       return Promise.reject({ status: 404, msg: "Not found" });
     }
+
     const plantToReturn = userGarden.user_plants.filter((plant) => {
       return plant.garden_plant_id === Number(plant_id);
     })[0];
@@ -53,6 +54,7 @@ const fetchUserGardenPlantByUserAndPlantId = ({ user_id, plant_id }) => {
     if (!plantToReturn) {
       return Promise.reject({ status: 404, msg: "Not found" });
     }
+
     return plantToReturn;
   });
 };
@@ -116,10 +118,72 @@ const removeUserGardenPlantJournalEntryById = (
     });
 };
 
+const updateJournalTextByUserAndPlantAndJournalId = (
+  userId,
+  gardenPlantId,
+  journalEntryId,
+  textToUpdate
+) => {
+  if (Number.isNaN(+userId) || Number.isNaN(+gardenPlantId)) {
+    return Promise.reject({ msg: "Bad request", status: 400 });
+  }
+  return UserGarden.findOne({ user_id: userId })
+    .exec()
+    .then((userGarden) => {
+      if (!userGarden) {
+        return Promise.reject({ msg: "Not found", status: 404 });
+      }
+
+      const targetPlant = userGarden.user_plants.filter((plant) => {
+        return plant.garden_plant_id === Number(gardenPlantId);
+      })[0];
+
+      if (!targetPlant) {
+        return Promise.reject({ msg: "Not found", status: 404 });
+      }
+
+      const targetJournalEntry = targetPlant.journal_entries.filter((entry) => {
+        return entry._id.toString() === journalEntryId;
+      })[0];
+
+      if (!targetJournalEntry) {
+        return Promise.reject({ msg: "Not found", status: 404 });
+      }
+
+      targetJournalEntry.text = textToUpdate;
+
+      userGarden.markModified("user_plants");
+      return Promise.all([userGarden.save(), targetJournalEntry]);
+    })
+    .then(([_, updatedJournalEntry]) => {
+      return updatedJournalEntry;
+    });
+};
+
+const removeUserGardenPlant = (user_id, garden_plant_id) => {
+  if (Number.isNaN(Number(user_id))) {
+    return Promise.reject({ status: 400, msg: "Bad Request" });
+  }
+  return UserGarden.findOne({ user_id })
+    .then((userGarden) => {
+      if (!userGarden) {
+        return Promise.reject({ status: 404, msg: "User Garden Not Found" });
+      }
+      userGarden.updateOne({
+        $pull: { user_plants: { garden_plant_id: Number(garden_plant_id) } },
+      });
+    })
+    .then((response) => {
+      return response;
+    });
+};
+
 module.exports = {
   fetchUserGardenByUserId,
   fetchUserGardenPlantByUserAndPlantId,
+  updateJournalTextByUserAndPlantAndJournalId,
   createNewJournalEntry,
   UserGarden,
   removeUserGardenPlantJournalEntryById,
+  removeUserGardenPlant,
 };

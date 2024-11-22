@@ -13,9 +13,14 @@ const {
   getUserGardenPlantByUserAndPlantId,
   postUserGardenList,
   deleteUserGardenPlantJournalEntryById,
+  patchJournalTextByUserAndPlantAndJournalId,
+  deleteUserGardenPlant,
 } = require("./controllers/user_gardens.controller");
 
-// const {} = require("./controllers/users.controller");
+const {
+  getAllUsersList,
+  getUserById,
+} = require("./controllers/users.controller");
 // app.use(cors());
 
 app.use(express.json());
@@ -25,28 +30,36 @@ app.get("/api", (request, response) => {
 });
 
 app.get("/api/plants", getAllPlantsList);
+
 app.get("/api/plants/:plant_id", getPlantById);
 
-app.get("/api/:user_garden");
-app.get("/api/user_garden/:garden_plant_id");
 app.post(
   "/api/user_garden/:user_id/plants/:garden_plant_id/journal",
   postUserGardenList
 );
 app.patch("/api/:user_garden/:garden_plant_id");
-app.delete("/api/:user_garden/:garden_plant_id");
+app.delete(
+  "/api/user_garden/:user_id/plants/:garden_plant_id",
+  deleteUserGardenPlant
+);
 app.delete(
   "/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_entry_id",
   deleteUserGardenPlantJournalEntryById
 );
 
-app.get("/api/users");
+app.get("/api/users", getAllUsersList);
+app.get("/api/users/:user_id", getUserById);
 
 app.get("/api/user_gardens/:user_id", getUserGardenByUserId);
 
 app.get(
   "/api/user_gardens/:user_id/plants/:plant_id",
   getUserGardenPlantByUserAndPlantId
+);
+
+app.patch(
+  "/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_entry_id",
+  patchJournalTextByUserAndPlantAndJournalId
 );
 
 app.all("*", (request, response, next) => {
