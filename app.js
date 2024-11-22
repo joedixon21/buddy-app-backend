@@ -14,7 +14,10 @@ const {
   postUserGardenList,
 } = require("./controllers/user_gardens.controller");
 
-// const {} = require("./controllers/users.controller");
+const {
+  getAllUsersList,
+  getUserById,
+} = require("./controllers/users.controller");
 // app.use(cors());
 
 app.use(express.json());
@@ -35,7 +38,8 @@ app.post(
 app.patch("/api/:user_garden/:garden_plant_id");
 app.delete("/api/:user_garden/:garden_plant_id");
 
-app.get("/api/users");
+app.get("/api/users", getAllUsersList);
+app.get("/api/users/:user_id", getUserById);
 
 app.get("/api/user_gardens/:user_id", getUserGardenByUserId);
 
