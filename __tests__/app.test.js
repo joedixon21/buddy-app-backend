@@ -280,7 +280,6 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_ent
         const journalId = targetPlant.journal_entries[0]._id;
         return journalId;
       });
-    console.log(journalEntryId);
     return request(app)
       .delete(`/api/user_garden/1/plants/1/journal/${journalEntryId}`)
       .expect(204)
