@@ -18,8 +18,6 @@ const seedCollections = () => {
   return client
     .connect()
     .then(() => {
-      console.log("Connected to the database.");
-
       return Promise.all([
         plants
           .drop()
@@ -39,21 +37,14 @@ const seedCollections = () => {
       ]);
     })
     .then(() => {
-      console.log("Existing collections dropped (or were already absent).");
-
       return Promise.all([
         plants.insertMany(plantsToSeed),
         users.insertMany(usersToSeed),
         user_gardens.insertMany(user_gardensToSeed),
       ]);
     })
-    .then(() => {
-      console.log("Collections seeded successfully!");
-    })
     .finally(() => {
-      return client.close().then(() => {
-        console.log("Database connection closed.");
-      });
+      return client.close();
     })
     .catch((err) => {
       console.error("Error during seeding:", err.message);

@@ -8,7 +8,12 @@ const {
   getAllPlantsList,
   getPlantById,
 } = require("./controllers/plants.controller");
-// const {} = require("./controllers/user_gardens.controller");
+const {
+  getUserGardenByUserId,
+  getUserGardenPlantByUserAndPlantId,
+  postUserGardenList,
+} = require("./controllers/user_gardens.controller");
+
 // const {} = require("./controllers/users.controller");
 // app.use(cors());
 
@@ -22,12 +27,22 @@ app.get("/api/plants", getAllPlantsList);
 app.get("/api/plants/:plant_id", getPlantById);
 
 app.get("/api/:user_garden");
-app.get("/api/:user_garden/:garden_plant_id");
-app.post("/api/:user_garden/:garden_plant_id");
+app.get("/api/user_garden/:garden_plant_id");
+app.post(
+  "/api/user_garden/:user_id/plants/:garden_plant_id/journal",
+  postUserGardenList
+);
 app.patch("/api/:user_garden/:garden_plant_id");
 app.delete("/api/:user_garden/:garden_plant_id");
 
 app.get("/api/users");
+
+app.get("/api/user_gardens/:user_id", getUserGardenByUserId);
+
+app.get(
+  "/api/user_gardens/:user_id/plants/:plant_id",
+  getUserGardenPlantByUserAndPlantId
+);
 
 app.all("*", (request, response, next) => {
   response.status(404).send({ msg: "Path Not Found" });
@@ -39,7 +54,7 @@ app.use(ServerErrorHandle);
 mongoose
   .connect(URI)
   .then(() => {
-    console.log("Connected to database!");
+    console.log("Connected to database.");
   })
   .catch((err) => {
     console.log("Failed to connect to database.");
