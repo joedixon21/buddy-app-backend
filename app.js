@@ -12,6 +12,7 @@ const {
   getUserGardenByUserId,
   getUserGardenPlantByUserAndPlantId,
   postUserGardenList,
+  deleteUserGardenPlantJournalEntryById,
 } = require("./controllers/user_gardens.controller");
 
 // const {} = require("./controllers/users.controller");
@@ -34,6 +35,10 @@ app.post(
 );
 app.patch("/api/:user_garden/:garden_plant_id");
 app.delete("/api/:user_garden/:garden_plant_id");
+app.delete(
+  "/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_entry_id",
+  deleteUserGardenPlantJournalEntryById
+);
 
 app.get("/api/users");
 

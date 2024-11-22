@@ -2,6 +2,7 @@ const {
   fetchUserGardenByUserId,
   fetchUserGardenPlantByUserAndPlantId,
   createNewJournalEntry,
+  removeUserGardenPlantJournalEntryById,
 } = require("../models/user_gardens.model");
 
 const getUserGardenByUserId = (req, res, next) => {
@@ -36,6 +37,24 @@ const postUserGardenList = (request, response, next) => {
       response.status(201).send({ new_entry: newJournalEntry });
     })
     .catch((err) => {
+      console.log(err);
+      next(err);
+    });
+};
+
+const deleteUserGardenPlantJournalEntryById = (request, response, next) => {
+  const { user_id, garden_plant_id, journal_entry_id } = request.params;
+
+  removeUserGardenPlantJournalEntryById(
+    user_id,
+    garden_plant_id,
+    journal_entry_id
+  )
+    .then(() => {
+      response.status(204).send();
+    })
+    .catch((err) => {
+      console.log(err, "<< err in controller");
       next(err);
     });
 };
@@ -44,4 +63,5 @@ module.exports = {
   getUserGardenByUserId,
   getUserGardenPlantByUserAndPlantId,
   postUserGardenList,
+  deleteUserGardenPlantJournalEntryById,
 };

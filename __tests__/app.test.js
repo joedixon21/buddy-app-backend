@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const app = require("../app");
 const { seedCollections } = require("../db/seeds/seed");
 const endpoints = require("../endpoints.json");
+const { UserGarden } = require("../models/user_gardens.model");
 
 beforeAll(() => {
   return seedCollections();
@@ -262,6 +263,31 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
       .expect(400)
       .then(({ body }) => {
         expect(body.msg).toBe("Bad Request");
+      });
+  });
+});
+
+describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_entry_id", () => {
+  test("DELETE: 204, responds by deleting a journal entry of a users plant within their garden", async () => {
+    const userId = 1;
+    const plantId = 1;
+    const journalEntryId = await UserGarden.findOne({ user_id: userId })
+      .exec()
+      .then((userGarden) => {
+        const targetPlant = userGarden.user_plants.filter((plant) => {
+          return plant.garden_plant_id === plantId;
+        })[0];
+        const journalId = targetPlant.journal_entries[0]._id;
+        return journalId;
+      });
+    console.log(journalEntryId);
+    return request(app)
+      .delete(`/api/user_garden/1/plants/1/journal/${journalEntryId}`)
+      .expect(204)
+      .then(() => {
+        return request(app)
+          .get(`/api/user_garden/1/plants/1/journal/${journalEntryId}`)
+          .expect(404);
       });
   });
 });
