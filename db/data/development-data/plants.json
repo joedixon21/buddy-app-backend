@@ -7,7 +7,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "part sun/part shade"
         ],
@@ -42,7 +42,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -76,7 +76,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -113,7 +113,7 @@
             "Chinese chives"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -161,7 +161,7 @@
             "American Sweet Gum"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -201,7 +201,7 @@
             "Judas Tree"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -242,7 +242,7 @@
             "Eastern Persimmon"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -274,7 +274,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -312,7 +312,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -348,7 +348,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "2",
+        "watering_frequency_in_days": 2,
         "sunlight": [
             "full sun",
             "part shade"
@@ -385,7 +385,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -426,7 +426,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -461,7 +461,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -496,7 +496,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -610,7 +610,7 @@
             "White Alder"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Sun",
             " Partial Shade"
@@ -645,7 +645,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -682,7 +682,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -765,7 +765,7 @@
         ],
         "other_name": [],
         "cycle": "Annual",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -803,7 +803,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -839,7 +839,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -876,7 +876,7 @@
             "Crabapple"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -912,7 +912,7 @@
             "American Sweet Gum"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -946,7 +946,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -982,7 +982,7 @@
             "Silktree"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -1022,7 +1022,7 @@
             "Whitewood"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun"
         ],
@@ -1063,7 +1063,7 @@
             "Bugleweed"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "part sun/part shade",
             "part shade"
@@ -1105,7 +1105,7 @@
             "Bugleweed"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -1151,7 +1151,7 @@
             "Bugleweed"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "part sun/part shade",
             "part shade"
@@ -1194,7 +1194,7 @@
             "Colorado Fir"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -1237,7 +1237,7 @@
             "cimicifuga"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "deep shade",
             "filtered shade",
@@ -1316,7 +1316,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -1350,7 +1350,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -1395,7 +1395,7 @@
             "Japanese katsura tree"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -1433,7 +1433,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "part shade",
             "full shade"
@@ -1474,7 +1474,7 @@
             "Scarlet Maple"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "2",
+        "watering_frequency_in_days": 2,
         "sunlight": [
             "full sun"
         ],
@@ -1510,7 +1510,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -1598,7 +1598,7 @@
             "Chuckleberry"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -1635,7 +1635,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -1670,7 +1670,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "Full sun"
         ],
@@ -1715,7 +1715,7 @@
             "Common Wormwood"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun"
         ],
@@ -1761,7 +1761,7 @@
             "ginkgo"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -1838,7 +1838,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             " Part sun/part shade",
@@ -1881,7 +1881,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -1916,7 +1916,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -1955,7 +1955,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -1992,7 +1992,7 @@
             "Common Silver Fir"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -2062,7 +2062,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2149,7 +2149,7 @@
             "Bugleweed"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -2187,7 +2187,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2227,7 +2227,7 @@
             "blue wood anemone"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2271,7 +2271,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Part shade"
         ],
@@ -2308,7 +2308,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2345,7 +2345,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2384,7 +2384,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "part shade"
         ],
@@ -2418,7 +2418,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2452,7 +2452,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2486,7 +2486,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2525,7 +2525,7 @@
             "Prairie Dogbane"
         ],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "Partial Shade"
         ],
@@ -2600,7 +2600,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part sun/part shade"
@@ -2679,7 +2679,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "part shade",
             "part sun/part shade",
@@ -2715,7 +2715,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2750,7 +2750,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2836,7 +2836,7 @@
             "ginkgo"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -2872,7 +2872,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2909,7 +2909,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2949,7 +2949,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"
@@ -2984,7 +2984,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -3019,7 +3019,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -3051,7 +3051,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -3087,7 +3087,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -3165,7 +3165,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -3202,7 +3202,7 @@
             "Chokeberry"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Sun",
             " Partial Shade"
@@ -3246,7 +3246,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -3281,7 +3281,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -3315,7 +3315,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun"
         ],
@@ -3349,7 +3349,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "Part shade",
             "full shade"
@@ -3463,7 +3463,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -3513,7 +3513,7 @@
             "White Alder"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "Sun",
             " Partial Shade"
@@ -3612,7 +3612,7 @@
         ],
         "other_name": [],
         "cycle": "Herbaceous Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "Full sun",
             "part shade"
@@ -3647,7 +3647,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "3",
+        "watering_frequency_in_days": 3,
         "sunlight": [
             "full sun",
             "part shade"
@@ -3718,7 +3718,7 @@
         ],
         "other_name": [],
         "cycle": "Annual",
-        "watering_frequency_in_days": "2",
+        "watering_frequency_in_days": 2,
         "sunlight": [
             "full sun"
         ],
@@ -3754,7 +3754,7 @@
             "Betula platyphylla"
         ],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "part sun/part shade",
             "full sun"
@@ -3791,7 +3791,7 @@
         ],
         "other_name": [],
         "cycle": "Perennial",
-        "watering_frequency_in_days": "7",
+        "watering_frequency_in_days": 7,
         "sunlight": [
             "full sun",
             "part shade"

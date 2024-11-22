@@ -1,4 +1,4 @@
-const { fetchAllPlants } = require("../models/plants.model");
+const { fetchAllPlants, fetchPlantById } = require("../models/plants.model");
 
 const getAllPlantsList = (request, response, next) => {
   fetchAllPlants()
@@ -6,9 +6,20 @@ const getAllPlantsList = (request, response, next) => {
       response.status(200).json(plants);
     })
     .catch((err) => {
-      console.log(err);
       next(err);
     });
 };
 
-module.exports = { getAllPlantsList };
+const getPlantById = (request, response, next) => {
+  const { plant_id } = request.params;
+
+  fetchPlantById(plant_id)
+    .then((plant) => {
+      response.status(200).json(plant);
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
+
+module.exports = { getAllPlantsList, getPlantById };

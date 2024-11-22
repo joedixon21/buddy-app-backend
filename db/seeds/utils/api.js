@@ -9,7 +9,7 @@ const getAllPlants = (writeOrAppend) => {
   if (writeOrAppend !== "append" && writeOrAppend !== "write") {
     throw new Error("Please use append or write in the getAllPlants function");
   }
-  const plantIds = [
+  const devPlantIds = [
     935, 830, 499, 697, 322, 215, 274, 308, 391, 58, 597, 443, 135, 588, 708,
     470, 703, 688, 489, 502, 834, 890, 493, 381, 322, 101, 173, 325, 637, 646,
     637, 3, 530, 999, 501, 503, 210, 198, 153, 376, 116, 760, 735, 859, 970,
@@ -18,14 +18,19 @@ const getAllPlants = (writeOrAppend) => {
     655, 787, 22, 431, 170, 739, 999, 870, 960, 22, 494, 424, 934, 168, 270,
     821, 703, 318, 892, 277, 56, 755, 191, 38, 817,
   ];
-  const mappedPlants = plantIds.map((plant_id) => {
+  const testPlantIds = [
+    543, 877, 866, 980, 303, 940, 65, 626, 472, 287, 765, 125, 730, 568, 525,
+    914, 339, 716, 418, 563, 607, 517, 678, 918, 385, 804, 687, 237, 499, 454,
+    25, 968, 148, 723, 854, 984, 831, 156, 147,
+  ];
+  const mappedPlants = testPlantIds.map((plant_id) => {
     return api
       .get(`/species/details/${plant_id}`, {
         params: {
           // key: "sk-hy196735e4da80ca17633", //main key
           // key: "sk-89b8673ca3abd7c037695", //alt key
-          // key: "sk-K5a1673cd533db6bb7691", //key number 3
-          key: "sk-7ct3673dc7370b6ab7709", //Su's key
+          key: "sk-K5a1673cd533db6bb7691", //key number 3
+          // key: "sk-7ct3673dc7370b6ab7709", //Su's key
         },
       })
       .then(({ data }) => {
@@ -38,7 +43,7 @@ const getAllPlants = (writeOrAppend) => {
           cycle: plant.cycle,
           watering_frequency_in_days:
             typeof plant.watering_general_benchmark.value === "string"
-              ? plant.watering_general_benchmark.value.split("-")[0]
+              ? Number(plant.watering_general_benchmark.value.split("-")[0])
               : null,
           sunlight: plant.sunlight,
           default_image:
