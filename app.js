@@ -12,6 +12,7 @@ const {
   getUserGardenByUserId,
   getUserGardenPlantByUserAndPlantId,
   postUserGardenList,
+  patchJournalTextByUserAndPlantAndJournalId,
 } = require("./controllers/user_gardens.controller");
 
 // const {} = require("./controllers/users.controller");
@@ -24,10 +25,9 @@ app.get("/api", (request, response) => {
 });
 
 app.get("/api/plants", getAllPlantsList);
+
 app.get("/api/plants/:plant_id", getPlantById);
 
-app.get("/api/:user_garden");
-app.get("/api/user_garden/:garden_plant_id");
 app.post(
   "/api/user_garden/:user_id/plants/:garden_plant_id/journal",
   postUserGardenList
@@ -42,6 +42,11 @@ app.get("/api/user_gardens/:user_id", getUserGardenByUserId);
 app.get(
   "/api/user_gardens/:user_id/plants/:plant_id",
   getUserGardenPlantByUserAndPlantId
+);
+
+app.patch(
+  "/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_entry_id",
+  patchJournalTextByUserAndPlantAndJournalId
 );
 
 app.all("*", (request, response, next) => {

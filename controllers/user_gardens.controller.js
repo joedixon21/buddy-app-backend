@@ -2,6 +2,7 @@ const {
   fetchUserGardenByUserId,
   fetchUserGardenPlantByUserAndPlantId,
   createNewJournalEntry,
+  updateJournalTextByUserAndPlantAndJournalId,
 } = require("../models/user_gardens.model");
 
 const getUserGardenByUserId = (req, res, next) => {
@@ -40,8 +41,27 @@ const postUserGardenList = (request, response, next) => {
     });
 };
 
+const patchJournalTextByUserAndPlantAndJournalId = (req, res, next) => {
+  const { user_id, garden_plant_id, journal_entry_id } = req.params;
+  const textToUpdate = req.body.text;
+
+  updateJournalTextByUserAndPlantAndJournalId(
+    user_id,
+    garden_plant_id,
+    journal_entry_id,
+    textToUpdate
+  )
+    .then((updatedJournalEntry) => {
+      res.status(200).send({ updatedEntry: updatedJournalEntry });
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
+
 module.exports = {
   getUserGardenByUserId,
   getUserGardenPlantByUserAndPlantId,
   postUserGardenList,
+  patchJournalTextByUserAndPlantAndJournalId,
 };

@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const app = require("../app");
 const { seedCollections } = require("../db/seeds/seed");
 const endpoints = require("../endpoints.json");
+const { UserGarden } = require("../models/user_gardens.model");
 
 beforeAll(() => {
   return seedCollections();
@@ -262,6 +263,126 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
       .expect(400)
       .then(({ body }) => {
         expect(body.msg).toBe("Bad Request");
+      });
+  });
+});
+
+describe("/api/user_garden/:user_id/plants/:plant_id/journal/:journal_entry_id", () => {
+  test("PATCH: 200 - Returns the updated journal entry with patched text", async () => {
+    const journalTextToChange = { text: "Wow the test worked..." };
+    const userId = 1;
+    const plantId = 1;
+    const journalEntryId = await UserGarden.findOne({ user_id: userId })
+      .exec()
+      .then((userGarden) => {
+        const targetPlant = userGarden.user_plants.filter((plant) => {
+          return plant.garden_plant_id === plantId;
+        })[0];
+        const journalId = targetPlant.journal_entries[0]._id;
+        return journalId;
+      });
+
+    return request(app)
+      .patch(
+        `/api/user_garden/${userId}/plants/${plantId}/journal/${journalEntryId}`
+      )
+      .send(journalTextToChange)
+      .expect(200)
+      .then(({ body }) => {
+        const updatedJournalEntry = body.updatedEntry;
+        expect(updatedJournalEntry.text).toBe("Wow the test worked...");
+        expect(updatedJournalEntry).toHaveProperty("date");
+        expect(updatedJournalEntry).toHaveProperty("height_entry_in_cm");
+      });
+  });
+  test("PATCH: 200 - The updated journal persists in the database", async () => {
+    const userId = 1;
+    const plantId = 1;
+    const journalEntryId = await UserGarden.findOne({ user_id: userId })
+      .exec()
+      .then((userGarden) => {
+        const targetPlant = userGarden.user_plants.filter((plant) => {
+          return plant.garden_plant_id === plantId;
+        })[0];
+        const journalId = targetPlant.journal_entries[0]._id;
+        return journalId.toString();
+      });
+    await UserGarden.findOne({ user_id: userId })
+      .exec()
+      .then((userGarden) => {
+        const targetPlant = userGarden.user_plants.filter((plant) => {
+          return plant.garden_plant_id === plantId;
+        })[0];
+
+        const targetEntry = targetPlant.journal_entries.filter((entry) => {
+          return entry._id.toString() === journalEntryId;
+        })[0];
+
+        expect(targetEntry.text).toBe("Wow the test worked...");
+        expect(targetEntry._id.toString()).toBe(journalEntryId);
+        expect(targetEntry).toHaveProperty("date");
+        expect(targetEntry).toHaveProperty("height_entry_in_cm");
+      });
+  });
+
+  test("PATCH: 400 - Returns a bad request error when the user_id is an invalid format", () => {
+    const journalTextToChange = { text: "Wow the test worked..." };
+
+    return request(app)
+      .patch(`/api/user_garden/invalid_id/plants/1/journal/ignore_this`)
+      .send(journalTextToChange)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad request");
+        expect(body.status).toBe(400);
+      });
+  });
+  test("PATCH: 400 - Returns a bad request error when the garden_plant_id is an invalid format", () => {
+    const journalTextToChange = { text: "Wow the test worked..." };
+
+    return request(app)
+      .patch(`/api/user_garden/1/plants/invalid_id/journal/ignore_this`)
+      .send(journalTextToChange)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad request");
+        expect(body.status).toBe(400);
+      });
+  });
+  test("PATCH 404 - Returns a not found error when the user_id is valid but does not exist", () => {
+    const journalTextToChange = { text: "Wow the test worked..." };
+
+    return request(app)
+      .patch(`/api/user_garden/9999/plants/1/journal/ignore_this`)
+      .send(journalTextToChange)
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
+      });
+  });
+  test("PATCH 404 - Returns a not found error when the garden_plant_id is valid but does not exist", () => {
+    const journalTextToChange = { text: "Wow the test worked..." };
+
+    return request(app)
+      .patch(`/api/user_garden/1/plants/9999/journal/ignore_this`)
+      .send(journalTextToChange)
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
+      });
+  });
+  test("PATCH 404 - Returns a not found error when the journal_entry_id does not exist", () => {
+    const journalTextToChange = { text: "Wow the test worked..." };
+
+    return request(app)
+      .patch(`/api/user_garden/1/plants/1/journal/bad_id`)
+      .send(journalTextToChange)
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
       });
   });
 });
