@@ -23,7 +23,7 @@ describe("/api/plants", () => {
           expect(plant).not.toHaveProperty("extra_info");
           expect(typeof plant.plant_id).toBe("number");
           expect(typeof plant.common_name).toBe("string");
-          expect(typeof plant.scientific_name).toBe("object"); 
+          expect(typeof plant.scientific_name).toBe("object");
         });
       });
   });
@@ -198,7 +198,7 @@ describe("api/user_gardens/:user_id/plants/:plant_id", () => {
   });
 });
 
-describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
+describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal", () => {
   test("POST: 201 - responds to a garden_plant_id with an object with a new journal entry added", () => {
     const newJournalEntry = {
       text: "Leaves are looking a little yellow",
@@ -258,6 +258,33 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
   });
 });
 
+describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
+  test("DELETE: 204, responds by deleting a users garden plant by garden_plant_id", () => {
+    return request(app)
+      .delete("/api/user_garden/1/plants/1")
+      .expect(204)
+      .then(() => {
+        return request(app).get("/api/user_garden/1/plants/1").expect(404);
+      });
+  });
+  test("DELETE: 404, responds with an error when requested user does not exist on the database", () => {
+    return request(app)
+      .delete("/api/user_garden/9999/plants/1")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("User Garden Not Found");
+      });
+  });
+  test("DELETE: 400, responds with an error when invalid user_id data type is requested", () => {
+    return request(app)
+      .delete("/api/user_garden/not_valid_data/plants/1")
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad Request");
+      });
+  });
+});
+
 describe("/api/users", () => {
   test("GET: 200 - responds with an array of users", () => {
     return request(app)
@@ -270,7 +297,7 @@ describe("/api/users", () => {
           expect(typeof user.password).toBe("string");
         });
       });
-  }); 
+  });
 });
 
 describe("/api/users/:user_id", () => {
@@ -283,22 +310,67 @@ describe("/api/users/:user_id", () => {
         expect(body).toHaveProperty("display_name", "Martha");
         expect(body).toHaveProperty("email", "martha21@gmail.com");
         expect(body).toHaveProperty("user_access", 0);
+      });
+  });
+  test("GET: 404 - responds with 'Not Found' when a user attempt to access with a valid id that doesn't exist", () => {
+    return request(app)
+      .get("/api/users/99")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not Found");
+      });
+  });
+  test("GET: 400 - responds with 'Bad Request' when attempt to access with an invalid id", () => {
+    return request(app)
+      .get("/api/users/not-a-valid-id")
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad Request");
+      });
+  });
+});
+
+describe("/api/users", () => {
+  test("GET: 200 - responds with an array of users", () => {
+    return request(app)
+      .get("/api/users")
+      .expect(200)
+      .then(({ body }) => {
+        expect(body.length).toBe(2);
+        body.forEach((user) => {
+          expect(typeof user.display_name).toBe("string");
+          expect(typeof user.password).toBe("string");
         });
       });
+  });
+});
+
+describe("/api/users/:user_id", () => {
+  test("GET: 200 - responds with an individual users", () => {
+    return request(app)
+      .get("/api/users/1")
+      .expect(200)
+      .then(({ body }) => {
+        expect(body).toHaveProperty("user_id", 1);
+        expect(body).toHaveProperty("display_name", "Martha");
+        expect(body).toHaveProperty("email", "martha21@gmail.com");
+        expect(body).toHaveProperty("user_access", 0);
+      });
+  });
   test("GET: 404 - responds with 'Not Found' when a user attempt to access with a valid id that doesn't exist", () => {
-        return request(app)
-          .get("/api/users/99")
-          .expect(404)
-          .then(({ body }) => {
-            expect(body.msg).toBe("Not Found");
-          });
+    return request(app)
+      .get("/api/users/99")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not Found");
       });
+  });
   test("GET: 400 - responds with 'Bad Request' when attempt to access with an invalid id", () => {
-        return request(app)
-          .get("/api/users/not-a-valid-id")
-          .expect(400)
-          .then(({ body }) => {
-            expect(body.msg).toBe("Bad Request");
-          });
+    return request(app)
+      .get("/api/users/not-a-valid-id")
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad Request");
       });
-  }); 
+  });
+});
