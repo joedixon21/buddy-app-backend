@@ -4,7 +4,10 @@ const app = express();
 const endpoints = require("./endpoints.json");
 const cors = require("cors");
 const { customErrorHandle, ServerErrorHandle } = require("./error-handling");
-const { getAllPlantsList } = require("./controllers/plants.controller");
+const {
+  getAllPlantsList,
+  getPlantById,
+} = require("./controllers/plants.controller");
 const {
   getUserGardenByUserId,
   getUserGardenPlantByUserAndPlantId,
@@ -21,7 +24,7 @@ app.get("/api", (request, response) => {
 });
 
 app.get("/api/plants", getAllPlantsList);
-app.get("/api/plants/:plant_id");
+app.get("/api/plants/:plant_id", getPlantById);
 
 app.get("/api/:user_garden");
 app.get("/api/user_garden/:garden_plant_id");

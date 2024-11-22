@@ -1,12 +1,12 @@
 const mongoose = require("mongoose");
 
 const PlantSchema = mongoose.Schema({
-  plant_id: { type: String, required: true, index: { unique: true } },
+  plant_id: { type: Number, required: true, index: { unique: true } },
   common_name: { type: String, required: true },
   scientific_name: [{ type: String }],
   other_name: [{ type: String }],
   cycle: { type: String },
-  watering_frequency_in_days: { type: String },
+  watering_frequency_in_days: { type: Number },
   sunlight: [{ type: String }],
   default_image: {
     type: String,
@@ -34,9 +34,33 @@ const PlantSchema = mongoose.Schema({
 const Plant = mongoose.model("Plant", PlantSchema);
 
 const fetchAllPlants = () => {
-  return Plant.find({}).then((plants) => {
-    return plants;
+  const fields = [
+    "plant_id",
+    "common_name",
+    "scientific_name",
+    "cycle",
+    "watering_frequency_in_days",
+    "sunlight",
+    "default_image",
+  ];
+  const selectedFields = fields.join(" ");
+  return Plant.find({})
+    .select(selectedFields)
+    .then((plants) => {
+      return plants;
+    });
+};
+
+const fetchPlantById = (plant_id) => {
+  if (isNaN(plant_id)) {
+    return Promise.reject({ status: 400, msg: "Bad Request" });
+  }
+  return Plant.findOne({ plant_id }).then((plant) => {
+    if (!plant) {
+      return Promise.reject({ status: 404, msg: "Not Found" });
+    }
+    return plant;
   });
 };
 
-module.exports = { fetchAllPlants };
+module.exports = { fetchAllPlants, fetchPlantById };
