@@ -6,7 +6,10 @@ const cors = require("cors");
 const { customErrorHandle, ServerErrorHandle } = require("./error-handling");
 const { getAllPlantsList } = require("./controllers/plants.controller");
 // const {} = require("./controllers/user_gardens.controller");
-// const {} = require("./controllers/users.controller");
+const {
+  getAllUsersList,
+  getUserById,
+} = require("./controllers/users.controller");
 // app.use(cors());
 
 app.use(express.json());
@@ -24,7 +27,8 @@ app.post("/api/:user_garden/:garden_plant_id");
 app.patch("/api/:user_garden/:garden_plant_id");
 app.delete("/api/:user_garden/:garden_plant_id");
 
-app.get("/api/users");
+app.get("/api/users", getAllUsersList);
+app.get("/api/users/:user_id", getUserById);
 
 app.all("*", (request, response, next) => {
   response.status(404).send({ msg: "Path Not Found" });
