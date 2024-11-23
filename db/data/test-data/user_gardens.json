@@ -5,21 +5,21 @@
       {
         "garden_plant_id": 1,
         "plant_id": 385,
-        "last_watered": "18/11/24",
+        "last_watered": "2024-11-12T12:23:35.573Z",
         "nickname": "Sammy",
         "journal_entries": [
           {
-            "date": 1732210199999,
+            "date": "2024-10-23T09:23:35.573Z",
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": 1732210199999,
+            "date": "2024-10-29T12:23:35.573Z",
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": 1732210199999,
+            "date": "2024-11-01T12:23:35.573Z",
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }
@@ -28,21 +28,21 @@
       {
         "garden_plant_id": 2,
         "plant_id": 125,
-        "last_watered": "12/11/24",
+        "last_watered": "2024-11-22T12:23:35.573Z",
         "nickname": "Johnny",
         "journal_entries": [
           {
-            "date": 1732210199999,
+            "date": "2024-10-05T12:23:35.573Z",
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": 1732210199999,
+            "date": "2024-10-08T12:23:35.573Z",
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": 1732210199999,
+            "date": "2024-11-09T12:23:35.573Z",
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }
@@ -56,21 +56,21 @@
       {
         "garden_plant_id": 1,
         "plant_id": 980,
-        "last_watered": "18/11/24",
+        "last_watered": "2024-11-23T12:23:35.573Z",
         "nickname": "Peter",
         "journal_entries": [
           {
-            "date": 1732210199999,
+            "date": "2024-10-23T12:23:35.573Z",
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": 1732210199999,
+            "date": "2024-10-26T12:23:35.573Z",
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": 1732210199999,
+            "date": "2024-11-02T12:23:35.573Z",
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }
@@ -79,21 +79,21 @@
       {
         "garden_plant_id": 2,
         "plant_id": 303,
-        "last_watered": "12/11/24",
+        "last_watered": "2024-11-21T12:23:35.573Z",
         "nickname": "Amy",
         "journal_entries": [
           {
-            "date": 1732210199999,
+            "date": "2024-10-24T12:23:35.573Z",
             "text": "My plant is small",
             "height_entry_in_cm": 30
           },
           {
-            "date": 1732210199999,
+            "date": "2024-10-25T12:23:35.573Z",
             "text": "My plant is growing",
             "height_entry_in_cm": 40
           },
           {
-            "date": 1732210199999,
+            "date": "2024-10-26T12:23:35.573Z",
             "text": "My plant is HUGE",
             "height_entry_in_cm": 90
           }

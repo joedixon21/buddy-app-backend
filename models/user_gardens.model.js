@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const JournalEntrySchema = new mongoose.Schema({
-  date: { type: Number, default: Date.now() },
+  date: { type: String, default: new Date().toISOString() },
   text: { type: String, required: true },
   height_entry_in_cm: { type: Number },
 });
@@ -9,7 +9,11 @@ const JournalEntrySchema = new mongoose.Schema({
 const UserPlantSchema = new mongoose.Schema({
   garden_plant_id: { type: Number, required: true },
   plant_id: { type: Number, required: true },
-  last_watered: { type: String, required: true },
+  last_watered: {
+    type: String,
+    required: true,
+    default: new Date().toISOString(),
+  },
   nickname: { type: String, required: true },
   journal_entries: { type: [JournalEntrySchema], required: true },
 });
@@ -149,6 +153,50 @@ const removeUserGardenPlant = (user_id, garden_plant_id) => {
     });
 };
 
+const updatePlantDetails = ({
+  user_id,
+  garden_plant_id,
+  nickname,
+  water_plant,
+}) => {
+  return UserGarden.findOne({ user_id: user_id }).then((userGarden) => {
+    if (!userGarden) {
+      return Promise.reject({ msg: "Not found", status: 404 });
+    }
+
+    const plantToUpdate = userGarden.user_plants.filter((plant) => {
+      return plant.garden_plant_id === Number(garden_plant_id);
+    })[0];
+
+    if (!plantToUpdate) {
+      return Promise.reject({ msg: "Not found", status: 404 });
+    }
+
+    if (nickname && nickname.length > 20) {
+      return Promise.reject({ msg: "Bad request", status: 400 });
+    }
+
+    if (water_plant === true) {
+      plantToUpdate.last_watered = new Date().toISOString();
+    }
+
+    if (!nickname && water_plant !== true) {
+      return Promise.reject({ msg: "Bad request", status: 400 });
+    }
+
+    if (nickname) {
+      plantToUpdate.nickname = nickname;
+    }
+
+    userGarden.markModified("user_plants");
+    return Promise.all([userGarden.save(), plantToUpdate]).then(
+      ([_, updatedPlant]) => {
+        return updatedPlant;
+      }
+    );
+  });
+};
+
 module.exports = {
   fetchUserGardenByUserId,
   fetchUserGardenPlantByUserAndPlantId,
@@ -156,4 +204,5 @@ module.exports = {
   createNewJournalEntry,
   UserGarden,
   removeUserGardenPlant,
+  updatePlantDetails,
 };

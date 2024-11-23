@@ -14,6 +14,7 @@ const {
   postUserGardenList,
   patchJournalTextByUserAndPlantAndJournalId,
   deleteUserGardenPlant,
+  patchPlantDetails,
 } = require("./controllers/user_gardens.controller");
 
 const {
@@ -55,6 +56,11 @@ app.get(
 app.patch(
   "/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_entry_id",
   patchJournalTextByUserAndPlantAndJournalId
+);
+
+app.patch(
+  "/api/user_garden/:user_id/plants/:garden_plant_id",
+  patchPlantDetails
 );
 
 app.all("*", (request, response, next) => {
