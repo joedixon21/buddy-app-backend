@@ -4,6 +4,7 @@ const app = require("../app");
 const { seedCollections } = require("../db/seeds/seed");
 const endpoints = require("../endpoints.json");
 const { UserGarden } = require("../models/user_gardens.model");
+const { getAllPlantsList } = require("../controllers/plants.controller");
 
 beforeAll(() => {
   return seedCollections();
@@ -19,8 +20,9 @@ describe("/api/plants", () => {
       .get("/api/plants")
       .expect(200)
       .then(({ body }) => {
-        expect(body.length).toBe(39);
-        body.forEach((plant) => {
+        const plants = body.plants;
+        expect(plants.length).toBe(39);
+        plants.forEach((plant) => {
           expect(plant).not.toHaveProperty("extra_info");
           expect(typeof plant.plant_id).toBe("number");
           expect(typeof plant.common_name).toBe("string");
@@ -30,7 +32,7 @@ describe("/api/plants", () => {
   });
   test("GET: 200 (?search=partial_common_name) - responds with an array of plant objects whose common name partially matches the query string", () => {
     return request(app)
-      .get("api/plants?search=maple")
+      .get("/api/plants?search=maple")
       .expect(200)
       .then(({ body }) => {
         const plants = body.plants;
@@ -39,6 +41,28 @@ describe("/api/plants", () => {
         plants.forEach((plant) => {
           expect(plant.common_name.includes("maple"));
         });
+      });
+  });
+  test("GET: 200 (?search=partial_common_name) - search term is case insensitive", () => {
+    return request(app)
+      .get("/api/plants?search=MAPLE")
+      .expect(200)
+      .then(({ body }) => {
+        const plants = body.plants;
+        expect(plants.length).not.toBe(0);
+        expect(plants.length).toBe(6);
+        plants.forEach((plant) => {
+          expect(plant.common_name.includes("maple"));
+        });
+      });
+  });
+  test("GET: 404 (?search=(common_name)) - returns a not found error when the plants array is empty", () => {
+    return request(app)
+      .get("/api/plants?search=thiswillnotmatchaplant")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
       });
   });
 });
