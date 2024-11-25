@@ -209,9 +209,17 @@ const updatePlantDetails = ({
   nickname,
   water_plant,
 }) => {
+  const rejectWithNotFound = () => {
+    return Promise.reject({ msg: "Not found", status: 404 });
+  };
+
+  const rejectWithBadRequest = () => {
+    return Promise.reject({ msg: "Bad request", status: 400 });
+  };
+
   return UserGarden.findOne({ user_id: user_id }).then((userGarden) => {
     if (!userGarden) {
-      return Promise.reject({ msg: "Not found", status: 404 });
+      return rejectWithNotFound();
     }
 
     const plantToUpdate = userGarden.user_plants.filter((plant) => {
@@ -219,19 +227,19 @@ const updatePlantDetails = ({
     })[0];
 
     if (!plantToUpdate) {
-      return Promise.reject({ msg: "Not found", status: 404 });
+      return rejectWithNotFound();
     }
 
     if (nickname && nickname.length > 20) {
-      return Promise.reject({ msg: "Bad request", status: 400 });
+      return rejectWithBadRequest();
+    }
+
+    if (!nickname && water_plant !== true) {
+      return rejectWithBadRequest();
     }
 
     if (water_plant === true) {
       plantToUpdate.last_watered = new Date().toISOString();
-    }
-
-    if (!nickname && water_plant !== true) {
-      return Promise.reject({ msg: "Bad request", status: 400 });
     }
 
     if (nickname) {
@@ -247,6 +255,40 @@ const updatePlantDetails = ({
   });
 };
 
+const addPlantToUserGardenByUserId = ({ user_id, plantToAdd }) => {
+  return UserGarden.findOne({ user_id: user_id })
+    .then((userGarden) => {
+      if (!plantToAdd.common_name || !plantToAdd.plant_id) {
+        return Promise.reject({ status: 400, msg: "Bad request" });
+      }
+
+      if (!userGarden) {
+        return Promise.reject({ status: 404, msg: "Not found" });
+      }
+
+      const plantToPush = {
+        nickname: plantToAdd.common_name,
+        user_id: +user_id,
+        garden_plant_id: userGarden.user_plants.length + 1,
+        plant_id: plantToAdd.plant_id,
+        last_watered: new Date().toISOString(),
+        journal_entries: [],
+      };
+
+      userGarden.user_plants.push(plantToPush);
+
+      const newPlant =
+        userGarden.user_plants[userGarden.user_plants.length - 1];
+
+      userGarden.markModified("user_plants");
+
+      return Promise.all([userGarden.save(), newPlant]);
+    })
+    .then(([_, newPlant]) => {
+      return newPlant;
+    });
+};
+
 module.exports = {
   fetchUserGardenByUserId,
   fetchUserGardenPlantByUserAndPlantId,
@@ -256,4 +298,5 @@ module.exports = {
   removeUserGardenPlantJournalEntryById,
   removeUserGardenPlant,
   updatePlantDetails,
+  addPlantToUserGardenByUserId,
 };

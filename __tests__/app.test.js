@@ -692,3 +692,58 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
       });
   });
 });
+
+describe("/api/user_garden/:user_id/plants", () => {
+  test("POST 201: Posts a copy of a find a bud plant to the user garden plants with the correct properties", () => {
+    const plantToCopy = { common_name: "Freeman maple", plant_id: 454 };
+    return request(app)
+      .post("/api/user_garden/1/plants")
+      .send(plantToCopy)
+      .expect(201)
+      .then(({ body }) => {
+        const newPlant = body.newPlant;
+        const currDate = new Date().toISOString().slice(0, 10);
+
+        expect(newPlant).toHaveProperty("garden_plant_id", 3);
+        expect(newPlant).toHaveProperty("plant_id", plantToCopy.plant_id);
+        expect(newPlant.last_watered.includes(currDate)).toBe(true);
+        expect(newPlant).toHaveProperty("nickname", plantToCopy.common_name);
+        expect(newPlant).toHaveProperty("journal_entries");
+        expect(Array.isArray(newPlant.journal_entries)).toBe(true);
+        expect(newPlant.journal_entries.length).toBe(0);
+      });
+  });
+  test("POST 400: Returns a bad request error when missing common_name in request body", () => {
+    const plantToCopy = { plant_id: 454 };
+    return request(app)
+      .post("/api/user_garden/1/plants")
+      .send(plantToCopy)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad request");
+        expect(body.status).toBe(400);
+      });
+  });
+  test("POST 400: Returns a bad request error when missing plant_id in request body", () => {
+    const plantToCopy = { common_name: "Freeman maple" };
+    return request(app)
+      .post("/api/user_garden/1/plants")
+      .send(plantToCopy)
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad request");
+        expect(body.status).toBe(400);
+      });
+  });
+  test("POST 404: Returns a bad request error when a user with the provided user_id does not exist", () => {
+    const plantToCopy = { common_name: "Freeman maple", plant_id: 454 };
+    return request(app)
+      .post("/api/user_garden/999/plants")
+      .send(plantToCopy)
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
+      });
+  });
+});
