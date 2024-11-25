@@ -15,6 +15,7 @@ const {
   patchJournalTextByUserAndPlantAndJournalId,
   deleteUserGardenPlant,
   patchPlantDetails,
+  postPlantToUserGardenByUserId,
 } = require("./controllers/user_gardens.controller");
 
 const {
@@ -37,7 +38,9 @@ app.post(
   "/api/user_garden/:user_id/plants/:garden_plant_id/journal",
   postUserGardenList
 );
-app.patch("/api/:user_garden/:garden_plant_id");
+
+app.post("/api/user_garden/:user_id/plants", postPlantToUserGardenByUserId);
+
 app.delete(
   "/api/user_garden/:user_id/plants/:garden_plant_id",
   deleteUserGardenPlant

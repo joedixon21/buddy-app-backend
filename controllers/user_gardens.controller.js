@@ -5,6 +5,7 @@ const {
   updateJournalTextByUserAndPlantAndJournalId,
   removeUserGardenPlant,
   updatePlantDetails,
+  addPlantToUserGardenByUserId,
 } = require("../models/user_gardens.model");
 
 const getUserGardenByUserId = (req, res, next) => {
@@ -86,6 +87,19 @@ const patchPlantDetails = (request, response, next) => {
     });
 };
 
+const postPlantToUserGardenByUserId = (request, response, next) => {
+  const { user_id } = request.params;
+  const plantToAdd = request.body;
+
+  addPlantToUserGardenByUserId({ user_id, plantToAdd })
+    .then((newPlant) => {
+      response.status(201).send({ newPlant });
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
+
 module.exports = {
   getUserGardenByUserId,
   getUserGardenPlantByUserAndPlantId,
@@ -93,4 +107,5 @@ module.exports = {
   patchJournalTextByUserAndPlantAndJournalId,
   deleteUserGardenPlant,
   patchPlantDetails,
+  postPlantToUserGardenByUserId,
 };
