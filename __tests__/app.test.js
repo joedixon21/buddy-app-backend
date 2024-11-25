@@ -281,6 +281,38 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_ent
           .expect(404);
       });
   });
+  test("DELETE: 404, responds with an error when requested user does not exist on the database", () => {
+    return request(app)
+      .delete("/api/user_garden/9999/plants/1/journal/1")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("User Garden Not Found");
+      });
+  });
+  test("DELETE: 404, responds with an error when requested plant in a user garden does not exist on the database", () => {
+    return request(app)
+      .delete("/api/user_garden/1/plants/9999/journal/1")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Plant Not Found");
+      });
+  });
+  test("DELETE: 404, responds with an error when requested journal_entry_id to be deleted does not exist on the database", () => {
+    return request(app)
+      .delete("/api/user_garden/1/plants/2/journal/99999")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Journal Entry Not Found");
+      });
+  });
+  test("DELETE: 400, responds with an error when invalid user_id data type is requested to direct to a journal entry", () => {
+    return request(app)
+      .delete("/api/user_garden/not_valid_data/plants/1/journal/1")
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad Request");
+      });
+  });
 });
 
 describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
@@ -298,6 +330,14 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
       .expect(404)
       .then(({ body }) => {
         expect(body.msg).toBe("User Garden Not Found");
+      });
+  });
+  test("DELETE: 404, responds with an error when requested plant in a user garden does not exist on the database", () => {
+    return request(app)
+      .delete("/api/user_garden/1/plants/9999")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Plant Not Found");
       });
   });
   test("DELETE: 400, responds with an error when invalid user_id data type is requested", () => {
