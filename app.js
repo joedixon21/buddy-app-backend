@@ -23,7 +23,8 @@ const {
   getAllUsersList,
   getUserById,
 } = require("./controllers/users.controller");
-// app.use(cors());
+
+app.use(cors());
 
 app.use(express.json());
 
