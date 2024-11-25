@@ -110,6 +110,18 @@ const removeUserGardenPlantJournalEntryById = (
         (plant) => plant.garden_plant_id === Number(garden_plant_id)
       );
 
+      if (!plantJournalEntryToRemove) {
+        return Promise.reject({ status: 404, msg: "Plant Not Found" });
+      }
+
+      const journalEntryExists = plantJournalEntryToRemove.journal_entries.some(
+        (entry) => entry._id.toString() === journal_entry_id
+      );
+
+      if (!journalEntryExists) {
+        return Promise.reject({ status: 404, msg: "Journal Entry Not Found" });
+      }
+
       plantJournalEntryToRemove.journal_entries =
         plantJournalEntryToRemove.journal_entries.filter(
           (entry) => entry._id.toString() !== journal_entry_id
@@ -173,6 +185,15 @@ const removeUserGardenPlant = (user_id, garden_plant_id) => {
       if (!userGarden) {
         return Promise.reject({ status: 404, msg: "User Garden Not Found" });
       }
+
+      const plantExists = userGarden.user_plants.some(
+        (plant) => plant.garden_plant_id === Number(garden_plant_id)
+      );
+
+      if (!plantExists) {
+        return Promise.reject({ status: 404, msg: "Plant Not Found" });
+      }
+
       userGarden.updateOne({
         $pull: { user_plants: { garden_plant_id: Number(garden_plant_id) } },
       });
