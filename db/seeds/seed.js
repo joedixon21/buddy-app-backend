@@ -1,3 +1,8 @@
+const { parse } = require("dotenv");
+const {
+  addPlantToUserGardenByUserId,
+} = require("../../models/user_gardens.model");
+const { capitalizeName } = require("../../utils/capitalizeName");
 const { mongoose, URI, client } = require("../connection");
 const plantsToSeed = require(`../data/${
   process.env.NODE_ENV || "development"
@@ -37,6 +42,13 @@ const seedCollections = () => {
       ]);
     })
     .then(() => {
+      plantsToSeed.forEach((plant) => {
+        plant.common_name = capitalizeName(plant.common_name);
+        plant.scientific_name.forEach((scienticName, index) => {
+          plant.scientific_name[index] = capitalizeName(scienticName);
+        });
+      });
+
       return Promise.all([
         plants.insertMany(plantsToSeed),
         users.insertMany(usersToSeed),
