@@ -33,7 +33,7 @@ const PlantSchema = mongoose.Schema({
 
 const Plant = mongoose.model("Plant", PlantSchema);
 
-const fetchAllPlants = () => {
+const fetchAllPlants = ({ searchTerm }) => {
   const fields = [
     "plant_id",
     "common_name",
@@ -44,9 +44,16 @@ const fetchAllPlants = () => {
     "default_image",
   ];
   const selectedFields = fields.join(" ");
-  return Plant.find({})
+  const findQuery = searchTerm
+    ? { common_name: { $regex: `${searchTerm}`, $options: "i" } }
+    : {};
+  return Plant.find(findQuery)
     .select(selectedFields)
     .then((plants) => {
+      if (!plants.length) {
+        return Promise.reject({ msg: "Not found", status: 404 });
+      }
+
       return plants;
     });
 };

@@ -1,9 +1,11 @@
 const { fetchAllPlants, fetchPlantById } = require("../models/plants.model");
 
 const getAllPlantsList = (request, response, next) => {
-  fetchAllPlants()
+  const searchTerm = request.query.search;
+
+  fetchAllPlants({ searchTerm })
     .then((plants) => {
-      response.status(200).json(plants);
+      response.status(200).json({ plants });
     })
     .catch((err) => {
       next(err);

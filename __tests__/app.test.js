@@ -4,6 +4,7 @@ const app = require("../app");
 const { seedCollections } = require("../db/seeds/seed");
 const endpoints = require("../endpoints.json");
 const { UserGarden } = require("../models/user_gardens.model");
+const { getAllPlantsList } = require("../controllers/plants.controller");
 
 beforeAll(() => {
   return seedCollections();
@@ -19,13 +20,49 @@ describe("/api/plants", () => {
       .get("/api/plants")
       .expect(200)
       .then(({ body }) => {
-        expect(body.length).toBe(39);
-        body.forEach((plant) => {
+        const plants = body.plants;
+        expect(plants.length).toBe(39);
+        plants.forEach((plant) => {
           expect(plant).not.toHaveProperty("extra_info");
           expect(typeof plant.plant_id).toBe("number");
           expect(typeof plant.common_name).toBe("string");
           expect(typeof plant.scientific_name).toBe("object");
         });
+      });
+  });
+  test("GET: 200 (?search=partial_common_name) - responds with an array of plant objects whose common name partially matches the query string", () => {
+    return request(app)
+      .get("/api/plants?search=maple")
+      .expect(200)
+      .then(({ body }) => {
+        const plants = body.plants;
+        expect(plants.length).not.toBe(0);
+        expect(plants.length).toBe(6);
+        plants.forEach((plant) => {
+          expect(plant.common_name.includes("maple"));
+        });
+      });
+  });
+  test("GET: 200 (?search=partial_common_name) - search term is case insensitive", () => {
+    return request(app)
+      .get("/api/plants?search=MAPLE")
+      .expect(200)
+      .then(({ body }) => {
+        const plants = body.plants;
+        expect(plants.length).not.toBe(0);
+        expect(plants.length).toBe(6);
+        plants.forEach((plant) => {
+          expect(plant.common_name.includes("maple"));
+        });
+      });
+  });
+  test("GET: 404 (?search=(common_name)) - returns a not found error when the plants array is empty", () => {
+    return request(app)
+      .get("/api/plants?search=thiswillnotmatchaplant")
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
       });
   });
 });
@@ -516,6 +553,102 @@ describe("/api/user_garden/:user_id/plants/:plant_id/journal/:journal_entry_id",
       .then(({ body }) => {
         expect(body.msg).toBe("Not found");
         expect(body.status).toBe(404);
+      });
+  });
+});
+
+describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
+  test("PATCH 200: Returns the updated plant with the new nickname", () => {
+    const newNickname = {
+      nickname: "Phillis",
+    };
+
+    return request(app)
+      .patch("/api/user_garden/1/plants/1")
+      .send(newNickname)
+      .expect(200)
+      .then(({ body }) => {
+        const updatedPlant = body.updatedPlant;
+
+        expect(updatedPlant).toHaveProperty("nickname", "Phillis");
+        expect(updatedPlant).toHaveProperty("garden_plant_id");
+        expect(updatedPlant).toHaveProperty("last_watered");
+        expect(updatedPlant).toHaveProperty("journal_entries");
+      });
+  });
+
+  test("PATCH 200: Returns the updated plant with the last_watered property set to Date.now()", () => {
+    const waterPlant = {
+      water_plant: true,
+    };
+
+    return request(app)
+      .patch("/api/user_garden/1/plants/1")
+      .send(waterPlant)
+      .expect(200)
+      .then(({ body }) => {
+        const updatedPlant = body.updatedPlant;
+        const currDate = new Date().toISOString().slice(0, 10);
+
+        expect(updatedPlant).toHaveProperty("nickname");
+        expect(updatedPlant).toHaveProperty("garden_plant_id");
+        expect(updatedPlant.last_watered.includes(currDate)).toBe(true);
+        expect(updatedPlant).toHaveProperty("journal_entries");
+      });
+  });
+
+  test("PATCH 400: Returns a bad request error when no valid key is added to the request object", () => {
+    return request(app)
+      .patch("/api/user_garden/1/plants/1")
+      .send({})
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad request");
+        expect(body.status).toBe(400);
+      });
+  });
+
+  test("PATCH 400: Returns a bad request error the water_plant request value is not 'true'", () => {
+    return request(app)
+      .patch("/api/user_garden/1/plants/1")
+      .send({ water_plant: 123 })
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad request");
+        expect(body.status).toBe(400);
+      });
+  });
+
+  test("PATCH 404: Returns a not found error when no user of that id exists", () => {
+    return request(app)
+      .patch("/api/user_garden/999/plants/1")
+      .send({})
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
+      });
+  });
+
+  test("PATCH 404: Returns a not found error when there is no plant with that id in the users garden", () => {
+    return request(app)
+      .patch("/api/user_garden/1/plants/999")
+      .send({})
+      .expect(404)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Not found");
+        expect(body.status).toBe(404);
+      });
+  });
+
+  test("PATCH 400: Returns a bad request if the nickname provided is longer than 20 characters", () => {
+    return request(app)
+      .patch("/api/user_garden/1/plants/1")
+      .send({ nickname: "This nickname is just far too long." })
+      .expect(400)
+      .then(({ body }) => {
+        expect(body.msg).toBe("Bad request");
+        expect(body.status).toBe(400);
       });
   });
 });
