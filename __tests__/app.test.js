@@ -93,7 +93,7 @@ describe("/api/plants/:plant_id", () => {
       .expect(200)
       .then(({ body }) => {
         expect(body).toHaveProperty("plant_id", 543);
-        expect(body).toHaveProperty("common_name", "maidenhair fern");
+        expect(body).toHaveProperty("common_name", "Maidenhair Fern");
         expect(body).toHaveProperty("cycle", "Perennial");
         expect(body).toHaveProperty("extra_info.family", "Pteridaceae");
       });

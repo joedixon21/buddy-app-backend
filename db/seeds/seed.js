@@ -1,3 +1,4 @@
+const { formatName } = require("../../utils/formatName");
 const { mongoose, URI, client } = require("../connection");
 const plantsToSeed = require(`../data/${
   process.env.NODE_ENV || "development"
@@ -37,6 +38,13 @@ const seedCollections = () => {
       ]);
     })
     .then(() => {
+      plantsToSeed.forEach((plant) => {
+        plant.common_name = formatName(plant.common_name);
+        plant.scientific_name.forEach((scienticName, index) => {
+          plant.scientific_name[index] = formatName(scienticName, "scientific");
+        });
+      });
+
       return Promise.all([
         plants.insertMany(plantsToSeed),
         users.insertMany(usersToSeed),
