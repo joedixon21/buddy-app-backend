@@ -194,7 +194,7 @@ const removeUserGardenPlant = (user_id, garden_plant_id) => {
         return Promise.reject({ status: 404, msg: "Plant Not Found" });
       }
 
-      userGarden.updateOne({
+      return userGarden.updateOne({
         $pull: { user_plants: { garden_plant_id: Number(garden_plant_id) } },
       });
     })
