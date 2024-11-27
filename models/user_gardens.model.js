@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const JournalEntrySchema = new mongoose.Schema({
-  date: { type: String, default: new Date().toISOString() },
+  date: { type: String, required: true },
   text: { type: String, required: true },
   height_entry_in_cm: { type: Number },
 });
@@ -64,6 +64,7 @@ const fetchUserGardenPlantByUserAndPlantId = ({ user_id, plant_id }) => {
 };
 
 const createNewJournalEntry = (user_id, garden_plant_id, journalEntry) => {
+  journalEntry.date = new Date().toISOString();
   if (journalEntry.text.length === 0) {
     return Promise.reject({ status: 400, msg: "Bad Request" });
   }
