@@ -1,4 +1,5 @@
 const { formatName } = require("../utils/formatName.js");
+const { generateNewId } = require("../utils/generateNewId.js");
 
 describe("capitalizeName", () => {
   test("returns a single word capitalized", () => {
@@ -27,5 +28,14 @@ describe("capitalizeName", () => {
       "Test Testus"
     );
     expect(formatName("'Test test", "scientific")).toBe("");
+  });
+});
+
+describe("generateNewId()", () => {
+  it("returns the maximum number in an array with one added", () => {
+    expect(generateNewId([1, 2, 3])).toBe(4);
+  });
+  it("returns 1 if the array is empty", () => {
+    expect(generateNewId([])).toBe(1);
   });
 });
