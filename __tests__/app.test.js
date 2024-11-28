@@ -43,6 +43,20 @@ describe("/api/plants", () => {
         });
       });
   });
+  test("GET: 200 (?search=partial_latin_name) - responds with an array of plant objects whose latin name partially matches the query string", () => {
+    return request(app)
+      .get("/api/plants?search=acer")
+      .expect(200)
+      .then(({ body }) => {
+        const plants = body.plants;
+        expect(plants.length).not.toBe(0);
+        expect(plants.length).toBe(7);
+        plants.forEach((plant) => {
+          console.log(plant.scientific_name[0]);
+          expect(plant.scientific_name[0].includes("Acer")).toBe(true);
+        });
+      });
+  });
   test("GET: 200 (?search=partial_common_name) - search term is case insensitive", () => {
     return request(app)
       .get("/api/plants?search=MAPLE")
