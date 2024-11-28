@@ -45,7 +45,12 @@ const fetchAllPlants = ({ searchTerm }) => {
   ];
   const selectedFields = fields.join(" ");
   const findQuery = searchTerm
-    ? { common_name: { $regex: `${searchTerm}`, $options: "i" } }
+    ? {
+        $or: [
+          { common_name: { $regex: `${searchTerm}`, $options: "i" } },
+          { scientific_name: { $regex: `${searchTerm}`, $options: "i" } },
+        ],
+      }
     : {};
   return Plant.find(findQuery)
     .select(selectedFields)
