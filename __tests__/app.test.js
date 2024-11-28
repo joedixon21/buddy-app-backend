@@ -93,7 +93,7 @@ describe("/api/plants/:plant_id", () => {
       .expect(200)
       .then(({ body }) => {
         expect(body).toHaveProperty("plant_id", 543);
-        expect(body).toHaveProperty("common_name", "maidenhair fern");
+        expect(body).toHaveProperty("common_name", "Maidenhair Fern");
         expect(body).toHaveProperty("cycle", "Perennial");
         expect(body).toHaveProperty("extra_info.family", "Pteridaceae");
       });
@@ -299,7 +299,7 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal", () => {
 describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_entry_id", () => {
   test("DELETE: 204, responds by deleting a journal entry of a users plant within their garden", async () => {
     const userId = 1;
-    const plantId = 1;
+    const plantId = 2;
     const journalEntryId = await UserGarden.findOne({ user_id: userId })
       .exec()
       .then((userGarden) => {
@@ -310,11 +310,11 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id/journal/:journal_ent
         return journalId;
       });
     return request(app)
-      .delete(`/api/user_garden/1/plants/1/journal/${journalEntryId}`)
+      .delete(`/api/user_garden/1/plants/2/journal/${journalEntryId}`)
       .expect(204)
       .then(() => {
         return request(app)
-          .get(`/api/user_garden/1/plants/1/journal/${journalEntryId}`)
+          .get(`/api/user_garden/1/plants/2/journal/${journalEntryId}`)
           .expect(404);
       });
   });
@@ -481,7 +481,7 @@ describe("/api/user_garden/:user_id/plants/:plant_id/journal/:journal_entry_id",
   test("PATCH: 200 - Returns the updated journal entry with patched text", async () => {
     const journalTextToChange = { text: "Wow the test worked..." };
     const userId = 1;
-    const plantId = 1;
+    const plantId = 2;
     const journalEntryId = await UserGarden.findOne({ user_id: userId })
       .exec()
       .then((userGarden) => {
@@ -507,7 +507,7 @@ describe("/api/user_garden/:user_id/plants/:plant_id/journal/:journal_entry_id",
   });
   test("PATCH: 200 - The updated journal persists in the database", async () => {
     const userId = 1;
-    const plantId = 1;
+    const plantId = 2;
     const journalEntryId = await UserGarden.findOne({ user_id: userId })
       .exec()
       .then((userGarden) => {
@@ -604,7 +604,7 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
     };
 
     return request(app)
-      .patch("/api/user_garden/1/plants/1")
+      .patch("/api/user_garden/1/plants/2")
       .send(newNickname)
       .expect(200)
       .then(({ body }) => {
@@ -623,7 +623,7 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
     };
 
     return request(app)
-      .patch("/api/user_garden/1/plants/1")
+      .patch("/api/user_garden/1/plants/2")
       .send(waterPlant)
       .expect(200)
       .then(({ body }) => {
@@ -639,7 +639,7 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
 
   test("PATCH 400: Returns a bad request error when no valid key is added to the request object", () => {
     return request(app)
-      .patch("/api/user_garden/1/plants/1")
+      .patch("/api/user_garden/1/plants/2")
       .send({})
       .expect(400)
       .then(({ body }) => {
@@ -650,7 +650,7 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
 
   test("PATCH 400: Returns a bad request error the water_plant request value is not 'true'", () => {
     return request(app)
-      .patch("/api/user_garden/1/plants/1")
+      .patch("/api/user_garden/1/plants/2")
       .send({ water_plant: 123 })
       .expect(400)
       .then(({ body }) => {
@@ -683,7 +683,7 @@ describe("/api/user_garden/:user_id/plants/:garden_plant_id", () => {
 
   test("PATCH 400: Returns a bad request if the nickname provided is longer than 20 characters", () => {
     return request(app)
-      .patch("/api/user_garden/1/plants/1")
+      .patch("/api/user_garden/1/plants/2")
       .send({ nickname: "This nickname is just far too long." })
       .expect(400)
       .then(({ body }) => {

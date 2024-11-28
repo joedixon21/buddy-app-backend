@@ -1,7 +1,8 @@
+const { generateNewId } = require("../utils/generateNewId");
 const mongoose = require("mongoose");
 
 const JournalEntrySchema = new mongoose.Schema({
-  date: { type: String, default: new Date().toISOString() },
+  date: { type: String, required: true },
   text: { type: String, required: true },
   height_entry_in_cm: { type: Number },
 });
@@ -64,6 +65,7 @@ const fetchUserGardenPlantByUserAndPlantId = ({ user_id, plant_id }) => {
 };
 
 const createNewJournalEntry = (user_id, garden_plant_id, journalEntry) => {
+  journalEntry.date = new Date().toISOString();
   if (journalEntry.text.length === 0) {
     return Promise.reject({ status: 400, msg: "Bad Request" });
   }
@@ -194,7 +196,7 @@ const removeUserGardenPlant = (user_id, garden_plant_id) => {
         return Promise.reject({ status: 404, msg: "Plant Not Found" });
       }
 
-      userGarden.updateOne({
+      return userGarden.updateOne({
         $pull: { user_plants: { garden_plant_id: Number(garden_plant_id) } },
       });
     })
@@ -266,10 +268,16 @@ const addPlantToUserGardenByUserId = ({ user_id, plantToAdd }) => {
         return Promise.reject({ status: 404, msg: "Not found" });
       }
 
+      const plantIds = userGarden.user_plants.map((plant) => {
+        return plant.garden_plant_id;
+      });
+
+      const newId = generateNewId(plantIds);
+
       const plantToPush = {
         nickname: plantToAdd.common_name,
         user_id: +user_id,
-        garden_plant_id: userGarden.user_plants.length + 1,
+        garden_plant_id: newId,
         plant_id: plantToAdd.plant_id,
         last_watered: new Date().toISOString(),
         journal_entries: [],
