@@ -704,7 +704,7 @@ describe("/api/user_garden/:user_id/plants", () => {
         const newPlant = body.newPlant;
         const currDate = new Date().toISOString().slice(0, 10);
 
-        expect(newPlant).toHaveProperty("garden_plant_id", 2);
+        expect(newPlant).toHaveProperty("garden_plant_id", 3);
         expect(newPlant).toHaveProperty("plant_id", plantToCopy.plant_id);
         expect(newPlant.last_watered.includes(currDate)).toBe(true);
         expect(newPlant).toHaveProperty("nickname", plantToCopy.common_name);

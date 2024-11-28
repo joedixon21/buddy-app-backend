@@ -1,3 +1,4 @@
+const { generateNewId } = require("../utils/generateNewId");
 const mongoose = require("mongoose");
 
 const JournalEntrySchema = new mongoose.Schema({
@@ -267,10 +268,16 @@ const addPlantToUserGardenByUserId = ({ user_id, plantToAdd }) => {
         return Promise.reject({ status: 404, msg: "Not found" });
       }
 
+      const plantIds = userGarden.user_plants.map((plant) => {
+        return plant.garden_plant_id;
+      });
+
+      const newId = generateNewId(plantIds);
+
       const plantToPush = {
         nickname: plantToAdd.common_name,
         user_id: +user_id,
-        garden_plant_id: userGarden.user_plants.length + 1,
+        garden_plant_id: newId,
         plant_id: plantToAdd.plant_id,
         last_watered: new Date().toISOString(),
         journal_entries: [],
