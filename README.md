@@ -1,6 +1,6 @@
 # Buddy Backend API 🌿
 
-The **Buddy Backend API** is a [RESTful API]() that powers the [Buddy mobile application](https://github.com/natha7/buddy-app-frontend). It enables plant care management by providing endpoints to manage user gardens, interact with plant data, and integrate with the **Perenual Plant Library API** for detailed plant information.
+The **Buddy Backend API** is a [RESTful API](https://buddy-app-backend.onrender.com/api/plants/) that powers the [Buddy mobile application](https://github.com/natha7/buddy-app-frontend). It enables plant care management by providing endpoints to manage user gardens, interact with plant data, and integrate with the **Perenual Plant Library API** for detailed plant information.
 
 ---
 
