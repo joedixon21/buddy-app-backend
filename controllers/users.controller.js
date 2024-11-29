@@ -6,7 +6,6 @@ const getAllUsersList = (request, response, next) => {
       response.status(200).json(users);
     })
     .catch((err) => {
-      console.log(err);
       next(err);
     });
 };
